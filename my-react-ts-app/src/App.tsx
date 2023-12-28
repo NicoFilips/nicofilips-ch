@@ -2,8 +2,6 @@ import { useState } from 'react'
 import linkedinLogo from './assets/Icons/LinkedIn.png'
 import GithubLogo from './assets/Icons/GithubInverted.png'
 import './App.css'
-import Particles from 'react-tsparticles'
-import TheParticles from './components/Background/TheParticles'
 
 function App() {
   const [count, setCount] = useState(0)

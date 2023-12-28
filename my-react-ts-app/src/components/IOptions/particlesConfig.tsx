@@ -51,7 +51,6 @@ export const getBlackSkyOptions = (): ISourceOptions => {
             number: {
                 density: {
                     enable: true,
-                    area: 800,
                 },
                 value: 50, // Anzahl der Partikel (Sterne)
             },
