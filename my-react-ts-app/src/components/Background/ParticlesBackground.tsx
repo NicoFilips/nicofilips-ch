@@ -1,6 +1,6 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { ISourceOptions } from 'tsparticles-engine';
+import React from 'react';
 
 const ParticlesBackground: React.FC = () => {
   const particlesInit = async (main: any) => {
