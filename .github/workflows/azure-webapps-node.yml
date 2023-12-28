@@ -42,7 +42,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        path: my-react-ts-app/build # Angenommen, das build-Verzeichnis befindet sich innerhalb von react-app
+        path: my-react-ts-app/dist
 
   deploy:
     permissions:
