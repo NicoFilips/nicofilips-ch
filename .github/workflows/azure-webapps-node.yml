@@ -32,7 +32,7 @@ jobs:
         cache: 'npm'
         cache-dependency-path: my-react-ts-app/package-lock.json
 
-    - name: npm install, build, and test
+    - name: npm install and build
       run: |
         cd my-react-ts-app
         npm install
