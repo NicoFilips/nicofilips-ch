@@ -13,7 +13,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: NicoFilips    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: './my-react-ts-app'      # set this to the path to your web app project, defaults to the repository root
+  AZURE_WEBAPP_PACKAGE_PATH: './my-react-ts-app/dist'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '20.10.0'                # set this to the node version to use
 
 permissions:
