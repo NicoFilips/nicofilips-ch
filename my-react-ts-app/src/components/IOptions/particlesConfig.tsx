@@ -31,7 +31,7 @@ export const getBlackSkyOptions = (): ISourceOptions => {
                 value: "#ffffff", // Farbe der Sterne (Weiß)
             },
             links: {
-                enable: false, // Deaktiviert die Verbindungslinien zwischen den Partikeln
+                enable: true, // Deaktiviert die Verbindungslinien zwischen den Partikeln
             },
             move: {
                 direction: "none",
@@ -47,13 +47,13 @@ export const getBlackSkyOptions = (): ISourceOptions => {
                 density: {
                     enable: true,
                 },
-                value: 50, // Anzahl der Partikel (Sterne)
+                value: 100, // Anzahl der Partikel (Sterne)
             },
             opacity: {
                 value: 0.5,
             },
             shape: {
-                type: "star", // Form der Partikel als Sterne
+                type: "circle", // Form der Partikel als Sterne
             },
             size: {
                 value: { min: 1, max: 3 }, // Größe der Sterne
