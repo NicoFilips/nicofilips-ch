@@ -15,7 +15,7 @@ export default function TheParticles() {
     const customOptions = useMemo(() => getBlackSkyOptions(), []);
 
     if (particlesInit) {
-        return <Particles id="tsparticles" options={customOptions} />;
+        return <Particles id="tsparticles" options={customOptions} className='tsparticles' />;
     }
 
     return <></>;

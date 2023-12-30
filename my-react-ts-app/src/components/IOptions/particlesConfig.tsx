@@ -4,11 +4,6 @@ import { ISourceOptions } from '@tsparticles/engine';
 
 export const getBlackSkyOptions = (): ISourceOptions => {
     return {  // Fügen Sie das return-Statement hinzu
-        background: {
-            color: {
-                value: "#000000", // Schwarzer Hintergrund
-            },
-        },
         fpsLimit: 120,
         interactivity: {
             events: {

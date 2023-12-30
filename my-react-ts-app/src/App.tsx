@@ -2,12 +2,17 @@ import { useState } from 'react'
 import linkedinLogo from './assets/Icons/LinkedIn.png'
 import GithubLogo from './assets/Icons/GithubInverted.png'
 import './App.css'
+import CircleImage from './components/me/CircleImage'
+import TheParticles from './components/Background/TheParticles'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <div>
+      <CircleImage />
+    </div>
       <div>
         <a href="https://GitHub.com/NicoFilips" target="_blank">
           <img src={GithubLogo} className="logo" alt="GitHub logo" />
@@ -25,7 +30,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      
+      <TheParticles />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>

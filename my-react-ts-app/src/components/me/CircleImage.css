@@ -1,0 +1,14 @@
+.circle-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; /* Abstand für den Rahmen */
+  }
+
+  .circle-image {
+    border-radius: 50%; /* Macht das Bild rund */
+    border: 2px solid white; /* Weißer Rahmen */
+    width: 250px; /* Breite des Bildes */
+    height: 250px; /* Höhe des Bildes */
+    object-fit: cover; /* Sorgt dafür, dass das Bild das Element vollständig ausfüllt */
+  }
