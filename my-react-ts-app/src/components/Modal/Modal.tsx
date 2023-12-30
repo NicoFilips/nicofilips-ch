@@ -7,7 +7,7 @@ interface ModalProps {
   children: ReactNode;
 }
 
-const cv: React.FC<ModalProps> = ({ show, onClose, children }) => {
+const Modal: React.FC<ModalProps> = ({ show, onClose, children }) => {
   if (!show) {
     return null;
   }
@@ -22,4 +22,4 @@ const cv: React.FC<ModalProps> = ({ show, onClose, children }) => {
   );
 };
 
-export default cv;
+export default Modal;

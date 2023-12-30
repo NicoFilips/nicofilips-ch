@@ -4,9 +4,14 @@ import GithubLogo from './assets/Icons/GithubInverted.png'
 import './App.css'
 import CircleImage from './components/me/CircleImage'
 import TheParticles from './components/Background/TheParticles'
+import Modal from './components/Modal/Modal'
+import CvModal from './components/Modal/CV/CvModal'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [showCvModal, setshowCvModal] = useState(false);
+  const [showAboutMeModal, setShowAboutMeModal] = useState(false);
+  const [showTechStackModal, setShowTechStackModal] = useState(false);
 
   return (
     <>
@@ -24,16 +29,24 @@ function App() {
       <h1>Hey!</h1>
       <h1>💫 I'm Nico Filips, A Backend Developer from Augsburg, Germany.</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+        <button onClick={() => setshowCvModal(true)}>CV</button>
+        <Modal show={showCvModal} onClose={() => setShowAboutMeModal(false)}>
+        <CvModal/>
+      </Modal>
+      <button onClick={() => setShowAboutMeModal(true)}>About me</button>
+        <Modal show={showAboutMeModal} onClose={() => setShowAboutMeModal(false)}>
+        <CvModal/>
+      </Modal>
+      <button onClick={() => setShowTechStackModal(true)}>Techstack</button>
+        <Modal show={showTechStackModal} onClose={() => setShowTechStackModal(false)}>
+        <CvModal/>
+      </Modal>
         </p>
       </div>
       <TheParticles />
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        This Site is hosted as App Service on Azure.
       </p>
     </>
   )
