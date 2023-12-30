@@ -13,7 +13,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: NicoFilips    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: './my-react-ts-app'      # set this to the path to your web app project, defaults to the repository root
+  AZURE_WEBAPP_PACKAGE_PATH: './my-react-ts-app/dist'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '20.10.0'                # set this to the node version to use
 
 permissions:
@@ -32,17 +32,21 @@ jobs:
         cache: 'npm'
         cache-dependency-path: my-react-ts-app/package-lock.json
 
-    - name: npm install, build, and test
+    - name: npm install and build
       run: |
         cd my-react-ts-app
         npm install
         npm run build --if-present
 
+    - name: List directory contents
+      run: |
+        ls -R
+
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        path: my-react-ts-app/build # Angenommen, das build-Verzeichnis befindet sich innerhalb von react-app
+        path: my-react-ts-app/dist
 
   deploy:
     permissions:
@@ -65,4 +69,4 @@ jobs:
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        package: '/home/runner/work/AzureAppService.NicoFilips/AzureAppService.NicoFilips'
