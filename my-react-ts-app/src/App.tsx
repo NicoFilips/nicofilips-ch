@@ -8,7 +8,6 @@ import Modal from './components/Modal/Modal'
 import CvModal from './components/Modal/CV/CvModal'
 
 function App() {
-  const [count, setCount] = useState(0)
   const [showCvModal, setshowCvModal] = useState(false);
   const [showAboutMeModal, setShowAboutMeModal] = useState(false);
   const [showTechStackModal, setShowTechStackModal] = useState(false);
