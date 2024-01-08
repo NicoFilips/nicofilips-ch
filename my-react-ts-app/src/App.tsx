@@ -29,9 +29,9 @@ function App() {
       <h1>Hey!</h1>
       <h1>💫 I'm Nico Filips, A Backend Developer from Augsburg, Germany.</h1>
       <div className="card">
-        <p>
+        <div className="cv-modal">
         <button onClick={() => setshowCvModal(true)}>CV</button>
-        <Modal show={showCvModal} onClose={() => setShowAboutMeModal(false)}>
+        <Modal show={showCvModal} onClose={() => setshowCvModal(false)}>
         <CvModal/>
       </Modal>
       <button onClick={() => setShowAboutMeModal(true)}>About me</button>
@@ -42,11 +42,11 @@ function App() {
         <Modal show={showTechStackModal} onClose={() => setShowTechStackModal(false)}>
         <CvModal/>
       </Modal>
-        </p>
+        </div>
       </div>
       <TheParticles />
       <p className="read-the-docs">
-        This Site is hosted as App Service on Azure.
+        This Site is hosted as an App Service on Azure.
       </p>
     </>
   )

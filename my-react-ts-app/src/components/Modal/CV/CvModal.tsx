@@ -3,62 +3,75 @@ import React from 'react';
 const CvModal: React.FC = () => {
   return (
     <div>
-      <h2>Mein Lebenslauf</h2>
-      {/* Persönliche Daten */}
-      <section>
-        <h3>Persönliche Daten</h3>
-        <p>Name: Nico Filips</p>
-        <p>Geburtsdatum: TT.MM.JJJJ</p>
-        <p>Adresse: Straße, PLZ Stadt, Land</p>
-        <p>Email: deine-email@example.com</p>
-      </section>
+      <h2>Curriculum Vitae</h2>
       
-      {/* Berufserfahrung */}
+      {/* Professional Experience */}
       <section>
-        <h3>Berufserfahrung</h3>
+        <h3>Professional Experience</h3>
         <ul>
+        <li>
+  <strong>Fullstack Developer</strong> - SII Germany, Full-time (June 2023–Present)
+  <ul>
+    <li>Working for a renowned sports car brand in Germany.</li>
+    <li>DevOps responsibilities, including setting up and optimizing GitLab Pipelines.</li>
+    <li>Developing with .Net 6 / C#10 ASP.Net Core.</li>
+    <li>Ensuring code quality by implementing integration and unit tests.</li>
+    <li>Handling smaller tasks with Razor Pages in a Blazor App.</li>
+  </ul>
+</li>
+
           <li>
-            <strong>Position/Jobtitel</strong> - Unternehmen (Startdatum – Enddatum)
+            <strong>.NET Core Developer</strong> - Full-time (Sept 2016–June 2023)
             <ul>
-              <li>Kurze Beschreibung der Tätigkeit und erzielte Erfolge</li>
-              {/* Weitere Punkte */}
+              <li>Developed and implemented Web API microservices and client applications using .NET 6.</li>
+              <li>Managed project development and migrations to Microsoft Azure.</li>
+              <li>Designed and maintained Single Page Applications (SPAs) using Node.js and TypeScript.</li>
+              <li>Maintained and optimized legacy .NET Framework applications.</li>
+              <li>Handled DevOps tasks, including setting up and optimizing GitLab Pipelines, monitoring Kubernetes infrastructure, and working with Docker.</li>
+              <li>Ensured code quality and functionality through unit testing with xUnit.</li>
             </ul>
           </li>
-          {/* Weitere Positionen */}
-        </ul>
-      </section>
-      
-      {/* Ausbildung */}
-      <section>
-        <h3>Ausbildung</h3>
-        <ul>
-          <li>
-            <strong>Studiengang / Ausbildung</strong> - Institution (Startdatum – Enddatum)
-            <ul>
-              <li>Wichtige Details oder Schwerpunkte</li>
-            </ul>
-          </li>
-          {/* Weitere Ausbildungen */}
+          {/* Additional positions */}
         </ul>
       </section>
 
-      {/* Fähigkeiten */}
+      {/* Education */}
       <section>
-        <h3>Fähigkeiten</h3>
+        <h3>Education</h3>
         <ul>
-          <li>Programmiersprachen: z.B. JavaScript, TypeScript</li>
-          <li>Frameworks und Tools: z.B. React, Node.js</li>
-          {/* Weitere Fähigkeiten */}
+          <li>
+            <strong>IT Specialist Apprenticeship</strong> - Focus: Application Development (Sept 2016–June 2019)
+            <ul>
+              <li>Completed a 2 years and 10 months apprenticeship program in application development.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Secondary School Diploma</strong> - Realschule Königsbrunn (2015)
+            <ul>
+              <li>Graduated with an overall grade of 1.9.</li>
+            </ul>
+          </li>
+          {/* Additional education entries */}
         </ul>
       </section>
 
-      {/* Sprachen */}
+      {/* Skills */}
       <section>
-        <h3>Sprachen</h3>
+        <h3>Skills</h3>
         <ul>
-          <li>Deutsch - Muttersprache</li>
-          <li>Englisch - Fließend</li>
-          <li>Russisch - Anfaenger</li>
+          <li>Programming Languages: e.g., JavaScript, TypeScript</li>
+          <li>Frameworks and Tools: e.g., React, Node.js</li>
+          {/* Additional skills */}
+        </ul>
+      </section>
+
+      {/* Languages */}
+      <section>
+        <h3>Languages</h3>
+        <ul>
+          <li>German - Native</li>
+          <li>English - Fluent</li>
+          <li>Russian - Beginner</li>
         </ul>
       </section>
     </div>

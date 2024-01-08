@@ -15,8 +15,8 @@ const Modal: React.FC<ModalProps> = ({ show, onClose, children }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-        <button onClick={onClose}>Schließen</button>
         {children}
+        <button onClick={onClose} className='close-button'>Schließen</button>
       </div>
     </div>
   );

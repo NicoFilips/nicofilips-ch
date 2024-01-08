@@ -1,20 +1,32 @@
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-content {
-    background-color: gray;
-    padding: 20px;
-    border-radius: 5px;
-    border-radius: 10px; /* Abgerundete Ecken */
-    background-color: rgba(255, 255, 255, 0.8); /* Durchsichtigkeit mit weißem Hintergrund */
-    padding: 20px; /* Optional: Innenabstand für das Modal */
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dunkler, halbtransparenter Hintergrund für den Overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  color: black; /* Setzt die Textfarbe auf Schwarz */
+  background-color: rgba(255, 255, 255, 0.8); /* Leicht durchsichtiger weißer Hintergrund */
+  padding: 20px;
+  position: relative;
+  border-radius: 10px; /* Abgerundete Ecken */
+  /* Entferne doppelte Eigenschaften wie 'background-color' und 'padding', die mehrmals angegeben sind */
+}
+
+.close-button {
+  background-color: gray; /* Grauer Hintergrund */
+  color: white; /* Weißer Text */
+  border: none; /* Kein Rand */
+  padding: 10px 15px; /* Padding für die Größe */
+  cursor: pointer; /* Zeiger-Cursor */
+  position: absolute; /* Absolut positioniert innerhalb des modal-content Containers */
+  bottom: 20px; /* Abstand vom unteren Rand des modal-content Containers */
+  right: 20px; /* Abstand vom rechten Rand des modal-content Containers */
+  transition: background-color 0.3s; /* Weiche Übergänge für den Hover-Effekt */
+}
