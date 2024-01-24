@@ -8,4 +8,4 @@
 </blockquote>
 
 [![Node.js CI](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml)
-[![.github/workflows/azure-webapps-node.yml](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/azure-webapps-node.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/azure-webapps-node.yml)
+[![.github/workflows/azure-webapps-node.yml](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/deploy-Azure.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/deploy-Azure.yml)
