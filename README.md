@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://github.com/NicoFilips/AzureAppService.NicoFilips.de/">
-  <img src="https://user-images.githubusercontent.com/35654361/290832997-2cc4e786-2b13-4be8-a0c9-3048bf7d59bc.png" alt="Logo" width="200" height="200">
+  <img src=https://github.com/NicoFilips/AzureAppService.NicoFilips/assets/35654361/299303552-ce4036b6-1e02-4a36-a5d9-a92114c7f6e3.png" alt="Logo" width="200" height="200">
 </a>
 
 <blockquote>
