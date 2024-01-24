@@ -6,3 +6,5 @@
 <blockquote>
   <p>Source: DALL-E 3</p>
 </blockquote>
+
+[![.github/workflows/azure-webapps-node.yml](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/azure-webapps-node.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/azure-webapps-node.yml)
