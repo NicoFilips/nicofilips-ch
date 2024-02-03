@@ -2,10 +2,12 @@
 FROM node:20.10.0
 
 # Arbeitsverzeichnis im Container festlegen
-WORKDIR /my-react-ts-app
+WORKDIR ./my-react-ts-app
 
 # Kopieren der package.json und package-lock.json (oder yarn.lock)
-COPY package*.json tsconfig.json ./
+COPY package*.json ./
+
+COPY tsconfig.json ./
 # Alternativ, wenn Sie Yarn verwenden: COPY package.json yarn.lock ./
 
 # Installieren von Abhängigkeiten
