@@ -2,7 +2,7 @@
 FROM node:20.10.0
 
 # Arbeitsverzeichnis im Container festlegen
-WORKDIR ./my-react-ts-app
+WORKDIR azureappservice.nicofilips/my-react-ts-app
 
 RUN ls -la
 # Kopieren der package.json und package-lock.json (oder yarn.lock)
