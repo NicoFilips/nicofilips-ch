@@ -6,9 +6,9 @@ WORKDIR ./my-react-ts-app
 
 RUN ls -la
 # Kopieren der package.json und package-lock.json (oder yarn.lock)
-COPY package*.json ./my-react-ts-app
+COPY package*.json
 
-COPY tsconfig.json ./my-react-ts-app
+COPY tsconfig.json
 # Alternativ, wenn Sie Yarn verwenden: COPY package.json yarn.lock ./
 
 # Installieren von Abhängigkeiten
