@@ -8,8 +8,6 @@ RUN ls -la
 # Kopieren der package.json und package-lock.json (oder yarn.lock)
 COPY package*.json ./
 
-COPY tsconfig.json ./
-# Alternativ, wenn Sie Yarn verwenden: COPY package.json yarn.lock ./
 
 # Installieren von Abhängigkeiten
 RUN npm install
