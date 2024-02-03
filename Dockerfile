@@ -10,9 +10,7 @@ COPY package*.json ./
 
 # Installieren von Abhängigkeiten
 RUN npm install
-# Für Yarn: RUN yarn install
 
-# Kopieren der restlichen Quelldateien
 COPY . .
 
 # TypeScript-Compiler ausführen, um das Projekt zu bauen
