@@ -1,7 +1,9 @@
 {
   "name": "my-react-ts-app",
+  "author": "Nico Filips",
+  "description": "A little Project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
