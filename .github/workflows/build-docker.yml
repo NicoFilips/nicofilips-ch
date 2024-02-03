@@ -33,4 +33,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/nicofilips/AzureAppService.NicoFilips:latest
+        tags: ghcr.io/nicofilips/azureappservice.nicofilips:latest
