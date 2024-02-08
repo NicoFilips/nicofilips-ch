@@ -26,7 +26,7 @@ function App() {
         </a>
       </div>
       <h1>Hey!</h1>
-      <h1>💫 I'm Nico Filips, A Backend Developer from Augsburg, Germany.</h1>
+      <h1>💫 I'm Nico Filips, a backend developer from Augsburg, Germany.</h1>
       <div className="card">
         <div className="cv-modal">
         <button onClick={() => setshowCvModal(true)}>CV</button>
