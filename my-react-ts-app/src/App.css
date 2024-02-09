@@ -7,6 +7,7 @@
 
 .whiteh1 {
   color: var(--text-color, white) !important;
+  user-select: none;
 }
 
 .logo {
@@ -20,6 +21,19 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.button-hover-effect {
+  color: white; /* Textfarbe */
+  border: none; /* Entfernt den Standard-Borderrahmen */
+  cursor: pointer; /* Ändert den Mauszeiger zum Klick-Indikator */
+  transition: all 0.3s ease; /* Glatte Übergangseffekte für den Hover */
+  margin: 0 25px;
+  padding: 10px 20px; /* Innenabstand */
+}
+
+.button-hover-effect:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Schatten-/Leuchteffekt beim Hover */
 }
 
 @keyframes logo-spin {

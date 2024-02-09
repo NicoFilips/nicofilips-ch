@@ -1,14 +1,17 @@
 .circle-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px; /* Abstand für den Rahmen */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px; /* Abstand für den Rahmen */
+  position: relative; /* Position muss auf relative oder absolute gesetzt sein, damit z-index funktioniert */
+  z-index: 10; /* Stellt sicher, dass der Container über den Partikeln liegt */
+}
 
-  .circle-image {
-    border-radius: 50%; /* Macht das Bild rund */
-    border: 2px solid white; /* Weißer Rahmen */
-    width: 250px; /* Breite des Bildes */
-    height: 250px; /* Höhe des Bildes */
-    object-fit: cover; /* Sorgt dafür, dass das Bild das Element vollständig ausfüllt */
-  }
+.circle-image {
+  border-radius: 50%; /* Macht das Bild rund */
+  border: 2px solid white; /* Weißer Rahmen */
+  width: 250px; /* Breite des Bildes */
+  height: 250px; /* Höhe des Bildes */
+  object-fit: cover; /* Sorgt dafür, dass das Bild das Element vollständig ausfüllt */
+  user-select: none;
+}

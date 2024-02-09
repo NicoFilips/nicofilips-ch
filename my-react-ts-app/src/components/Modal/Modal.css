@@ -1,5 +1,6 @@
 .modal-overlay {
   position: fixed;
+  z-index: 11;
   top: 0;
   left: 0;
   right: 0;
@@ -12,7 +13,7 @@
 
 .modal-content {
   color: black; /* Setzt die Textfarbe auf Schwarz */
-  background-color: rgba(255, 255, 255, 0.8); /* Leicht durchsichtiger weißer Hintergrund */
+  background-color: rgba(255, 255, 255, 0.8) !important; /* Leicht durchsichtiger weißer Hintergrund */
   padding: 20px;
   position: relative;
   border-radius: 10px; /* Abgerundete Ecken */
