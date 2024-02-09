@@ -25,8 +25,8 @@ function App() {
           <img src={linkedinLogo} className="logo" alt="LinkedIn logo" />
         </a>
       </div>
-      <h1>Hey!</h1>
-      <h1>💫 I'm Nico Filips, A Backend Developer from Augsburg, Germany.</h1>
+      <h1 className="whiteh1">Hey!</h1>
+      <h1 className="whiteh1">💫 I'm Nico Filips, A Backend Developer from Augsburg, Germany.</h1>
       <div className="card">
         <div className="cv-modal">
         <button onClick={() => setshowCvModal(true)}>CV</button>
