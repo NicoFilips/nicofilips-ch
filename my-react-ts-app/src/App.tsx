@@ -9,6 +9,7 @@ import Modal from './components/Modal/Modal'
 import CvModal from './components/Modal/CV/CvModal'
 import AboutmeModal from './components/Modal/AbouteMe/AboutMeModal'
 import SourceCode from './components/Github/SourceCode'
+import Mailto from './components/MailTo/mailto'
 
 function App() {
   const [showCvModal, setshowCvModal] = useState(false);
@@ -53,7 +54,8 @@ function App() {
       <p className="read-the-docs" style={{ userSelect: 'none' }} >
         This Site is hosted as an App Service on Azure.
       </p>
-      <SourceCode></SourceCode>
+      <SourceCode/>
+      <Mailto email='inquiries@nicofilips.de'></Mailto>
     </>
   )
 }
