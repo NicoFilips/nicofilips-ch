@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import linkedinLogo from './assets/Icons/LinkedIn.png'
 import GithubLogo from './assets/Icons/GithubInverted.png'
+import XingLogo from './assets/Icons/xing2.png'
 import './App.css'
 import CircleImage from './components/me/CircleImage'
 import TheParticles from './components/Background/TheParticles'
@@ -25,6 +26,9 @@ function App() {
         </a>
         <a href="https://www.linkedin.com/in/nicofilips/" target="_blank">
           <img src={linkedinLogo} className="logo" alt="LinkedIn logo" style={{ userSelect: 'none' }} />
+        </a>
+        <a href="https://www.xing.com/profile/Nico_Filips/" target="_blank">
+          <img src={XingLogo} className="logo" alt="Xing logo" style={{ userSelect: 'none' }} />
         </a>
       </div>
       <h1 className="whiteh1">Hey!</h1>
