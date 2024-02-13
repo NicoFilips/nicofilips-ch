@@ -8,7 +8,7 @@
 </blockquote>
 
 [![Node.js CI](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml)
-[![.github/workflows/azure-webapps-node.yml](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/deploy-Azure.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/deploy-Azure.yml)
+[![Deploy-Azure](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml/badge.svg)](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml)
 
 # 🚀 My Personal Web Portfolio 🌐
 
