@@ -3,7 +3,7 @@ import { ISourceOptions } from '@tsparticles/engine';
 
 
 export const getBlackSkyOptions = (): ISourceOptions => {
-    return {  // Fügen Sie das return-Statement hinzu
+    return {
         fpsLimit: 120,
         interactivity: {
             events: {
@@ -28,10 +28,10 @@ export const getBlackSkyOptions = (): ISourceOptions => {
         },
         particles: {
             color: {
-                value: "#ffffff", // Farbe der Sterne (Weiß)
+                value: "#ffffff", // Color of the starts (white)
             },
             links: {
-                enable: true, // Deaktiviert die Verbindungslinien zwischen den Partikeln
+                enable: true, // Deactivate the links between the stars
             },
             move: {
                 direction: "none",
@@ -47,16 +47,16 @@ export const getBlackSkyOptions = (): ISourceOptions => {
                 density: {
                     enable: true,
                 },
-                value: 100, // Anzahl der Partikel (Sterne)
+                value: 100, // Amount of stars
             },
             opacity: {
                 value: 0.5,
             },
             shape: {
-                type: "circle", // Form der Partikel als Sterne
+                type: "circle", // form of the stars
             },
             size: {
-                value: { min: 1, max: 3 }, // Größe der Sterne
+                value: { min: 1, max: 3 }, // size of the stars
             },
         },
         detectRetina: true,

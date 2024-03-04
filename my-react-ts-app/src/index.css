@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: black !important;
-  
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,6 +19,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -38,18 +39,27 @@ h1 {
 
 
 button {
-  border-radius: 20px; /* Macht die Ecken rechteckig */
+  border-radius: 20px;
+  /* Macht die Ecken rechteckig */
   border: 1px solid transparent;
-  padding: 24px 24px; /* Vertikales und horizontales Padding, um die Buttons größer zu machen */
-  margin: 0 10px; /* Abstand zwischen den Buttons */
-  font-size: 25px; /* Größere Schriftgröße für den Button-Text */
+  padding: 24px 24px;
+  /* Vertikales und horizontales Padding, um die Buttons größer zu machen */
+  margin: 0 10px;
+  /* Abstand zwischen den Buttons */
+  font-size: 25px;
+  /* Größere Schriftgröße für den Button-Text */
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a; /* Hintergrundfarbe der Buttons */
-  color: #fff; /* Textfarbe der Buttons */
-  border: none; /* Keine Ränder um die Buttons */
-  cursor: pointer; /* Zeiger-Cursor, um Interaktivität anzuzeigen */
-  transition: background-color 0.25s; /* Weiche Farbübergänge bei Hover */
+  background-color: #1a1a1a;
+  /* Hintergrundfarbe der Buttons */
+  color: #fff;
+  /* Textfarbe der Buttons */
+  border: none;
+  /* Keine Ränder um die Buttons */
+  cursor: pointer;
+  /* Zeiger-Cursor, um Interaktivität anzuzeigen */
+  transition: background-color 0.25s;
+  /* Weiche Farbübergänge bei Hover */
   text-decoration: inherit;
 }
 
@@ -58,6 +68,7 @@ button:hover {
   color: #535bf2;
   background-color: #555;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -68,13 +79,16 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
-  button:hover{
+
+  button:hover {
     color: #747bff;
   }
 }

@@ -16,24 +16,26 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 .button-hover-effect {
-  color: white; /* Textfarbe */
-  border: none; /* Entfernt den Standard-Borderrahmen */
-  cursor: pointer; /* Ändert den Mauszeiger zum Klick-Indikator */
-  transition: all 0.3s ease; /* Glatte Übergangseffekte für den Hover */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
   margin: 0 25px;
-  padding: 10px 20px; /* Innenabstand */
+  padding: 10px 20px;
 }
 
 .button-hover-effect:hover {
-  filter: drop-shadow(0 0 2em #646cffaa); /* Schatten-/Leuchteffekt beim Hover */
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 

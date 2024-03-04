@@ -5,29 +5,28 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Dunkler, halbtransparenter Hintergrund für den Overlay */
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .modal-content {
-  color: black; /* Setzt die Textfarbe auf Schwarz */
-  background-color: rgba(255, 255, 255, 0.8) !important; /* Leicht durchsichtiger weißer Hintergrund */
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8) !important;
   padding: 20px;
   position: relative;
-  border-radius: 10px; /* Abgerundete Ecken */
-  /* Entferne doppelte Eigenschaften wie 'background-color' und 'padding', die mehrmals angegeben sind */
+  border-radius: 10px;
 }
 
 .close-button {
-  background-color: gray; /* Grauer Hintergrund */
-  color: white; /* Weißer Text */
-  border: none; /* Kein Rand */
-  padding: 10px 15px; /* Padding für die Größe */
-  cursor: pointer; /* Zeiger-Cursor */
-  position: absolute; /* Absolut positioniert innerhalb des modal-content Containers */
-  bottom: 20px; /* Abstand vom unteren Rand des modal-content Containers */
-  right: 20px; /* Abstand vom rechten Rand des modal-content Containers */
-  transition: background-color 0.3s; /* Weiche Übergänge für den Hover-Effekt */
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color 0.3s;
 }

@@ -10,6 +10,7 @@ import CvModal from './components/Modal/CV/CvModal'
 import AboutmeModal from './components/Modal/AbouteMe/AboutMeModal'
 import SourceCode from './components/Github/SourceCode'
 import Mailto from './components/MailTo/mailto'
+import AzureInfo from './components/Azure/AzureInfo'
 
 function App() {
   const [showCvModal, setshowCvModal] = useState(false);
@@ -18,9 +19,9 @@ function App() {
 
   return (
     <>
-    <div>
-      <CircleImage />
-    </div>
+      <div>
+        <CircleImage />
+      </div>
       <div>
         <a href="https://GitHub.com/NicoFilips" target="_blank">
           <img src={GithubLogo} className="logo" alt="GitHub logo" style={{ userSelect: 'none' }} />
@@ -31,31 +32,29 @@ function App() {
         <a href="https://www.xing.com/profile/Nico_Filips/" target="_blank">
           <img src={XingLogo} className="logo" alt="Xing logo" style={{ userSelect: 'none' }} />
         </a>
+        <Mailto email='inquiries@nicofilips.de'></Mailto>
       </div>
       <h1 className="whiteh1">Hey!</h1>
       <h1 className="whiteh1">💫 I'm Nico Filips, a backend developer from Augsburg, Germany.</h1>
       <div className="card">
         <div className="cv-modal">
-        <button  className="button-hover-effect" onClick={() => setshowCvModal(true)}>💼</button>
-        <Modal show={showCvModal} onClose={() => setshowCvModal(false)}>
-        <CvModal/>
-      </Modal>
-      <button className="button-hover-effect" onClick={() => setShowAboutMeModal(true)}>🙋‍♂️</button>
-        <Modal show={showAboutMeModal} onClose={() => setShowAboutMeModal(false)}>
-        <AboutmeModal/>
-      </Modal>
-      <button className="button-hover-effect" onClick={() => setShowTechStackModal(true)}>👨‍💻</button>
-        <Modal show={showTechStackModal} onClose={() => setShowTechStackModal(false)}>
-        <CvModal/>
-      </Modal>
+          <button className="button-hover-effect" onClick={() => setshowCvModal(true)}>💼</button>
+          <Modal show={showCvModal} onClose={() => setshowCvModal(false)}>
+            <CvModal />
+          </Modal>
+          <button className="button-hover-effect" onClick={() => setShowAboutMeModal(true)}>🙋‍♂️</button>
+          <Modal show={showAboutMeModal} onClose={() => setShowAboutMeModal(false)}>
+            <AboutmeModal />
+          </Modal>
+          <button className="button-hover-effect" onClick={() => setShowTechStackModal(true)}>👨‍💻</button>
+          <Modal show={showTechStackModal} onClose={() => setShowTechStackModal(false)}>
+            <CvModal />
+          </Modal>
         </div>
       </div>
+      <AzureInfo />
+      <SourceCode />
       <TheParticles />
-      <p className="read-the-docs" style={{ userSelect: 'none' }} >
-        This Site is hosted as an App Service on Azure.
-      </p>
-      <SourceCode/>
-      <Mailto email='inquiries@nicofilips.de'></Mailto>
     </>
   )
 }
