@@ -11,42 +11,52 @@
 [![Deploy-Azure](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml/badge.svg)](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml)
 
 
+<!-- INTRODUCTION -->
 # 🚀 My Personal Web Portfolio 🌐
 
 Welcome to the GitHub repo for my personal web portfolio! This is where the magic happens for my SPA (Single Page Application) built with Node.js and TypeScript, hosted on Azure App Service. It's sleek, modern, and showcases my skills in style! 🌟
+If you like my Design, feel free to fork the Repo and use the design on your own. Leave some Credits tho! 😋
 
 </div>
 
+<!-- TECHSTACK -->
 ## Tech-Stack 🛠️
 
 - **Vite:** Lightning-fast frontend build tool ⚡
 - **React:** Powerful UI library 🎨
-- **TypeScript:** JavaScript, but supercharged 📚
+- **TypeScript:** JavaScript, but cooler 📚
 - **Redux:** Future plans for state management (stay tuned! 📻)
 
+<!-- APPGOALS -->
 ## App Goals 🎯
+
+What are the goals of this app?
 
 - **Responsive & Modern:** Works and looks great everywhere! 💻📱
 - **Resume Display:** All about my professional journey 📄
 - **Social Media Links:** Connect with me on GitHub, LinkedIn, Xing 🔗
 - **Deployment:** Smooth and automated with GitHub Actions 🚚
 
+<!-- ENVIRONMENT -->
 ## Development Environment 🧑‍💻
 
 - **Node.js Version:** 20.10.0
 - **npm Version:** 10.2.5
 - **Development Tool:** VS Code
 
+<!-- LOCAL DEVELOPMENT -->
 ## Local Development 🏗️
 
 Follow these steps to get started:
 
+<!-- CLONE -->
 1. **Clone the Repo:**
 
 git clone https://github.com/NicoFilips/appservice-nicofilips.git
 
 
 
+<!-- DEPENDENCIES -->
 2. **Install Dependencies:**
 ```
 npm install
@@ -57,6 +67,7 @@ npm install
 npm run dev
 ```
 
+<!-- DEPLOYMENT -->
 ## Deployment 🌍
 
 Automated deployment via GitHub Actions. Manual deployment is also possible through the Azure App Service Extension in VS Code. Its important to make sure to have the correct GitHub Secrets configured so GitHub can continously deploy the app to Azure.
