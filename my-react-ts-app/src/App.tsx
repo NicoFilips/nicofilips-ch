@@ -5,17 +5,17 @@ import XingLogo from './assets/Icons/xing2.png'
 import './App.css'
 import CircleImage from './components/me/CircleImage'
 import TheParticles from './components/Background/TheParticles'
-import Modal from './components/Modal/Modal'
-import CvModal from './components/Modal/CV/CvModal'
-import AboutmeModal from './components/Modal/AbouteMe/AboutMeModal'
+// import Modal from './components/Modal/Modal'
+// import CvModal from './components/Modal/CV/CvModal'
+// import AboutmeModal from './components/Modal/AbouteMe/AboutMeModal'
 import SourceCode from './components/Github/SourceCode'
 import Mailto from './components/MailTo/mailto'
 import AzureInfo from './components/Azure/AzureInfo'
 
 function App() {
-  const [showCvModal, setshowCvModal] = useState(false);
-  const [showAboutMeModal, setShowAboutMeModal] = useState(false);
-  const [showTechStackModal, setShowTechStackModal] = useState(false);
+  // const [showCvModal, setshowCvModal] = useState(false);
+  // const [showAboutMeModal, setShowAboutMeModal] = useState(false);
+  // const [showTechStackModal, setShowTechStackModal] = useState(false);
 
   return (
     <>
