@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import linkedinLogo from './assets/Icons/LinkedIn.png'
 import GithubLogo from './assets/Icons/GithubInverted.png'
 import XingLogo from './assets/Icons/xing2.png'
