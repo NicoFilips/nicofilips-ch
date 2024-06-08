@@ -10,40 +10,53 @@
 [![Node.js CI](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml)
 [![Deploy-Azure](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml/badge.svg)](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml)
 
+
+<!-- INTRODUCTION -->
 # 🚀 My Personal Web Portfolio 🌐
 
 Welcome to the GitHub repo for my personal web portfolio! This is where the magic happens for my SPA (Single Page Application) built with Node.js and TypeScript, hosted on Azure App Service. It's sleek, modern, and showcases my skills in style! 🌟
+If you like my Design, feel free to fork the Repo and use the design on your own. Leave some Credits tho! 😋
 
-## Tech Stack 🛠️
+</div>
+
+<!-- TECHSTACK -->
+## Tech-Stack 🛠️
 
 - **Vite:** Lightning-fast frontend build tool ⚡
 - **React:** Powerful UI library 🎨
-- **TypeScript:** JavaScript, but supercharged 📚
+- **TypeScript:** JavaScript, but cooler 📚
 - **Redux:** Future plans for state management (stay tuned! 📻)
 
+<!-- APPGOALS -->
 ## App Goals 🎯
+
+What are the goals of this app?
 
 - **Responsive & Modern:** Works and looks great everywhere! 💻📱
 - **Resume Display:** All about my professional journey 📄
 - **Social Media Links:** Connect with me on GitHub, LinkedIn, Xing 🔗
 - **Deployment:** Smooth and automated with GitHub Actions 🚚
 
+<!-- ENVIRONMENT -->
 ## Development Environment 🧑‍💻
 
 - **Node.js Version:** 20.10.0
 - **npm Version:** 10.2.5
 - **Development Tool:** VS Code
 
+<!-- LOCAL DEVELOPMENT -->
 ## Local Development 🏗️
 
 Follow these steps to get started:
 
+<!-- CLONE -->
 1. **Clone the Repo:**
 
-git clone [URL of the Repository]
+git clone https://github.com/NicoFilips/appservice-nicofilips.git
 
 
 
+<!-- DEPENDENCIES -->
 2. **Install Dependencies:**
 ```
 npm install
@@ -54,18 +67,40 @@ npm install
 npm run dev
 ```
 
+<!-- DEPLOYMENT -->
 ## Deployment 🌍
 
-Automated deployment via GitHub Actions. Manual deployment is also possible through the Azure App Service Extension in VS Code.
+Automated deployment via GitHub Actions. Manual deployment is also possible through the Azure App Service Extension in VS Code. Its important to make sure to have the correct GitHub Secrets configured so GitHub can continously deploy the app to Azure.
+On the other Hand, you can log in to your Azure Portal via the VS Code Extension and directly push your changes to your configured Appservice. You can also directly create a new appservice while deploying.
+If you're using Visual Studio or a JetBrains product, that will also work with Azure Plugins.
 
+<!-- CONTRIBUTE -->
 ## Need Help? 🆘
 
-Running into problems? Check out VS Code Extensions; they can often work wonders! For further issues, feel free to open an issue in the repo.
+Running into problems? Check out the Azure VS Code Extensions! they can often work wonders! For further issues, feel free to open an issue in the repo. In addition to the strategies outlined above, if you're encountering deployment issues in the Azure Portal, leveraging the Azure VS Code Extensions can significantly streamline the troubleshooting process. These extensions provide a more integrated and visual approach to manage and deploy your resources directly from your IDE. They allow you to view logs, set breakpoints, and deploy directly to Azure Appservices without leaving VS Code, making it easier to pinpoint the cause of deployment failures.
 
+Furthermore, if you continue to face challenges despite using the Azure extensions, consider leveraging the broader community and support channels by opening an issue in the repository related to your project or the Azure service you're using. This allows you to get specific advice and solutions from developers who might have encountered and resolved similar issues.
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- CONTRIBUTE -->
 ## Want to Contribute? 🤝
 
-Got ideas or suggestions? I'm all ears! Issues and Pull Requests are always welcome.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
 
 ---
-
+<div align="center">
 Looking forward to your feedback and contributions! 🙌
