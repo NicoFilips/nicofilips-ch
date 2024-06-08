@@ -36,7 +36,7 @@ function App() {
       </div>
       <h1 className="whiteh1">Hey!</h1>
       <h1 className="whiteh1">💫 I'm Nico Filips, a backend developer from Augsburg, Germany.</h1>
-      <div className="card">
+      {/* <div className="card">
         <div className="cv-modal">
           <button className="button-hover-effect" onClick={() => setshowCvModal(true)}>💼</button>
           <Modal show={showCvModal} onClose={() => setshowCvModal(false)}>
@@ -51,7 +51,7 @@ function App() {
             <CvModal />
           </Modal>
         </div>
-      </div>
+      </div> */}
       <AzureInfo />
       <SourceCode />
       <TheParticles />
