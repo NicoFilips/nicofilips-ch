@@ -80,7 +80,6 @@ Running into problems? Check out the Azure VS Code Extensions! they can often wo
 
 Furthermore, if you continue to face challenges despite using the Azure extensions, consider leveraging the broader community and support channels by opening an issue in the repository related to your project or the Azure service you're using. This allows you to get specific advice and solutions from developers who might have encountered and resolved similar issues.
 
-
 <!-- LICENSE -->
 ## License
 
