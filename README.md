@@ -8,7 +8,6 @@
 </blockquote>
 
 [![Node.js CI](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml/badge.svg)](https://github.com/NicoFilips/AzureAppService.NicoFilips/actions/workflows/node.js.yml)
-[![Deploy-Azure](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml/badge.svg)](https://github.com/NicoFilips/appservice-nicofilips/actions/workflows/deploy-azure.yml)
 
 
 <!-- INTRODUCTION -->
@@ -80,7 +79,6 @@ If you're using Visual Studio or a JetBrains product, that will also work with A
 Running into problems? Check out the Azure VS Code Extensions! they can often work wonders! For further issues, feel free to open an issue in the repo. In addition to the strategies outlined above, if you're encountering deployment issues in the Azure Portal, leveraging the Azure VS Code Extensions can significantly streamline the troubleshooting process. These extensions provide a more integrated and visual approach to manage and deploy your resources directly from your IDE. They allow you to view logs, set breakpoints, and deploy directly to Azure Appservices without leaving VS Code, making it easier to pinpoint the cause of deployment failures.
 
 Furthermore, if you continue to face challenges despite using the Azure extensions, consider leveraging the broader community and support channels by opening an issue in the repository related to your project or the Azure service you're using. This allows you to get specific advice and solutions from developers who might have encountered and resolved similar issues.
-
 
 <!-- LICENSE -->
 ## License
