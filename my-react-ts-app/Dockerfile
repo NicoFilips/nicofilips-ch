@@ -20,8 +20,8 @@ COPY . .
 RUN npm run build
 # Für Yarn: RUN yarn build
 
-EXPOSE 3000
+EXPOSE 80
 
 # Starten der Anwendung
-CMD ["npm", "start"]
+CMD ["npm", "run", "preview", "--", "--host", "--port", "80"]
 # Für Yarn: CMD ["yarn", "start"]
