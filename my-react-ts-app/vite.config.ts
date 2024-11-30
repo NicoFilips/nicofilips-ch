@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    port: 80 // Hier können Sie Ihren gewünschten Port angeben
-  }
+    port: 80, // Hier können Sie Ihren gewünschten Port angeben
+  },
 });

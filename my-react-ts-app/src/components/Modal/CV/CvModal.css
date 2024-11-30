@@ -1,15 +1,15 @@
 /* CvModal.css */
 .cv-modal {
-    color: black; /* Setzt die Textfarbe auf Schwarz */
-    text-align: left;
-  }
-  
-  /* Optional: Stelle sicher, dass alle Texte im Modal schwarz sind */
-  .cv-modal h2,
-  .cv-modal h3,
-  .cv-modal p,
-  .cv-modal ul,
-  .cv-modal li {
-    color: black;
-    text-align: left;
-  }
+  color: black; /* Setzt die Textfarbe auf Schwarz */
+  text-align: left;
+}
+
+/* Optional: Stelle sicher, dass alle Texte im Modal schwarz sind */
+.cv-modal h2,
+.cv-modal h3,
+.cv-modal p,
+.cv-modal ul,
+.cv-modal li {
+  color: black;
+  text-align: left;
+}

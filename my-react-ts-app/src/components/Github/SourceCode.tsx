@@ -1,4 +1,4 @@
-import GithubLogo from './../../assets/Icons/GithubInverted.png'
+import GithubLogo from './../../assets/Icons/GithubInverted.png';
 
 import React from 'react';
 
@@ -17,7 +17,6 @@ const SourceCode: React.FC = () => {
         &nbsp; Source Code
       </a>
     </div>
-
   );
 };
 
