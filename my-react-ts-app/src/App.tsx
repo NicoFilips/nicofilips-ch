@@ -51,7 +51,7 @@ function App() {
       </div>
       <h1 className="whiteh1">Hey!</h1>
       <h1 className="whiteh1">
-        💫 I'm Nico Filips, a backend developer from Augsburg, Germany.
+        💫 I'm Nico Filips, a backend developer from Zürich, Switzerland.
       </h1>
       {/* <div className="card">
         <div className="cv-modal">
