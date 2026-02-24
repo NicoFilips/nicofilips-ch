@@ -41,7 +41,7 @@ jobs:
           zip -r ../../release.zip .
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: node-app
           path: release.zip
