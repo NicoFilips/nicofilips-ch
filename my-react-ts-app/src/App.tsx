@@ -23,7 +23,7 @@ function App() {
         <CircleImage />
       </div>
       <div>
-        <a href="https://GitHub.com/NicoFilips" target="_blank">
+        <a href="https://GitHub.com/NicoFilips" target="_blank" rel="noopener noreferrer">
           <img
             src={GithubLogo}
             className="logo"
@@ -31,7 +31,7 @@ function App() {
             style={{ userSelect: 'none' }}
           />
         </a>
-        <a href="https://www.linkedin.com/in/nicofilips/" target="_blank">
+        <a href="https://www.linkedin.com/in/nicofilips/" target="_blank" rel="noopener noreferrer">
           <img
             src={linkedinLogo}
             className="logo"
@@ -39,7 +39,7 @@ function App() {
             style={{ userSelect: 'none' }}
           />
         </a>
-        <a href="https://www.xing.com/profile/Nico_Filips/" target="_blank">
+        <a href="https://www.xing.com/profile/Nico_Filips/" target="_blank" rel="noopener noreferrer">
           <img
             src={XingLogo}
             className="logo"
