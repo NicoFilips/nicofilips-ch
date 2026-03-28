@@ -1,54 +1,65 @@
 import './SpaceObjects.css';
 
+const rockets = Array.from({ length: 10 }, (_, i) => ({
+  id: `rocket-${i}`,
+  delay: -(i * 7),
+  size: 8 + Math.round((i * 3) % 7),
+  opacity: 0.3 + (i % 5) * 0.05,
+  startTop: 60 + (i * 13) % 40,
+  endTop: 5 + (i * 11) % 35,
+  duration: 55 + (i * 7) % 40,
+}));
+
+const saturns = Array.from({ length: 10 }, (_, i) => ({
+  id: `saturn-${i}`,
+  delay: -(i * 9),
+  size: 9 + Math.round((i * 4) % 6),
+  opacity: 0.3 + (i % 4) * 0.06,
+  top: 5 + (i * 9) % 85,
+}));
+
 const SpaceObjects: React.FC = () => {
   return (
     <div className="space-container">
-      {/* Saturn */}
-      <div className="space-object saturn-orbit">
-        <svg className="saturn" viewBox="0 0 40 28" width="18" height="13">
-          <ellipse cx="20" cy="14" rx="7" ry="6.5" fill="rgba(210,190,150,0.4)" />
-          <ellipse
-            cx="20"
-            cy="14"
-            rx="14"
-            ry="3.5"
-            fill="none"
-            stroke="rgba(210,190,150,0.3)"
-            strokeWidth="1.2"
-          />
-        </svg>
-      </div>
-
-      {/* Spaceship */}
-      <div className="space-object ship-orbit">
-        <svg className="spaceship" viewBox="0 0 24 12" width="12" height="6">
-          <polygon points="24,6 4,0 6,6 4,12" fill="rgba(180,200,220,0.35)" />
-          <line
-            x1="0"
-            y1="6"
-            x2="5"
-            y2="6"
-            stroke="rgba(100,150,255,0.3)"
-            strokeWidth="1.5"
-          />
-        </svg>
-      </div>
-
-      {/* Distant comet */}
-      <div className="space-object comet-orbit">
-        <svg className="comet" viewBox="0 0 20 4" width="10" height="2">
-          <circle cx="17" cy="2" r="1.5" fill="rgba(200,220,255,0.3)" />
-          <line
-            x1="0"
-            y1="2"
-            x2="16"
-            y2="2"
-            stroke="rgba(200,220,255,0.15)"
-            strokeWidth="1"
-            strokeLinecap="round"
-          />
-        </svg>
-      </div>
+      {saturns.map((s) => (
+        <div
+          key={s.id}
+          className="space-object saturn-orbit"
+          style={{
+            animationDelay: `${s.delay}s`,
+            fontSize: `${s.size}px`,
+            opacity: s.opacity,
+            top: `${s.top}%`,
+          }}
+        >
+          🪐
+        </div>
+      ))}
+      {rockets.map((r) => (
+        <div
+          key={r.id}
+          className="space-object"
+          style={{
+            animationDelay: `${r.delay}s`,
+            fontSize: `${r.size}px`,
+            opacity: r.opacity,
+            animationName: `rocketPath${r.id.split('-')[1]}`,
+            animationDuration: `${r.duration}s`,
+            animationTimingFunction: 'linear',
+            animationIterationCount: 'infinite',
+          }}
+        >
+          🚀
+        </div>
+      ))}
+      <style>
+        {rockets.map((r, i) => `
+          @keyframes rocketPath${i} {
+            0% { left: -5%; top: ${r.startTop}%; }
+            100% { left: 105%; top: ${r.endTop}%; }
+          }
+        `).join('')}
+      </style>
     </div>
   );
 };
