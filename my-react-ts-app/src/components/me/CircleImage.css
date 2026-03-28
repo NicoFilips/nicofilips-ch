@@ -2,16 +2,55 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px; /* Abstand für den Rahmen */
-  position: relative; /* Position muss auf relative oder absolute gesetzt sein, damit z-index funktioniert */
-  z-index: 10; /* Stellt sicher, dass der Container über den Partikeln liegt */
+  padding: 5px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 1rem;
 }
 
 .circle-image {
-  border-radius: 50%; /* Macht das Bild rund */
-  border: 2px solid white; /* Weißer Rahmen */
-  width: 250px; /* Breite des Bildes */
-  height: 250px; /* Höhe des Bildes */
-  object-fit: cover; /* Sorgt dafür, dass das Bild das Element vollständig ausfüllt */
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
   user-select: none;
+  transition: border-color 0.3s ease;
+}
+
+.circle-image-container:hover .circle-image {
+  border-color: rgba(100, 108, 255, 0.5);
+}
+
+.orbit-skill {
+  position: absolute;
+  font-size: 0.55rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  user-select: none;
+  pointer-events: none;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+
+.orbit-skill-visible {
+  opacity: 1;
+}
+
+.exp-tooltip {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-6px);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.exp-tooltip-visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }

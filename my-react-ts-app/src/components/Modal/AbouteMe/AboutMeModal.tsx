@@ -1,36 +1,62 @@
-import React from 'react';
+import './AboutMeModal.css';
 
-const AboutmeModal: React.FC = () => {
+const AboutMeModal: React.FC = () => {
   return (
-    <div>
-      <h2>About me</h2>
+    <div className="about-me">
+      <h2>About Me</h2>
 
-      <section>
-        <ul>
-          <p>
-            As a mid-career software developer and dedicated ice hockey referee
-            in professional leagues, I bring a wealth of experience in both the
-            technical and athletic realms. In my professional life, I have
-            developed a broad range of backend and frontend applications using a
-            tech stack that includes <strong>C#</strong>, <strong>SQL</strong>{' '}
-            and <strong>Python</strong>, developing APIs with{' '}
-            <strong>.Net 6</strong> and building <strong>Node.Js SPAs</strong>{' '}
-            with <strong>React</strong> and <strong>Typescript</strong>. I'm
-            using <strong>Selenium</strong> and <strong>XUnit</strong> to test
-            my applications, I'm also familiar with a variety of Tools in{' '}
-            <strong>Azure</strong>. Besides that <strong>Docker</strong> and{' '}
-            <strong>Kubernetes</strong> to host my Apps.
-          </p>
-          <p>
-            I am constantly striving to improve my skills and stay current in
-            the fast-paced world of technology. As a passionate and motivated
-            individual, I am excited to take on new challenges in the workplace
-            and on the ice.
-          </p>
-        </ul>
-      </section>
+      <p>
+        Senior fullstack developer based in Zurich, Switzerland with nearly a decade of experience
+        building robust backend systems and modern web applications. I specialize in the .NET
+        ecosystem and cloud-native development on Azure.
+      </p>
+
+      <p>
+        Currently working as a <strong>Software Developer</strong> at CMI in Schwerzenbach. My
+        background spans microservice architecture, CI/CD pipelines, containerization with Docker,
+        and orchestration with Kubernetes.
+      </p>
+
+      <h3>What I bring to the table</h3>
+      <div className="about-highlights">
+        <div className="highlight-item">
+          <span className="highlight-icon">{'</>'}</span>
+          <div>
+            <strong>Backend-first mindset</strong>
+            <p>C# 12, ASP.Net Core, Web APIs, microservices, and clean architecture</p>
+          </div>
+        </div>
+        <div className="highlight-item">
+          <span className="highlight-icon">{'{ }'}</span>
+          <div>
+            <strong>Full-stack capability</strong>
+            <p>React, TypeScript, Blazor, Node.js &mdash; comfortable across the stack</p>
+          </div>
+        </div>
+        <div className="highlight-item">
+          <span className="highlight-icon">{'>>>'}</span>
+          <div>
+            <strong>DevOps & Cloud</strong>
+            <p>Azure, Docker, Kubernetes, CI/CD pipelines, infrastructure as code</p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Beyond the code</h3>
+      <p>
+        When I'm not coding, you'll find me on the ice as a line referee for the German Ice Hockey
+        Association (DEB). I'm also passionate about home automation, smart home tech, and keeping up
+        with the stock market.
+      </p>
+
+      <div className="about-languages">
+        <span className="lang-tag">German (Native)</span>
+        <span className="lang-tag">English (B2/C1)</span>
+        <span className="lang-tag">French (A1)</span>
+        <span className="lang-tag">Russian (A1)</span>
+      </div>
     </div>
   );
 };
 
-export default AboutmeModal;
+export default AboutMeModal;

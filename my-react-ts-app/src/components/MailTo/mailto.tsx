@@ -8,7 +8,7 @@ interface mailtoProps {
 
 const Mailto: React.FC<mailtoProps> = ({ email }) => {
   return (
-    <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
+    <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer" className="tooltip-link" data-tooltip="Email">
       <img
         src={mailLogo}
         className="logo"
