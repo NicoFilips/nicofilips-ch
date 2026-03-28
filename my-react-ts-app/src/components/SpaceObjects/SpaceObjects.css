@@ -64,3 +64,10 @@
     transform: translateY(-4px);
   }
 }
+
+@media (max-width: 480px) {
+  .space-object {
+    opacity: 0.4;
+    transform: scale(0.7);
+  }
+}

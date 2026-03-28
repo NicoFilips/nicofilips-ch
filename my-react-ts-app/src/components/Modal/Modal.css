@@ -104,3 +104,29 @@
   background: rgba(100, 108, 255, 0.3);
   color: white;
 }
+
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 20px;
+    max-height: 85vh;
+    width: 94%;
+  }
+
+  .modal-content h2 {
+    font-size: 1.3rem;
+    padding-right: 60px;
+  }
+
+  .modal-content h3 {
+    font-size: 0.85rem;
+  }
+
+  .modal-content p {
+    font-size: 0.82rem;
+  }
+
+  .close-button {
+    padding: 6px 14px;
+    font-size: 0.78rem;
+  }
+}

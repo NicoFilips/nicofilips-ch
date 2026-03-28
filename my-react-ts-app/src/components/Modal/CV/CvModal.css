@@ -118,3 +118,28 @@
   color: #999 !important;
   margin: 4px 0 0 !important;
 }
+
+@media (max-width: 480px) {
+  .cv-entry {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .cv-date {
+    width: auto;
+    white-space: normal;
+  }
+
+  .cv-skill-group {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .cv-skill-label {
+    width: auto;
+  }
+
+  .cv-project {
+    padding: 8px 10px;
+  }
+}

@@ -57,3 +57,19 @@
   border: 1px solid rgba(100, 108, 255, 0.2);
   color: #a0a8ff;
 }
+
+@media (max-width: 480px) {
+  .highlight-item {
+    padding: 10px 12px;
+  }
+
+  .highlight-icon {
+    font-size: 0.85rem;
+    padding: 4px 6px;
+  }
+
+  .lang-tag {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+  }
+}
