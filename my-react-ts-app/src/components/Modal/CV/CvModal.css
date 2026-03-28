@@ -1,15 +1,120 @@
-/* CvModal.css */
-.cv-modal {
-  color: black; /* Setzt die Textfarbe auf Schwarz */
-  text-align: left;
+.cv-card h3 {
+  margin-top: 1.6rem;
 }
 
-/* Optional: Stelle sicher, dass alle Texte im Modal schwarz sind */
-.cv-modal h2,
-.cv-modal h3,
-.cv-modal p,
-.cv-modal ul,
-.cv-modal li {
-  color: black;
-  text-align: left;
+/* Timeline */
+.cv-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 12px;
+  border-left: 2px solid rgba(100, 108, 255, 0.2);
+}
+
+.cv-entry {
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.cv-entry::before {
+  content: '';
+  position: absolute;
+  left: -17px;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #646cff;
+  border: 2px solid rgba(30, 30, 50, 0.95);
+}
+
+.cv-date {
+  flex-shrink: 0;
+  width: 130px;
+  font-size: 0.75rem;
+  color: #888;
+  padding-top: 2px;
+  white-space: nowrap;
+}
+
+.cv-details {
+  flex: 1;
+}
+
+.cv-details strong {
+  color: white;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.cv-company {
+  font-size: 0.8rem;
+  color: #a0a8ff;
+  display: block;
+  margin-top: 2px;
+}
+
+.cv-details ul {
+  margin: 6px 0 0;
+  padding-left: 16px;
+  font-size: 0.8rem;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.cv-note {
+  font-size: 0.8rem !important;
+  color: #999 !important;
+  margin: 4px 0 0 !important;
+}
+
+/* Skills grid */
+.cv-skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cv-skill-group {
+  display: flex;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: #bbb;
+  align-items: baseline;
+}
+
+.cv-skill-label {
+  flex-shrink: 0;
+  width: 100px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #646cff;
+}
+
+/* Projects */
+.cv-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cv-project {
+  padding: 10px 14px;
+  background: rgba(100, 108, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(100, 108, 255, 0.1);
+}
+
+.cv-project strong {
+  color: white;
+  font-size: 0.85rem;
+}
+
+.cv-project p {
+  font-size: 0.78rem !important;
+  color: #999 !important;
+  margin: 4px 0 0 !important;
 }

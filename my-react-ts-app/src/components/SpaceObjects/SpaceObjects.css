@@ -1,0 +1,66 @@
+.space-container {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.space-object {
+  position: absolute;
+  opacity: 0.6;
+}
+
+/* Saturn - slow horizontal drift, upper area */
+.saturn-orbit {
+  top: 15%;
+  animation: driftRight 90s linear infinite;
+}
+
+.saturn {
+  animation: gentleBob 8s ease-in-out infinite;
+}
+
+/* Spaceship - mid-height, opposite direction */
+.ship-orbit {
+  top: 65%;
+  animation: driftLeft 70s linear infinite;
+}
+
+.spaceship {
+  animation: gentleBob 5s ease-in-out infinite;
+}
+
+/* Comet - fast, high up */
+.comet-orbit {
+  top: 30%;
+  animation: driftRight 45s linear infinite;
+  animation-delay: -20s;
+}
+
+@keyframes driftRight {
+  0% {
+    left: -5%;
+  }
+  100% {
+    left: 105%;
+  }
+}
+
+@keyframes driftLeft {
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 105%;
+  }
+}
+
+@keyframes gentleBob {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}

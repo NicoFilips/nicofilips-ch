@@ -1,109 +1,131 @@
-import React from 'react';
+import './CvModal.css';
 
 const CvModal: React.FC = () => {
   return (
-    <div>
+    <div className="cv-card">
       <h2>Curriculum Vitae</h2>
 
-      {/* Professional Experience */}
-      <section>
-        <h3>Professional Experience</h3>
-        <ul>
-          <li>
-            <strong>Fullstack Developer</strong> - SII Germany, Full-time (June
-            2023–Present)
-            <ul>
-              <li>Working for a renowned sports car brand in Germany.</li>
-              <li>
-                DevOps responsibilities, including setting up and optimizing
-                GitLab Pipelines.
-              </li>
-              <li>Developing with .Net 6 / C#10 ASP.Net Core.</li>
-              <li>
-                Ensuring code quality by implementing integration and unit
-                tests.
-              </li>
-              <li>Handling smaller tasks with Razor Pages in a Blazor App.</li>
-            </ul>
-          </li>
+      <h3>Experience</h3>
 
-          <li>
-            <strong>.NET Core Developer</strong> - Full-time (Sept 2016–June
-            2023)
-            <ul>
-              <li>
-                Developed and implemented Web API microservices and client
-                applications using .NET 6.
-              </li>
-              <li>
-                Managed project development and migrations to Microsoft Azure.
-              </li>
-              <li>
-                Designed and maintained Single Page Applications (SPAs) using
-                Node.js and TypeScript.
-              </li>
-              <li>
-                Maintained and optimized legacy .NET Framework applications.
-              </li>
-              <li>
-                Handled DevOps tasks, including setting up and optimizing GitLab
-                Pipelines, monitoring Kubernetes infrastructure, and working
-                with Docker.
-              </li>
-              <li>
-                Ensured code quality and functionality through unit testing with
-                xUnit.
-              </li>
-            </ul>
-          </li>
-          {/* Additional positions */}
-        </ul>
-      </section>
+      <div className="cv-timeline">
+        <div className="cv-entry">
+          <div className="cv-date">Feb 2025 &mdash; Present</div>
+          <div className="cv-details">
+            <strong>Software Developer</strong>
+            <span className="cv-company">CMI, Schwerzenbach</span>
+          </div>
+        </div>
 
-      {/* Education */}
-      <section>
-        <h3>Education</h3>
-        <ul>
-          <li>
-            <strong>IT Specialist Apprenticeship</strong> - Focus: Application
-            Development (Sept 2016–June 2019)
+        <div className="cv-entry">
+          <div className="cv-date">Jun 2023 &mdash; Jan 2025</div>
+          <div className="cv-details">
+            <strong>Senior Fullstack Developer</strong>
+            <span className="cv-company">SII Technologies GmbH, Augsburg</span>
             <ul>
-              <li>
-                Completed a 2 years and 10 months apprenticeship program in
-                application development.
-              </li>
+              <li>ASP.Net Blazor Photino client application with SignalR backend</li>
+              <li>CI/CD/CT pipeline setup and code quality assurance</li>
+              <li>Unit, integration and smoke testing of modular backend components</li>
             </ul>
-          </li>
-          <li>
-            <strong>Secondary School Diploma</strong> - Realschule Königsbrunn
-            (2015)
+          </div>
+        </div>
+
+        <div className="cv-entry">
+          <div className="cv-date">Jun 2019 &mdash; May 2022</div>
+          <div className="cv-details">
+            <strong>.NET 6 / C# Software Developer</strong>
+            <span className="cv-company">Bmk Group GmbH & Co. KG, Augsburg</span>
             <ul>
-              <li>Graduated with an overall grade of 1.9.</li>
+              <li>ASP.Net microservices for Track & Traceability</li>
+              <li>Azure migration and new cloud-native developments</li>
+              <li>Docker containerization and Kubernetes orchestration</li>
+              <li>React.js frontend development</li>
             </ul>
-          </li>
-          {/* Additional education entries */}
-        </ul>
-      </section>
+          </div>
+        </div>
 
-      {/* Skills */}
-      <section>
-        <h3>Skills</h3>
-        <ul>
-          <li>Programming Languages: e.g., JavaScript, TypeScript</li>
-          <li>Frameworks and Tools: e.g., React, Node.js</li>
-          {/* Additional skills */}
-        </ul>
-      </section>
+        <div className="cv-entry">
+          <div className="cv-date">Sep 2016 &mdash; Jun 2019</div>
+          <div className="cv-details">
+            <strong>Application Developer Apprenticeship</strong>
+            <span className="cv-company">Bmk Group GmbH & Co. KG, Augsburg</span>
+            <p className="cv-note">Graduated with 85/100 &mdash; .NET, SQL, IT Infrastructure</p>
+          </div>
+        </div>
+      </div>
 
-      {/* Languages */}
-      <section>
-        <h3>Languages</h3>
-        <ul>
-          <li>German - Native</li>
-          <li>English - Fluent</li>
-          <li>Russian - Beginner</li>
-        </ul>
-      </section>
+      <h3>Other Activities</h3>
+
+      <div className="cv-timeline">
+        <div className="cv-entry">
+          <div className="cv-date">Jun 2025 &mdash; Present</div>
+          <div className="cv-details">
+            <strong>SIHF Linesperson</strong>
+            <span className="cv-company">Swiss Ice Hockey Federation</span>
+          </div>
+        </div>
+      </div>
+
+      <h3>Education</h3>
+
+      <div className="cv-timeline">
+        <div className="cv-entry">
+          <div className="cv-date">2008 &mdash; 2015</div>
+          <div className="cv-details">
+            <strong>Secondary School Diploma</strong>
+            <span className="cv-company">Via-Claudia-Realschule, Königsbrunn</span>
+            <p className="cv-note">Grade: 2.0 (Good)</p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Tech Stack</h3>
+
+      <div className="cv-skills-grid">
+        <div className="cv-skill-group">
+          <span className="cv-skill-label">Languages</span>
+          <span>C# 12, TypeScript, JavaScript, Python, VB.Net</span>
+        </div>
+        <div className="cv-skill-group">
+          <span className="cv-skill-label">Frameworks</span>
+          <span>ASP.Net Core, Blazor, React, Node.js, WPF, Electron</span>
+        </div>
+        <div className="cv-skill-group">
+          <span className="cv-skill-label">Cloud & DevOps</span>
+          <span>Azure, Docker, Kubernetes, CI/CD Pipelines</span>
+        </div>
+        <div className="cv-skill-group">
+          <span className="cv-skill-label">Testing</span>
+          <span>xUnit, NUnit, Moq, FluentAssertions, Selenium</span>
+        </div>
+        <div className="cv-skill-group">
+          <span className="cv-skill-label">Tools</span>
+          <span>JetBrains Rider, VS Code, Git, Jira, Confluence</span>
+        </div>
+      </div>
+
+      <h3>Notable Projects</h3>
+
+      <div className="cv-projects">
+        <div className="cv-project">
+          <strong>REST API Platform</strong>
+          <p>
+            .NET Web API with React frontend, JWT auth, middleware with DI, deployed on Kubernetes
+            via build pipelines.
+          </p>
+        </div>
+        <div className="cv-project">
+          <strong>Reusable NuGet Library</strong>
+          <p>
+            Generic business logic package with abstract data models, fully unit-tested with xUnit.
+          </p>
+        </div>
+        <div className="cv-project">
+          <strong>WPF Desktop Client</strong>
+          <p>
+            MVVM desktop app for machine communication via COM interfaces with ERP data exchange.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

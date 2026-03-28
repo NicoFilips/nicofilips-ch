@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import linkedinLogo from './assets/Icons/LinkedIn.png';
 import GithubLogo from './assets/Icons/GithubInverted.png';
 import XingLogo from './assets/Icons/xing2.png';
@@ -7,15 +8,42 @@ import TheParticles from './components/Background/TheParticles';
 import SourceCode from './components/Github/SourceCode';
 import Mailto from './components/MailTo/mailto';
 import AzureInfo from './components/Azure/AzureInfo';
+import MouseFollower from './components/mouse-follower/mouseFollower';
+import Modal from './components/Modal/Modal';
+import AboutMeModal from './components/Modal/AbouteMe/AboutMeModal';
+import CvModal from './components/Modal/CV/CvModal';
+import TypingEffect from './components/TypingEffect/TypingEffect';
+import SpaceObjects from './components/SpaceObjects/SpaceObjects';
 
 function App() {
+  const [showAbout, setShowAbout] = useState(false);
+  const [showCv, setShowCv] = useState(false);
+
   return (
     <>
-      <div>
+      <div className="fade-in" style={{ animationDelay: '0.2s' }}>
         <CircleImage />
       </div>
-      <div>
-        <a href="https://GitHub.com/NicoFilips" target="_blank" rel="noopener noreferrer">
+
+      <h1 className="whiteh1 fade-in" style={{ animationDelay: '0.4s' }}>
+        Grüezi!
+      </h1>
+      <h1 className="whiteh1 fade-in" style={{ animationDelay: '0.6s' }}>
+        <TypingEffect
+          text="I'm Nico Filips, a backend developer from Zurich, Switzerland."
+          speed={35}
+          delay={800}
+        />
+      </h1>
+
+      <div className="fade-in social-links" style={{ animationDelay: '0.8s' }}>
+        <a
+          href="https://GitHub.com/NicoFilips"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="tooltip-link"
+          data-tooltip="GitHub"
+        >
           <img
             src={GithubLogo}
             className="logo"
@@ -23,7 +51,13 @@ function App() {
             style={{ userSelect: 'none' }}
           />
         </a>
-        <a href="https://www.linkedin.com/in/nicofilips/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/nicofilips/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="tooltip-link"
+          data-tooltip="LinkedIn"
+        >
           <img
             src={linkedinLogo}
             className="logo"
@@ -31,23 +65,42 @@ function App() {
             style={{ userSelect: 'none' }}
           />
         </a>
-        <a href="https://www.xing.com/profile/Nico_Filips/" target="_blank" rel="noopener noreferrer">
-          <img
-            src={XingLogo}
-            className="logo"
-            alt="Xing logo"
-            style={{ userSelect: 'none' }}
-          />
+        <a
+          href="https://www.xing.com/profile/Nico_Filips/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="tooltip-link"
+          data-tooltip="Xing"
+        >
+          <img src={XingLogo} className="logo" alt="Xing logo" style={{ userSelect: 'none' }} />
         </a>
         <Mailto email="inquiries@nicofilips.de"></Mailto>
       </div>
-      <h1 className="whiteh1">Hey!</h1>
-      <h1 className="whiteh1">
-        💫 I'm Nico Filips, a backend developer from Zurich, Switzerland.
-      </h1>
-      <AzureInfo />
-      <SourceCode />
+
+      <div className="action-buttons fade-in" style={{ animationDelay: '1.2s' }}>
+        <button className="glow-btn" onClick={() => setShowAbout(true)}>
+          About Me
+        </button>
+        <button className="glow-btn" onClick={() => setShowCv(true)}>
+          Curriculum Vitae
+        </button>
+      </div>
+
+      <div className="fade-in" style={{ animationDelay: '1.4s' }}>
+        <AzureInfo />
+        <SourceCode />
+      </div>
+
+      <Modal show={showAbout} onClose={() => setShowAbout(false)}>
+        <AboutMeModal />
+      </Modal>
+      <Modal show={showCv} onClose={() => setShowCv(false)}>
+        <CvModal />
+      </Modal>
+
+      <SpaceObjects />
       <TheParticles />
+      <MouseFollower />
     </>
   );
 }

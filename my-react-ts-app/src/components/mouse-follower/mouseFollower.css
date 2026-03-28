@@ -1,0 +1,3 @@
+div {
+    transition: transform 0.1s ease-out, top 0.1s ease-out, left 0.1s ease-out;
+  }

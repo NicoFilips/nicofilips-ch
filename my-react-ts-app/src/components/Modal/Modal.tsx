@@ -1,5 +1,5 @@
-import React, { ReactNode } from 'react';
-import './Modal.css'; // Stil für das Modal
+import { ReactNode, useEffect } from 'react';
+import './Modal.css';
 
 interface ModalProps {
   show: boolean;
@@ -8,17 +8,23 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ show, onClose, children }) => {
-  if (!show) {
-    return null;
-  }
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    if (show) document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, [show, onClose]);
+
+  if (!show) return null;
 
   return (
-    <div className="modal-overlay">
-      <div className="modal-content">
-        {children}
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <button onClick={onClose} className="close-button">
-          Schließen
+          Close
         </button>
+        {children}
       </div>
     </div>
   );

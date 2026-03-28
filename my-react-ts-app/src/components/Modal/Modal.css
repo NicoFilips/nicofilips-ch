@@ -1,32 +1,106 @@
 .modal-overlay {
   position: fixed;
-  z-index: 11;
+  z-index: 100;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6px);
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: overlayIn 0.25s ease;
+}
+
+@keyframes overlayIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .modal-content {
-  color: black;
-  background-color: rgba(255, 255, 255, 0.8) !important;
-  padding: 20px;
+  color: #e0e0e0;
+  background: linear-gradient(135deg, rgba(30, 30, 50, 0.95), rgba(20, 20, 35, 0.98));
+  border: 1px solid rgba(100, 108, 255, 0.2);
+  padding: 32px 36px;
   position: relative;
-  border-radius: 10px;
+  border-radius: 16px;
+  max-width: 700px;
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(100, 108, 255, 0.08);
+  animation: modalSlideIn 0.3s ease;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: rgba(100, 108, 255, 0.3);
+  border-radius: 3px;
+}
+
+.modal-content h2 {
+  color: white;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(100, 108, 255, 0.25);
+}
+
+.modal-content h3 {
+  color: #a0a8ff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.modal-content p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #c0c0c0;
 }
 
 .close-button {
-  background-color: gray;
-  color: white;
-  border: none;
-  padding: 10px 15px;
+  background: rgba(100, 108, 255, 0.15);
+  color: #a0a8ff;
+  border: 1px solid rgba(100, 108, 255, 0.3);
+  padding: 8px 20px;
+  border-radius: 8px;
   cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  transition: background-color 0.3s;
+  top: 16px;
+  right: 16px;
+  transition: all 0.2s ease;
+}
+
+.close-button:hover {
+  background: rgba(100, 108, 255, 0.3);
+  color: white;
 }
