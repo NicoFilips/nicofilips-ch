@@ -172,3 +172,48 @@
   color: rgba(255, 255, 255, 0.6);
   transform: translateX(-50%) translateY(0);
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .whiteh1 {
+    font-size: 2.2em;
+  }
+
+  .logo {
+    height: 5em;
+    padding: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .whiteh1 {
+    font-size: 1.6em;
+  }
+
+  .logo {
+    height: 4em;
+    padding: 0.8em;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .glow-btn {
+    padding: 10px 24px;
+    font-size: 0.85rem;
+    min-width: 180px;
+  }
+}
+
+@media (hover: none) {
+  .tooltip-link::after {
+    display: none;
+  }
+}

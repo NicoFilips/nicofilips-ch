@@ -26,3 +26,13 @@
   font-weight: 600;
   color: rgba(255, 255, 255, 0.55);
 }
+
+@media (max-width: 480px) {
+  .exp-label {
+    font-size: 0.65rem;
+  }
+
+  .exp-ticker {
+    font-size: 0.7rem;
+  }
+}

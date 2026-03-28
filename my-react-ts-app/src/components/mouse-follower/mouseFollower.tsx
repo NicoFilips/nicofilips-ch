@@ -7,15 +7,23 @@ const COLOR = '#00ff00';
 
 const MouseFollower = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [hasPointer, setHasPointer] = useState(true);
 
   useEffect(() => {
+    setHasPointer(window.matchMedia('(hover: hover) and (pointer: fine)').matches);
+  }, []);
+
+  useEffect(() => {
+    if (!hasPointer) return;
     const handleMouseMove = (event: MouseEvent) => {
       setPosition({ x: event.clientX, y: event.clientY });
     };
 
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
+  }, [hasPointer]);
+
+  if (!hasPointer) return null;
 
   const shared = {
     position: 'absolute' as const,
