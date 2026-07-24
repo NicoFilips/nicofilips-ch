@@ -44,8 +44,8 @@ const AboutMeModal: React.FC = () => {
 
       <h3>Beyond the code</h3>
       <p>
-        When I'm not coding, you'll find me on the ice as a line referee for the German Ice Hockey
-        Association (DEB). I'm also passionate about home automation, smart home tech, and keeping up
+        When I'm not coding, you'll find me on the ice as a linesperson for the Swiss Ice Hockey
+        Federation (SIHF). I'm also passionate about home automation, smart home tech, and keeping up
         with the stock market.
       </p>
 
