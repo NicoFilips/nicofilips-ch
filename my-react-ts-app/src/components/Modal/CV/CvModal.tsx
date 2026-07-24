@@ -1,5 +1,37 @@
 import './CvModal.css';
 
+const techStack = [
+  { label: 'Languages', skills: ['C#', 'TypeScript', 'JavaScript', 'Python', 'SQL'] },
+  { label: 'Frameworks', skills: ['ASP.Net Core', 'Blazor', 'React', 'Angular', 'Node.js', 'WPF'] },
+  { label: 'Cloud & DevOps', skills: ['Azure', 'Docker', 'Kubernetes', 'GitHub Actions', 'Grafana'] },
+  { label: 'Testing', skills: ['xUnit', 'NUnit', 'Reqnroll (BDD)', 'Moq', 'FluentAssertions'] },
+  { label: 'Tools', skills: ['JetBrains Rider', 'VS Code', 'Git', 'YouTrack', 'Confluence'] },
+];
+
+const projects = [
+  {
+    icon: '🚀',
+    title: 'REST API Platform',
+    description:
+      '.NET Web API with React frontend, JWT auth, middleware with DI, deployed on Kubernetes via build pipelines.',
+    tags: ['.NET', 'React', 'Kubernetes'],
+  },
+  {
+    icon: '📦',
+    title: 'Reusable NuGet Library',
+    description:
+      'Generic business logic package with abstract data models, fully unit-tested with xUnit.',
+    tags: ['NuGet', 'xUnit'],
+  },
+  {
+    icon: '🛰️',
+    title: 'WPF Desktop Client',
+    description:
+      'MVVM desktop app for machine communication via COM interfaces with ERP data exchange.',
+    tags: ['WPF', 'MVVM', 'COM'],
+  },
+];
+
 const CvModal: React.FC = () => {
   return (
     <div className="cv-card">
@@ -13,6 +45,12 @@ const CvModal: React.FC = () => {
           <div className="cv-details">
             <strong>Software Developer</strong>
             <span className="cv-company">CMI, Schwerzenbach</span>
+            <ul>
+              <li>Fullstack development of CMI Axioma, a platform for Swiss public administration</li>
+              <li>.NET / C# backend services on a model-driven application platform</li>
+              <li>Integration interfaces to Swiss resident registries (ContactSync)</li>
+              <li>BDD and unit testing, CI/CD via GitHub Actions</li>
+            </ul>
           </div>
         </div>
 
@@ -81,50 +119,40 @@ const CvModal: React.FC = () => {
       <h3>Tech Stack</h3>
 
       <div className="cv-skills-grid">
-        <div className="cv-skill-group">
-          <span className="cv-skill-label">Languages</span>
-          <span>C# 12, TypeScript, JavaScript, Python, VB.Net</span>
-        </div>
-        <div className="cv-skill-group">
-          <span className="cv-skill-label">Frameworks</span>
-          <span>ASP.Net Core, Blazor, React, Node.js, WPF, Electron</span>
-        </div>
-        <div className="cv-skill-group">
-          <span className="cv-skill-label">Cloud & DevOps</span>
-          <span>Azure, Docker, Kubernetes, CI/CD Pipelines</span>
-        </div>
-        <div className="cv-skill-group">
-          <span className="cv-skill-label">Testing</span>
-          <span>xUnit, NUnit, Moq, FluentAssertions, Selenium</span>
-        </div>
-        <div className="cv-skill-group">
-          <span className="cv-skill-label">Tools</span>
-          <span>JetBrains Rider, VS Code, Git, Jira, Confluence</span>
-        </div>
+        {techStack.map((group) => (
+          <div key={group.label} className="cv-skill-group">
+            <span className="cv-skill-label">{group.label}</span>
+            <div className="cv-skill-chips">
+              {group.skills.map((skill) => (
+                <span key={skill} className="cv-skill-chip">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
 
       <h3>Notable Projects</h3>
 
       <div className="cv-projects">
-        <div className="cv-project">
-          <strong>REST API Platform</strong>
-          <p>
-            .NET Web API with React frontend, JWT auth, middleware with DI, deployed on Kubernetes
-            via build pipelines.
-          </p>
-        </div>
-        <div className="cv-project">
-          <strong>Reusable NuGet Library</strong>
-          <p>
-            Generic business logic package with abstract data models, fully unit-tested with xUnit.
-          </p>
-        </div>
-        <div className="cv-project">
-          <strong>WPF Desktop Client</strong>
-          <p>
-            MVVM desktop app for machine communication via COM interfaces with ERP data exchange.
-          </p>
-        </div>
+        {projects.map((project) => (
+          <div key={project.title} className="cv-project">
+            <div className="cv-project-glow" />
+            <div className="cv-project-header">
+              <span className="cv-project-icon">{project.icon}</span>
+              <strong>{project.title}</strong>
+            </div>
+            <p>{project.description}</p>
+            <div className="cv-project-tags">
+              {project.tags.map((tag) => (
+                <span key={tag} className="cv-project-tag">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
