@@ -101,6 +101,14 @@ const CvModal: React.FC = () => {
             <span className="cv-company">Swiss Ice Hockey Federation</span>
           </div>
         </div>
+
+        <div className="cv-entry">
+          <div className="cv-date">2016 &mdash; 2024</div>
+          <div className="cv-details">
+            <strong>Ice Hockey Referee &mdash; Competitive Sports</strong>
+            <span className="cv-company">BEV / DEB (German Ice Hockey Federation)</span>
+          </div>
+        </div>
       </div>
 
       <h3>Education</h3>
