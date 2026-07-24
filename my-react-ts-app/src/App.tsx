@@ -14,10 +14,12 @@ import AboutMeModal from './components/Modal/AbouteMe/AboutMeModal';
 import CvModal from './components/Modal/CV/CvModal';
 import TypingEffect from './components/TypingEffect/TypingEffect';
 import SpaceObjects from './components/SpaceObjects/SpaceObjects';
+import SwissEasterEgg from './components/SwissEasterEgg/SwissEasterEgg';
 
 function App() {
   const [showAbout, setShowAbout] = useState(false);
   const [showCv, setShowCv] = useState(false);
+  const [swissBurst, setSwissBurst] = useState(0);
 
   return (
     <>
@@ -30,8 +32,13 @@ function App() {
         <svg
           className="swiss-flag"
           viewBox="0 0 32 32"
-          role="img"
-          aria-label="Swiss flag"
+          role="button"
+          tabIndex={0}
+          aria-label="Swiss flag — click for a surprise"
+          onClick={() => setSwissBurst((n) => n + 1)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') setSwissBurst((n) => n + 1);
+          }}
         >
           <rect width="32" height="32" rx="5" fill="#DA291C" />
           <rect x="13" y="6" width="6" height="20" fill="#fff" />
@@ -108,6 +115,7 @@ function App() {
         <CvModal />
       </Modal>
 
+      <SwissEasterEgg trigger={swissBurst} />
       <SpaceObjects />
       <TheParticles />
       <MouseFollower />

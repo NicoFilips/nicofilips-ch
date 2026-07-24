@@ -1,0 +1,31 @@
+.swiss-confetti {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.swiss-confetti-piece {
+  position: absolute;
+  top: -8vh;
+  animation-name: swiss-fall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+
+@keyframes swiss-fall {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(115vh) translateX(var(--drift, 0px)) rotate(360deg);
+    opacity: 0;
+  }
+}
+
