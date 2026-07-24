@@ -26,7 +26,17 @@ function App() {
       </div>
 
       <h1 className="whiteh1 fade-in" style={{ animationDelay: '0.4s' }}>
-        Grüezi!
+        Grüezi!{' '}
+        <svg
+          className="swiss-flag"
+          viewBox="0 0 32 32"
+          role="img"
+          aria-label="Swiss flag"
+        >
+          <rect width="32" height="32" rx="5" fill="#DA291C" />
+          <rect x="13" y="6" width="6" height="20" fill="#fff" />
+          <rect x="6" y="13" width="20" height="6" fill="#fff" />
+        </svg>
       </h1>
       <h1 className="whiteh1 fade-in" style={{ animationDelay: '0.6s' }}>
         <TypingEffect

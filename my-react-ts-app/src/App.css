@@ -10,6 +10,18 @@
   user-select: none;
 }
 
+.swiss-flag {
+  width: 0.8em;
+  height: 0.8em;
+  vertical-align: -0.08em;
+  filter: drop-shadow(0 0 8px rgba(218, 41, 28, 0.45));
+  transition: transform 0.25s ease;
+}
+
+.swiss-flag:hover {
+  transform: scale(1.15) rotate(-6deg);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
