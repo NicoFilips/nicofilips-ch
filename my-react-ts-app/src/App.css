@@ -16,6 +16,12 @@
   vertical-align: -0.08em;
   filter: drop-shadow(0 0 8px rgba(218, 41, 28, 0.45));
   transition: transform 0.25s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.swiss-flag:active {
+  transform: scale(0.9);
 }
 
 .swiss-flag:hover {
