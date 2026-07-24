@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
+import { memo, useEffect, useMemo, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadAll } from '@tsparticles/all';
 import { getBlackSkyOptions } from '../IOptions/particlesConfig';
 
-export default function TheParticles() {
+function TheParticles() {
   const [particlesInit, setParticlesInit] = useState<boolean>(false);
 
   useEffect(() => {
@@ -26,3 +26,5 @@ export default function TheParticles() {
 
   return <></>;
 }
+
+export default memo(TheParticles);
