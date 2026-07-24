@@ -10,13 +10,75 @@
 }
 
 .highlight-item {
+  position: relative;
   display: flex;
   align-items: flex-start;
   gap: 14px;
-  padding: 12px 16px;
-  background: rgba(100, 108, 255, 0.06);
-  border-radius: 10px;
-  border: 1px solid rgba(100, 108, 255, 0.1);
+  padding: 14px 18px;
+  border-radius: 12px;
+  background:
+    linear-gradient(135deg, rgba(100, 108, 255, 0.08), rgba(30, 30, 50, 0.4) 45%),
+    rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Gradient border via masked pseudo-element */
+.highlight-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(100, 108, 255, 0.6),
+    rgba(100, 108, 255, 0.1) 40%,
+    rgba(168, 108, 255, 0.35)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Shine sweep on hover */
+.highlight-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -80%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    105deg,
+    transparent,
+    rgba(255, 255, 255, 0.06) 50%,
+    transparent
+  );
+  transform: skewX(-20deg);
+  pointer-events: none;
+}
+
+.highlight-item:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 8px 24px rgba(100, 108, 255, 0.18),
+    0 0 0 1px rgba(100, 108, 255, 0.15);
+}
+
+.highlight-item:hover::after {
+  animation: about-shine 0.9s ease;
+}
+
+@keyframes about-shine {
+  from {
+    left: -80%;
+  }
+  to {
+    left: 130%;
+  }
 }
 
 .highlight-icon {
@@ -24,11 +86,13 @@
   font-size: 1rem;
   color: #646cff;
   background: rgba(100, 108, 255, 0.12);
+  border: 1px solid rgba(100, 108, 255, 0.25);
   padding: 6px 8px;
   border-radius: 6px;
   white-space: nowrap;
   flex-shrink: 0;
   line-height: 1;
+  filter: drop-shadow(0 0 6px rgba(100, 108, 255, 0.35));
 }
 
 .highlight-item strong {
@@ -51,11 +115,17 @@
 
 .lang-tag {
   font-size: 0.75rem;
-  padding: 4px 10px;
-  border-radius: 10px;
-  background: rgba(100, 108, 255, 0.1);
-  border: 1px solid rgba(100, 108, 255, 0.2);
-  color: #a0a8ff;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(100, 108, 255, 0.08);
+  border: 1px solid rgba(100, 108, 255, 0.25);
+  color: #c5c9ff;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-tag:hover {
+  background: rgba(100, 108, 255, 0.18);
+  border-color: rgba(100, 108, 255, 0.5);
 }
 
 @media (max-width: 480px) {
