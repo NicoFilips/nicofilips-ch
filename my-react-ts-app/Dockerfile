@@ -1,16 +1,20 @@
 # Build stage
-FROM node:20.10.0-alpine AS build
+FROM node:24.18.0-alpine AS build
+
+RUN npm install -g pnpm@10
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm ci
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm install --frozen-lockfile
 
 COPY . .
-RUN npm run build
+RUN pnpm run build
 
 # Production stage
-FROM node:20.10.0-alpine AS production
+FROM node:24.18.0-alpine AS production
+
+RUN npm install -g pnpm@10
 
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
@@ -24,4 +28,4 @@ USER appuser
 
 EXPOSE 3000
 
-CMD ["npm", "run", "preview", "--", "--host", "--port", "3000"]
+CMD ["pnpm", "run", "preview", "--host", "--port", "3000"]
