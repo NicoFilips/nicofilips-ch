@@ -39,6 +39,21 @@
     "typescript": "^5.9.3",
     "vite": "^5.4.21"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "@tsparticles/engine",
+      "esbuild",
+      "react-tsparticles",
+      "tsparticles-engine"
+    ],
+    "overrides": {
+      "postcss@<=8.5.11": ">=8.5.12",
+      "js-yaml@>=4.0.0 <4.3.0": ">=4.3.0",
+      "brace-expansion@<1.1.16": ">=1.1.16",
+      "brace-expansion@>=2.0.0 <2.1.2": ">=2.1.2"
+    }
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
