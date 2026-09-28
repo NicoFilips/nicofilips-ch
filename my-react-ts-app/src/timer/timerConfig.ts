@@ -35,7 +35,7 @@ export const TIMERS: readonly TimerDefinition[] = [
   {
     hash: 'z5t1r7',
     label: 'Aufgabe 4 - Höhepunkt',
-    minutes: 3,
+    minutes: 5,
     message:
       'Der nächste Hinweis liegt im linken Fach des vorderen Fahrersitzes.',
   },
