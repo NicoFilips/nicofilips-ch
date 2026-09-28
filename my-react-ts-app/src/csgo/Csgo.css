@@ -1,0 +1,103 @@
+.csgo-page {
+  position: relative;
+  z-index: 10;
+  width: min(94vw, 820px);
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.csgo-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.csgo-header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+}
+
+.csgo-header p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.csgo-card {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 50, 0.92),
+    rgba(20, 20, 35, 0.96)
+  );
+  border: 1px solid rgba(100, 108, 255, 0.25);
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(100, 108, 255, 0.08);
+}
+
+.csgo-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.csgo-card-head h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.csgo-card-desc {
+  margin: -0.25rem 0 0.75rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.csgo-code {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  font-family:
+    ui-monospace, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #d7d9ff;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  overflow-x: auto;
+  white-space: pre;
+  user-select: all;
+}
+
+.csgo-code.is-inline {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.csgo-copy {
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  min-width: 7.5rem;
+}
+
+.csgo-copy.is-copied {
+  color: #7cffb2;
+  border-color: rgba(124, 255, 178, 0.4);
+}
+
+.csgo-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1.5rem;
+}
+
+.csgo-footer code {
+  color: rgba(255, 255, 255, 0.75);
+}
