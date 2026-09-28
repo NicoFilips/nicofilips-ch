@@ -45,6 +45,17 @@ body * {
   }
 }
 
+/* Pages without the custom MouseFollower cursor keep the native one */
+body.native-cursor,
+body.native-cursor * {
+  cursor: auto !important;
+}
+
+body.native-cursor button,
+body.native-cursor a {
+  cursor: pointer !important;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.4em;

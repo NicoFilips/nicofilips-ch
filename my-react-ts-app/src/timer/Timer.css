@@ -1,0 +1,161 @@
+.timer-page {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  min-height: 70vh;
+  padding: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.timer-card {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 50, 0.92),
+    rgba(20, 20, 35, 0.96)
+  );
+  border: 1px solid rgba(100, 108, 255, 0.25);
+  border-radius: 20px;
+  padding: 2rem 2.25rem;
+  width: min(92vw, 480px);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(100, 108, 255, 0.1);
+  animation: timerIn 0.35s ease;
+}
+
+@keyframes timerIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.timer-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.timer-title {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+  line-height: 1.25;
+}
+
+.timer-countdown {
+  font-size: clamp(3.5rem, 18vw, 6rem);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  margin: 0.5rem 0 1rem;
+  text-shadow: 0 0 30px rgba(100, 108, 255, 0.45);
+}
+
+.timer-countdown.is-urgent {
+  color: #ff6b6b;
+  text-shadow: 0 0 30px rgba(255, 107, 107, 0.5);
+  animation: timerPulse 1s ease-in-out infinite;
+}
+
+@keyframes timerPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+.timer-progress {
+  height: 6px;
+  width: 100%;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.timer-progress > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #646cff, #8a90ff);
+  transition: width 0.25s linear;
+}
+
+.timer-hint {
+  margin: 1rem 0 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+}
+
+.timer-message {
+  font-size: 1.35rem;
+  line-height: 1.5;
+  margin: 1rem 0 0;
+}
+
+.timer-done-badge {
+  display: inline-block;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  animation: timerPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes timerPop {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.timer-start-btn {
+  font-size: 1.15rem;
+  padding: 16px 36px;
+}
+
+.timer-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1.25rem 0 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.timer-field input {
+  width: 8rem;
+  padding: 0.6rem 0.8rem;
+  font: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(100, 108, 255, 0.35);
+  border-radius: 12px;
+  outline: none;
+}
+
+.timer-field input:focus {
+  border-color: rgba(100, 108, 255, 0.8);
+  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.2);
+}
+
+.timer-start-btn:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
