@@ -1,7 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
 import { TimerDefinition } from './timerConfig';
 import { readStartedAt, startTimer } from './timerStorage';
-import { fireAlerts, prepareAlerts, useWakeLock } from './timerAlerts';
+import {
+  fireAlerts,
+  notificationState,
+  NotificationState,
+  prepareAlerts,
+  requestNotifications,
+  useWakeLock,
+} from './timerAlerts';
 import './Timer.css';
 
 interface TimerPageProps {
@@ -22,6 +29,46 @@ function formatMinutes(minutes: number): string {
   return `${rounded} ${rounded === 1 ? 'Minute' : 'Minuten'}`;
 }
 
+function NotificationStatus({
+  state,
+  onRequest,
+}: {
+  state: NotificationState;
+  onRequest: () => void;
+}) {
+  switch (state) {
+    case 'granted':
+      return (
+        <p className="timer-notify">Benachrichtigung bei Ablauf ist aktiv.</p>
+      );
+    case 'default':
+      return (
+        <p className="timer-notify">
+          <button
+            type="button"
+            className="glow-btn timer-notify-btn"
+            onClick={onRequest}
+          >
+            Benachrichtigung erlauben
+          </button>
+        </p>
+      );
+    case 'denied':
+      return (
+        <p className="timer-notify">
+          Benachrichtigungen sind für diese Seite blockiert. Freigeben geht in
+          den Website-Einstellungen des Browsers, der Ton kommt trotzdem.
+        </p>
+      );
+    default:
+      return (
+        <p className="timer-notify">
+          Dieser Browser zeigt keine Benachrichtigungen, der Ton kommt trotzdem.
+        </p>
+      );
+  }
+}
+
 export function UnknownTimerPage() {
   return (
     <main className="timer-page">
@@ -39,6 +86,9 @@ function TimerPage({ timer, initialStartedAt }: TimerPageProps) {
     () => initialStartedAt ?? readStartedAt(timer.hash),
   );
   const [now, setNow] = useState<number>(() => Date.now());
+  const [notify, setNotify] = useState<NotificationState>(() =>
+    notificationState(),
+  );
 
   useEffect(() => {
     if (startedAt === null) return;
@@ -92,6 +142,7 @@ function TimerPage({ timer, initialStartedAt }: TimerPageProps) {
             onClick={() => {
               prepareAlerts();
               setStartedAt(startTimer(timer.hash).startedAt);
+              window.setTimeout(() => setNotify(notificationState()), 1500);
             }}
           >
             Timer starten
@@ -142,6 +193,10 @@ function TimerPage({ timer, initialStartedAt }: TimerPageProps) {
           sobald die Zeit um ist. Der Stand bleibt auch nach einem Neuladen
           erhalten.
         </p>
+        <NotificationStatus
+          state={notify}
+          onRequest={() => void requestNotifications().then(setNotify)}
+        />
       </div>
     </main>
   );

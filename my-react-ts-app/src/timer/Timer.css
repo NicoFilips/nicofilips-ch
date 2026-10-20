@@ -159,3 +159,14 @@
   opacity: 0.4;
   pointer-events: none;
 }
+
+.timer-notify {
+  margin: 0.75rem 0 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+.timer-notify-btn {
+  font-size: 0.85rem;
+  padding: 8px 18px;
+}
