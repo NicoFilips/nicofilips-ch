@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import questionsData from './data/questions.json';
+import strafenData from './data/strafen.json';
 import cheatsheetText from './data/cheatsheet.txt?raw';
 import './Regeltest.css';
 import type {
@@ -22,7 +23,10 @@ import Card from './components/Card';
 import Summary from './components/Summary';
 import CheatSheet from './components/CheatSheet';
 
-const QUESTIONS = questionsData as Question[];
+const QUESTIONS = [
+  ...(questionsData as Question[]),
+  ...(strafenData as Question[]),
+];
 
 const DEFAULT_SETTINGS: RoundSettings = { topics: [], size: 10, mode: 'all' };
 

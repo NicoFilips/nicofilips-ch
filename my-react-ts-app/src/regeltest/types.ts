@@ -1,4 +1,4 @@
-export type { Question, Topic } from './lib/parse';
+export type { Question, QuestionImage, Topic } from './lib/parse';
 
 export interface QuestionProgress {
   box: number; // 1 (neu/schwach) … 5 (sicher)

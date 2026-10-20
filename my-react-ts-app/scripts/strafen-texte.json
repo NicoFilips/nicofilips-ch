@@ -1,0 +1,179 @@
+{
+  "_hinweis": "Manuell aus den Screenshots abgeschrieben (Stand 2026-10-20). Schlüssel = Zeitstempel aus dem Obsidian-Dateinamen. duplicateOf = gleiche Tabelle, Frage und Antwort wie der genannte Eintrag; wird beim Import übersprungen.",
+  "20250811222004": {
+    "question": "Welcher Spieler kehrt zurück?",
+    "answer": "Keiner"
+  },
+  "20250812155158": {
+    "question": "Wann ist die Disziplinarstrafe beendet?",
+    "answer": "29:00"
+  },
+  "20250812155320": {
+    "question": "Wann kommen diese Spieler zurück aufs Eis, wenn kein Tor geschossen wird und es keinen Unterbruch gibt?",
+    "answer": "A7 5:40, A9 7:00, A12 Unterbruch nach 7:00"
+  },
+  "20250812164426": {
+    "question": "Entscheid?",
+    "answer": "Kleine angezeigte Strafe entfällt"
+  },
+  "20250812194253": {
+    "question": "Wieviele Spieler auf dem Eis?",
+    "answer": "3 : 3"
+  },
+  "20250812200405": {
+    "question": "Wann kommen diese Spieler zurück aufs Eis, wenn kein Tor geschossen wird und es keinen Unterbruch gibt?",
+    "answer": "A7 5:40, A9 7:00, A12 Unterbruch nach 7:00",
+    "duplicateOf": "20250812155320"
+  },
+  "20250812204740": {
+    "question": "Wer verlässt die Strafbank zu diesem Zeitpunkt?",
+    "answer": "A7 + B6"
+  },
+  "20250815033013": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner, A23 aufgehoben"
+  },
+  "20250906230842": {
+    "question": "Welche Strafe wird aufgehoben?",
+    "answer": "Keine"
+  },
+  "20250906230853": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A6"
+  },
+  "20250906230933": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner"
+  },
+  "20250906231642": {
+    "question": "Welcher Spieler kehrt auf's Eis zurück?",
+    "answer": "Keiner, A11 auf die Strafbank"
+  },
+  "20250906231751": {
+    "question": "Endzeit Strafe A18?",
+    "answer": "23.55"
+  },
+  "20250906231803": {
+    "question": "Wieviele Feldspieler befinden sich auf dem Eis?",
+    "answer": "5 : 5"
+  },
+  "20250907082930": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A8"
+  },
+  "20250907082948": {
+    "question": "Wieviele Feldspieler befinden sich auf dem Eis?",
+    "answer": "5 : 5"
+  },
+  "20250907083044": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A8",
+    "duplicateOf": "20250907082930"
+  },
+  "20250907083057": {
+    "question": "Welche Strafe wird gelöscht?",
+    "answer": "Keine Strafe"
+  },
+  "20250907083107": {
+    "question": "Welche Strafe ist beendet?",
+    "answer": "A6"
+  },
+  "20250907083840": {
+    "question": "Wieviele Spieler sind auf dem Eis nach dem Tor?",
+    "answer": "4:5"
+  },
+  "20250907083853": {
+    "question": "Welche Strafe wird gelöscht?",
+    "answer": "Keine Strafe",
+    "duplicateOf": "20250907083057"
+  },
+  "20250907083959": {
+    "question": "Spielerstand auf dem Eis nach dem Tor?",
+    "answer": "5 : 5"
+  },
+  "20250907084715": {
+    "question": "Spielerstand auf dem Eis?",
+    "answer": "Captain kann wählen, ob 3:3 (B5 mit A8 und A98 streichen) oder 3:4 (A8 und A98 mit B4 und B3 streichen) gespielt wird."
+  },
+  "20250907084728": {
+    "question": "Kehrt Spieler A4 auf das Eis zurück?",
+    "answer": "Ja"
+  },
+  "20250907084739": {
+    "question": "Wieviel Spieler befinden sich auf dem Eis?",
+    "answer": "4 : 4"
+  },
+  "20250907084750": {
+    "question": "Wieviel Spieler befinden sich auf dem Eis?",
+    "answer": "4 : 4",
+    "duplicateOf": "20250907084739"
+  },
+  "20250907085809": {
+    "question": "Wie viele Spieler sind beim nächsten Anspiel auf dem Eis?",
+    "answer": "5:5"
+  },
+  "20250907091834": {
+    "question": "Welcher Spieler kehrt zurück?",
+    "answer": "Keiner",
+    "duplicateOf": "20250811222004"
+  },
+  "20250907091903": {
+    "question": "Spielerstand auf dem Eis bei 3:30?",
+    "answer": "4 : 5"
+  },
+  "20250907091915": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A23"
+  },
+  "20250907091943": {
+    "question": "Welche Strafe ist beendet?",
+    "answer": "A6",
+    "duplicateOf": "20250907083107"
+  },
+  "20250907092631": {
+    "question": "Welche Strafe wird gelöscht?",
+    "answer": "Keine"
+  },
+  "20250907092648": {
+    "question": "Welche Strafen kommen bei 3.55 zusätzlich auf die Uhr?",
+    "answer": "B7"
+  },
+  "20250907092724": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner"
+  },
+  "20250907093314": {
+    "question": "Seit 14.56 gab es keinen Spielunterbruch mehr. Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "B5"
+  },
+  "20250907093328": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner",
+    "duplicateOf": "20260903114829"
+  },
+  "20250907093341": {
+    "question": "Wann kehrt A7 auf das Eis zurück? Erster Unterbruch nach …",
+    "answer": "15:30"
+  },
+  "20250907093353": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A6",
+    "duplicateOf": "20250906230853"
+  },
+  "20250907093404": {
+    "question": "Wieviele Spieler befinden sich auf der Strafbank?",
+    "answer": "3"
+  },
+  "20250907093939": {
+    "question": "Spielerstand auf dem Eis?",
+    "answer": "3 : 5"
+  },
+  "20250907093952": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A9"
+  },
+  "20260903114829": {
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner"
+  }
+}

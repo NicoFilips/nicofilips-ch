@@ -8,7 +8,19 @@ export type Topic =
   | 'Torhüter'
   | 'Ausrüstung'
   | 'Time-Out'
-  | 'Allgemein';
+  | 'Allgemein'
+  | 'Situationen';
+
+export interface QuestionImage {
+  /** Frage-Teil des Screenshots (Situationstabelle, Frage, Optionen) */
+  question: string;
+  /** Antwort-Teil des Screenshots (beiger Balken) */
+  answer: string;
+  width: number;
+  height: number;
+  answerWidth: number;
+  answerHeight: number;
+}
 
 export interface Question {
   id: string;
@@ -16,6 +28,8 @@ export interface Question {
   answer: string;
   topic: Topic;
   uncertain: boolean;
+  /** Gesetzt bei Bildfragen (Strafen-Situationen) */
+  image?: QuestionImage;
 }
 
 export interface ParseResult {

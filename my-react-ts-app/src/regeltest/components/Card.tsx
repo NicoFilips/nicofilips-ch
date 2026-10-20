@@ -48,6 +48,7 @@ export default function Card({
   }, [revealed, onAnswer]);
 
   const pct = Math.round(((position - 1) / total) * 100);
+  const img = question.image;
 
   return (
     <main className="screen card-screen">
@@ -71,11 +72,35 @@ export default function Card({
       </div>
 
       <article className={`card ${revealed ? 'revealed' : ''}`}>
-        <p className="question">{question.question}</p>
+        {img ? (
+          <img
+            className="situation"
+            src={img.question}
+            width={img.width}
+            height={img.height}
+            alt={question.question}
+          />
+        ) : (
+          <p className="question">{question.question}</p>
+        )}
         {revealed && (
           <div className="answer">
             <span className="answer-label">Antwort</span>
-            <p>{question.answer}</p>
+            {img ? (
+              <img
+                className="situation"
+                src={img.answer}
+                width={img.answerWidth}
+                height={img.answerHeight}
+                alt={
+                  question.answer
+                    ? `Die richtige Antwort ist: ${question.answer}`
+                    : 'Richtige Antwort'
+                }
+              />
+            ) : (
+              <p>{question.answer}</p>
+            )}
             {question.uncertain && (
               <p className="uncertain">
                 In der Note mit «?» markiert, Antwort unsicher.
