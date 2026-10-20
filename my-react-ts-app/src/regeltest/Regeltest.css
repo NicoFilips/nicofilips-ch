@@ -400,3 +400,21 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Bildfragen (Strafen-Situationen) */
+.regeltest img.situation {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.regeltest .answer img.situation {
+  margin-top: 4px;
+}
+
+.regeltest img.situation.small {
+  max-width: 420px;
+  margin-top: 8px;
+}

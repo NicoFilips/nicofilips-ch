@@ -11,7 +11,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "vite preview",
-    "questions": "node scripts/parse-regeltest.ts"
+    "questions": "node scripts/parse-regeltest.ts",
+    "strafen": "python3 scripts/import-strafen.py"
   },
   "dependencies": {
     "@tsparticles/all": "^3.9.1",

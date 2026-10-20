@@ -56,8 +56,33 @@ export default function Summary({
               const q = byId.get(r.questionId)!;
               return (
                 <li key={q.id}>
-                  <p className="review-q">{q.question}</p>
-                  <p className="review-a">{q.answer}</p>
+                  {q.image ? (
+                    <>
+                      <img
+                        className="situation small"
+                        src={q.image.question}
+                        width={q.image.width}
+                        height={q.image.height}
+                        alt={q.question}
+                      />
+                      <img
+                        className="situation small"
+                        src={q.image.answer}
+                        width={q.image.answerWidth}
+                        height={q.image.answerHeight}
+                        alt={
+                          q.answer
+                            ? `Die richtige Antwort ist: ${q.answer}`
+                            : 'Richtige Antwort'
+                        }
+                      />
+                    </>
+                  ) : (
+                    <>
+                      <p className="review-q">{q.question}</p>
+                      <p className="review-a">{q.answer}</p>
+                    </>
+                  )}
                 </li>
               );
             })}

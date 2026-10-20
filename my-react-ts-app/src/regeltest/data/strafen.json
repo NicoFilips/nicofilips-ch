@@ -1,0 +1,512 @@
+[
+  {
+    "id": "s20250811222004",
+    "question": "Welcher Spieler kehrt zurück?",
+    "answer": "Keiner",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250811222004-q.png",
+      "answer": "/regeltest/strafen/20250811222004-a.png",
+      "width": 957,
+      "height": 541,
+      "answerWidth": 957,
+      "answerHeight": 63
+    }
+  },
+  {
+    "id": "s20250812155158",
+    "question": "Wann ist die Disziplinarstrafe beendet?",
+    "answer": "29:00",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250812155158-q.png",
+      "answer": "/regeltest/strafen/20250812155158-a.png",
+      "width": 593,
+      "height": 388,
+      "answerWidth": 593,
+      "answerHeight": 59
+    }
+  },
+  {
+    "id": "s20250812155320",
+    "question": "Wann kommen diese Spieler zurück aufs Eis, wenn kein Tor geschossen wird und es keinen Unterbruch gibt?",
+    "answer": "A7 5:40, A9 7:00, A12 Unterbruch nach 7:00",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250812155320-q.png",
+      "answer": "/regeltest/strafen/20250812155320-a.png",
+      "width": 845,
+      "height": 424,
+      "answerWidth": 845,
+      "answerHeight": 61
+    }
+  },
+  {
+    "id": "s20260903114829",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20260903114829-q.png",
+      "answer": "/regeltest/strafen/20260903114829-a.png",
+      "width": 569,
+      "height": 343,
+      "answerWidth": 569,
+      "answerHeight": 39
+    }
+  },
+  {
+    "id": "s20250812164426",
+    "question": "Entscheid?",
+    "answer": "Kleine angezeigte Strafe entfällt",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250812164426-q.png",
+      "answer": "/regeltest/strafen/20250812164426-a.png",
+      "width": 603,
+      "height": 403,
+      "answerWidth": 603,
+      "answerHeight": 58
+    }
+  },
+  {
+    "id": "s20250812194253",
+    "question": "Wieviele Spieler auf dem Eis?",
+    "answer": "3 : 3",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250812194253-q.png",
+      "answer": "/regeltest/strafen/20250812194253-a.png",
+      "width": 533,
+      "height": 513,
+      "answerWidth": 533,
+      "answerHeight": 61
+    }
+  },
+  {
+    "id": "s20250812204740",
+    "question": "Wer verlässt die Strafbank zu diesem Zeitpunkt?",
+    "answer": "A7 + B6",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250812204740-q.png",
+      "answer": "/regeltest/strafen/20250812204740-a.png",
+      "width": 621,
+      "height": 530,
+      "answerWidth": 621,
+      "answerHeight": 61
+    }
+  },
+  {
+    "id": "s20250815033013",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner, A23 aufgehoben",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250815033013-q.png",
+      "answer": "/regeltest/strafen/20250815033013-a.png",
+      "width": 682,
+      "height": 448,
+      "answerWidth": 682,
+      "answerHeight": 61
+    }
+  },
+  {
+    "id": "s20250906230842",
+    "question": "Welche Strafe wird aufgehoben?",
+    "answer": "Keine",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250906230842-q.png",
+      "answer": "/regeltest/strafen/20250906230842-a.png",
+      "width": 619,
+      "height": 477,
+      "answerWidth": 619,
+      "answerHeight": 58
+    }
+  },
+  {
+    "id": "s20250906230853",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A6",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250906230853-q.png",
+      "answer": "/regeltest/strafen/20250906230853-a.png",
+      "width": 495,
+      "height": 474,
+      "answerWidth": 495,
+      "answerHeight": 46
+    }
+  },
+  {
+    "id": "s20250906230933",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250906230933-q.png",
+      "answer": "/regeltest/strafen/20250906230933-a.png",
+      "width": 612,
+      "height": 473,
+      "answerWidth": 612,
+      "answerHeight": 58
+    }
+  },
+  {
+    "id": "s20250906231642",
+    "question": "Welcher Spieler kehrt auf's Eis zurück?",
+    "answer": "Keiner, A11 auf die Strafbank",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250906231642-q.png",
+      "answer": "/regeltest/strafen/20250906231642-a.png",
+      "width": 749,
+      "height": 505,
+      "answerWidth": 749,
+      "answerHeight": 60
+    }
+  },
+  {
+    "id": "s20250906231751",
+    "question": "Endzeit Strafe A18?",
+    "answer": "23.55",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250906231751-q.png",
+      "answer": "/regeltest/strafen/20250906231751-a.png",
+      "width": 507,
+      "height": 384,
+      "answerWidth": 507,
+      "answerHeight": 52
+    }
+  },
+  {
+    "id": "s20250906231803",
+    "question": "Wieviele Feldspieler befinden sich auf dem Eis?",
+    "answer": "5 : 5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250906231803-q.png",
+      "answer": "/regeltest/strafen/20250906231803-a.png",
+      "width": 631,
+      "height": 421,
+      "answerWidth": 631,
+      "answerHeight": 54
+    }
+  },
+  {
+    "id": "s20250907082930",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A8",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907082930-q.png",
+      "answer": "/regeltest/strafen/20250907082930-a.png",
+      "width": 567,
+      "height": 439,
+      "answerWidth": 567,
+      "answerHeight": 59
+    }
+  },
+  {
+    "id": "s20250907082948",
+    "question": "Wieviele Feldspieler befinden sich auf dem Eis?",
+    "answer": "5 : 5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907082948-q.png",
+      "answer": "/regeltest/strafen/20250907082948-a.png",
+      "width": 1004,
+      "height": 482,
+      "answerWidth": 1004,
+      "answerHeight": 57
+    }
+  },
+  {
+    "id": "s20250907083057",
+    "question": "Welche Strafe wird gelöscht?",
+    "answer": "Keine Strafe",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907083057-q.png",
+      "answer": "/regeltest/strafen/20250907083057-a.png",
+      "width": 512,
+      "height": 357,
+      "answerWidth": 512,
+      "answerHeight": 55
+    }
+  },
+  {
+    "id": "s20250907083107",
+    "question": "Welche Strafe ist beendet?",
+    "answer": "A6",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907083107-q.png",
+      "answer": "/regeltest/strafen/20250907083107-a.png",
+      "width": 528,
+      "height": 403,
+      "answerWidth": 528,
+      "answerHeight": 58
+    }
+  },
+  {
+    "id": "s20250907083840",
+    "question": "Wieviele Spieler sind auf dem Eis nach dem Tor?",
+    "answer": "4:5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907083840-q.png",
+      "answer": "/regeltest/strafen/20250907083840-a.png",
+      "width": 530,
+      "height": 359,
+      "answerWidth": 530,
+      "answerHeight": 50
+    }
+  },
+  {
+    "id": "s20250907083959",
+    "question": "Spielerstand auf dem Eis nach dem Tor?",
+    "answer": "5 : 5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907083959-q.png",
+      "answer": "/regeltest/strafen/20250907083959-a.png",
+      "width": 563,
+      "height": 473,
+      "answerWidth": 563,
+      "answerHeight": 60
+    }
+  },
+  {
+    "id": "s20250907084715",
+    "question": "Spielerstand auf dem Eis?",
+    "answer": "Captain kann wählen, ob 3:3 (B5 mit A8 und A98 streichen) oder 3:4 (A8 und A98 mit B4 und B3 streichen) gespielt wird.",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907084715-q.png",
+      "answer": "/regeltest/strafen/20250907084715-a.png",
+      "width": 1142,
+      "height": 466,
+      "answerWidth": 1142,
+      "answerHeight": 56
+    }
+  },
+  {
+    "id": "s20250907084728",
+    "question": "Kehrt Spieler A4 auf das Eis zurück?",
+    "answer": "Ja",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907084728-q.png",
+      "answer": "/regeltest/strafen/20250907084728-a.png",
+      "width": 556,
+      "height": 423,
+      "answerWidth": 556,
+      "answerHeight": 60
+    }
+  },
+  {
+    "id": "s20250907084739",
+    "question": "Wieviel Spieler befinden sich auf dem Eis?",
+    "answer": "4 : 4",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907084739-q.png",
+      "answer": "/regeltest/strafen/20250907084739-a.png",
+      "width": 547,
+      "height": 456,
+      "answerWidth": 547,
+      "answerHeight": 54
+    }
+  },
+  {
+    "id": "s20250907085809",
+    "question": "Wie viele Spieler sind beim nächsten Anspiel auf dem Eis?",
+    "answer": "5:5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907085809-q.png",
+      "answer": "/regeltest/strafen/20250907085809-a.png",
+      "width": 502,
+      "height": 429,
+      "answerWidth": 502,
+      "answerHeight": 57
+    }
+  },
+  {
+    "id": "s20250907092631",
+    "question": "Welche Strafe wird gelöscht?",
+    "answer": "Keine",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907092631-q.png",
+      "answer": "/regeltest/strafen/20250907092631-a.png",
+      "width": 505,
+      "height": 478,
+      "answerWidth": 505,
+      "answerHeight": 55
+    }
+  },
+  {
+    "id": "s20250907091903",
+    "question": "Spielerstand auf dem Eis bei 3:30?",
+    "answer": "4 : 5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907091903-q.png",
+      "answer": "/regeltest/strafen/20250907091903-a.png",
+      "width": 479,
+      "height": 441,
+      "answerWidth": 479,
+      "answerHeight": 47
+    }
+  },
+  {
+    "id": "s20250907091915",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A23",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907091915-q.png",
+      "answer": "/regeltest/strafen/20250907091915-a.png",
+      "width": 530,
+      "height": 481,
+      "answerWidth": 530,
+      "answerHeight": 61
+    }
+  },
+  {
+    "id": "s20250907092648",
+    "question": "Welche Strafen kommen bei 3.55 zusätzlich auf die Uhr?",
+    "answer": "B7",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907092648-q.png",
+      "answer": "/regeltest/strafen/20250907092648-a.png",
+      "width": 462,
+      "height": 531,
+      "answerWidth": 462,
+      "answerHeight": 51
+    }
+  },
+  {
+    "id": "s20250907092724",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "Keiner",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907092724-q.png",
+      "answer": "/regeltest/strafen/20250907092724-a.png",
+      "width": 505,
+      "height": 440,
+      "answerWidth": 505,
+      "answerHeight": 53
+    }
+  },
+  {
+    "id": "s20250907093314",
+    "question": "Seit 14.56 gab es keinen Spielunterbruch mehr. Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "B5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907093314-q.png",
+      "answer": "/regeltest/strafen/20250907093314-a.png",
+      "width": 675,
+      "height": 430,
+      "answerWidth": 675,
+      "answerHeight": 57
+    }
+  },
+  {
+    "id": "s20250907093341",
+    "question": "Wann kehrt A7 auf das Eis zurück? Erster Unterbruch nach …",
+    "answer": "15:30",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907093341-q.png",
+      "answer": "/regeltest/strafen/20250907093341-a.png",
+      "width": 595,
+      "height": 482,
+      "answerWidth": 595,
+      "answerHeight": 56
+    }
+  },
+  {
+    "id": "s20250907093404",
+    "question": "Wieviele Spieler befinden sich auf der Strafbank?",
+    "answer": "3",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907093404-q.png",
+      "answer": "/regeltest/strafen/20250907093404-a.png",
+      "width": 628,
+      "height": 481,
+      "answerWidth": 628,
+      "answerHeight": 55
+    }
+  },
+  {
+    "id": "s20250907093939",
+    "question": "Spielerstand auf dem Eis?",
+    "answer": "3 : 5",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907093939-q.png",
+      "answer": "/regeltest/strafen/20250907093939-a.png",
+      "width": 495,
+      "height": 418,
+      "answerWidth": 495,
+      "answerHeight": 59
+    }
+  },
+  {
+    "id": "s20250907093952",
+    "question": "Welcher Spieler kehrt auf das Eis zurück?",
+    "answer": "A9",
+    "topic": "Situationen",
+    "uncertain": false,
+    "image": {
+      "question": "/regeltest/strafen/20250907093952-q.png",
+      "answer": "/regeltest/strafen/20250907093952-a.png",
+      "width": 575,
+      "height": 515,
+      "answerWidth": 575,
+      "answerHeight": 60
+    }
+  }
+]
