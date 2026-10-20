@@ -16,6 +16,9 @@ let audioCtx: AudioContext | null = null;
  * (nötig auf iOS) und erlaubt die Abfrage der Benachrichtigungs-Berechtigung.
  */
 export function prepareAlerts(): void {
+  if (notificationState() === 'default') {
+    void Notification.requestPermission();
+  }
   try {
     // iOS 17+: Ton auch bei umgelegtem Stummschalter abspielen
     const nav = navigator as Navigator & { audioSession?: { type: string } };
@@ -25,8 +28,23 @@ export function prepareAlerts(): void {
   } catch {
     // kein Web Audio verfügbar, Alarm läuft dann ohne Ton
   }
-  if ('Notification' in window && Notification.permission === 'default') {
-    void Notification.requestPermission();
+}
+
+export type NotificationState = NotificationPermission | 'unsupported';
+
+/** Aktueller Stand der Benachrichtigungs-Berechtigung für diese Seite. */
+export function notificationState(): NotificationState {
+  if (!('Notification' in window)) return 'unsupported';
+  return Notification.permission;
+}
+
+/** Aus einem Klick aufrufen: fragt die Berechtigung ab und liefert den neuen Stand. */
+export async function requestNotifications(): Promise<NotificationState> {
+  if (notificationState() === 'unsupported') return 'unsupported';
+  try {
+    return await Notification.requestPermission();
+  } catch {
+    return Notification.permission;
   }
 }
 
