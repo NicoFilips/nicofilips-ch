@@ -1,0 +1,402 @@
+/*
+ * Regeltest (/Regeltest). Alles ist unter .regeltest gescopt, damit die
+ * globalen Styles der Landingpage (button, h1, #root) nicht hineinwirken
+ * und umgekehrt nichts nach aussen leckt.
+ */
+.regeltest {
+  --surface: rgba(24, 24, 44, 0.92);
+  --surface-2: rgba(255, 255, 255, 0.06);
+  --text: rgba(255, 255, 255, 0.9);
+  --muted: rgba(255, 255, 255, 0.6);
+  --border: rgba(100, 108, 255, 0.25);
+  --primary: #646cff;
+  --primary-text: #ffffff;
+  --good: #3dc27a;
+  --bad: #ff6b5a;
+  --mid: #e0a93b;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(100, 108, 255, 0.08);
+
+  position: relative;
+  z-index: 10;
+  width: min(94vw, 760px);
+  margin: 0 auto;
+  text-align: left;
+  color: var(--text);
+  line-height: 1.45;
+  box-sizing: border-box;
+}
+
+.regeltest *,
+.regeltest *::before,
+.regeltest *::after {
+  box-sizing: border-box;
+}
+
+.regeltest .screen {
+  padding: 1.5rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.regeltest h1 {
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 0;
+  color: var(--text);
+}
+
+.regeltest h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+
+.regeltest p {
+  margin: 0;
+}
+
+.regeltest .muted {
+  color: var(--muted);
+}
+
+.regeltest .hero {
+  text-align: center;
+}
+
+.regeltest .panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: var(--shadow);
+}
+
+.regeltest .panel.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.regeltest .stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.regeltest .stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.regeltest .stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.regeltest .stat-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.regeltest .stat.bad .stat-value {
+  color: var(--bad);
+}
+.regeltest .stat.mid .stat-value {
+  color: var(--mid);
+}
+.regeltest .stat.good .stat-value {
+  color: var(--good);
+}
+
+/* Buttons: die globale button-Regel der Landingpage (25px, 24px Padding,
+   Margin) komplett neutralisieren. */
+.regeltest button {
+  font: inherit;
+  cursor: pointer;
+  margin: 0;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  padding: 10px 16px;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.regeltest button:hover {
+  color: var(--text);
+  background: rgba(100, 108, 255, 0.14);
+  border-color: rgba(100, 108, 255, 0.5);
+}
+
+.regeltest button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.regeltest button.primary,
+.regeltest button.primary:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary-text);
+}
+
+.regeltest button.primary:hover {
+  box-shadow: 0 0 20px rgba(100, 108, 255, 0.35);
+}
+
+.regeltest button.secondary {
+  background: var(--surface);
+}
+
+.regeltest button.good,
+.regeltest button.good:hover {
+  background: var(--good);
+  border-color: var(--good);
+  color: #0b1a10;
+}
+
+.regeltest button.bad,
+.regeltest button.bad:hover {
+  background: var(--bad);
+  border-color: var(--bad);
+  color: #fff;
+}
+
+.regeltest button.big {
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.regeltest button .hint {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.regeltest button.link,
+.regeltest button.link:hover {
+  background: none;
+  border: none;
+  color: #8b91ff;
+  padding: 6px 8px;
+  box-shadow: none;
+}
+
+.regeltest button.link:hover {
+  color: #fff;
+}
+
+.regeltest button.link.danger {
+  color: var(--bad);
+}
+
+.regeltest .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.regeltest .chip {
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+
+.regeltest .chip.active,
+.regeltest .chip.active:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary-text);
+}
+
+.regeltest .chip-count {
+  opacity: 0.7;
+  font-size: 0.8em;
+}
+
+.regeltest .segmented {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.regeltest .segmented button {
+  border: none;
+  border-radius: 0;
+  background: var(--surface-2);
+}
+
+.regeltest .segmented button + button {
+  border-left: 1px solid var(--border);
+}
+
+.regeltest .segmented button.active,
+.regeltest .segmented button.active:hover {
+  background: var(--primary);
+  color: var(--primary-text);
+}
+
+.regeltest .actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.regeltest .card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.regeltest .card-head h1 {
+  font-size: 1.3rem;
+}
+
+.regeltest .badge {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.regeltest .progress {
+  height: 6px;
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.regeltest .progress-bar {
+  height: 100%;
+  background: var(--primary);
+  transition: width 0.2s;
+}
+
+.regeltest .card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 22px;
+  box-shadow: var(--shadow);
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.regeltest .question {
+  font-size: 1.2rem;
+  white-space: pre-line;
+}
+
+.regeltest .answer {
+  border-top: 1px dashed var(--border);
+  padding-top: 16px;
+}
+
+.regeltest .answer-label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.regeltest .answer p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--good);
+}
+
+.regeltest .answer .uncertain {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--mid);
+  margin-top: 8px;
+}
+
+.regeltest .card-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  position: sticky;
+  bottom: 16px;
+}
+
+.regeltest .card-actions > .primary {
+  grid-column: 1 / -1;
+}
+
+.regeltest .score {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.regeltest .review {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.regeltest .review li {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.regeltest .review li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.regeltest .review-q {
+  white-space: pre-line;
+}
+
+.regeltest .review-a {
+  color: var(--good);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.regeltest .cheatsheet pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+@media (max-width: 520px) {
+  .regeltest .panel.row {
+    grid-template-columns: 1fr;
+  }
+
+  .regeltest .stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
