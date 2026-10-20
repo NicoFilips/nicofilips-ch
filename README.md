@@ -66,6 +66,15 @@ npm install
 npm run dev
 ```
 
+<!-- ROUTES -->
+## Routes 🧭
+
+Besides the landing page, the SPA serves a few small standalone pages (see `src/routes.tsx`):
+
+- `/csgo` – CS2 settings to copy
+- `/timer/<hash>` – client-side Schnitzeljagd timers
+- `/Regeltest` – ice hockey referee rule questions as flashcards (Leitner boxes, progress in `localStorage`). Text questions are generated from an Obsidian note with `pnpm questions [-- /path/to/_Regeltest.md]`, which writes `src/regeltest/data/`. Penalty situations (screenshots) come from a second note via `pnpm strafen` (needs Python 3 + Pillow): each screenshot is split at the answer bar into a question and an answer image under `public/regeltest/strafen/`, texts live in `scripts/strafen-texte.json`.
+
 <!-- DEPLOYMENT -->
 ## Deployment 🌍
 
