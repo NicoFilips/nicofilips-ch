@@ -16,13 +16,13 @@ export const TIMERS: readonly TimerDefinition[] = [
   {
     hash: 'n4w8p2',
     label: 'Aufgabe 1',
-    minutes: 2,
+    minutes: 3,
     message: 'Im schwarzen Necessaire ist der nächste Brief.',
   },
   {
     hash: 'q2m8x4',
     label: 'Aufgabe 2 - Escape Game',
-    minutes: 10,
+    minutes: 20,
     message:
       'Der nächste Brief befindet sich in dem kleinen Schaltschrank auf dem Router bzw. der Fritzbox.',
   },
@@ -38,6 +38,12 @@ export const TIMERS: readonly TimerDefinition[] = [
     minutes: 5,
     message:
       'Der nächste Hinweis liegt im linken Fach des vorderen Fahrersitzes.',
+  },
+  {
+    hash: 'h6c9v3',
+    label: 'Aufgabe 5',
+    minutes: 5,
+    message: 'Der nächste Hinweis folgt.',
   },
 ];
 

@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { TimerDefinition } from './timerConfig';
 import { readStartedAt, startTimer } from './timerStorage';
+import { fireAlerts, prepareAlerts, useWakeLock } from './timerAlerts';
 import './Timer.css';
 
 interface TimerPageProps {
@@ -49,6 +50,21 @@ function TimerPage({ timer, initialStartedAt }: TimerPageProps) {
   const remainingMs =
     startedAt === null ? durationMs : startedAt + durationMs - now;
   const isDone = startedAt !== null && remainingMs <= 0;
+  const isRunning = startedAt !== null && !isDone;
+
+  useWakeLock(isRunning);
+
+  // Alarm nur, wenn der Timer auf dieser Seite abläuft, nicht wenn man eine
+  // längst abgelaufene Station erneut öffnet.
+  const wasRunning = useRef(false);
+  useEffect(() => {
+    if (isRunning) {
+      wasRunning.current = true;
+    } else if (isDone && wasRunning.current) {
+      wasRunning.current = false;
+      fireAlerts(`Zeit abgelaufen – ${timer.label}`, timer.message);
+    }
+  }, [isRunning, isDone, timer]);
 
   useEffect(() => {
     document.title = isDone
@@ -73,7 +89,10 @@ function TimerPage({ timer, initialStartedAt }: TimerPageProps) {
           </p>
           <button
             className="glow-btn timer-start-btn"
-            onClick={() => setStartedAt(startTimer(timer.hash).startedAt)}
+            onClick={() => {
+              prepareAlerts();
+              setStartedAt(startTimer(timer.hash).startedAt);
+            }}
           >
             Timer starten
           </button>
@@ -119,7 +138,9 @@ function TimerPage({ timer, initialStartedAt }: TimerPageProps) {
           <span style={{ width: `${progress * 100}%` }} />
         </div>
         <p className="timer-hint">
-          Du kannst die Seite schliessen, der Timer läuft im Hintergrund weiter.
+          Lass die Seite offen: Das Handy bleibt wach und meldet sich mit Ton,
+          sobald die Zeit um ist. Der Stand bleibt auch nach einem Neuladen
+          erhalten.
         </p>
       </div>
     </main>
