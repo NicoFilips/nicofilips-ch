@@ -2,6 +2,7 @@ import { FormEvent, useState } from 'react';
 import { TEST_PATH_SEGMENT, TimerDefinition } from './timerConfig';
 import { readStoredTimer, startTimer, StoredTimer } from './timerStorage';
 import TimerPage from './TimerPage';
+import { prepareAlerts } from './timerAlerts';
 import './Timer.css';
 
 const MIN_MINUTES = 0.1;
@@ -46,6 +47,7 @@ function TestTimerPage() {
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
     if (!isValid) return;
+    prepareAlerts();
     setStored(startTimer(TEST_PATH_SEGMENT, Math.round(parsed * 60_000)));
   };
 
