@@ -1,0 +1,2536 @@
+[
+  {
+    "id": "bb4a34be",
+    "question": "Die 5 Min. Verlängerung hat begonnen und wir spielen mit 3 : 3 Spielern (keine bestraften Spieler auf der Strafbank). Bei 61:30 erhalten je ein Spieler von A und B gleichzeitig eine kleine Strafe. Mit wie vielen Spielern wird weitergespielt?",
+    "answer": "3:3",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "91e7be7e",
+    "question": "Team B erzielt ein wunderschönes Tor. Beim Spielunterbruch begibt sich der Torhüter B über die rote Mittellinie um seine Mitspieler zu beglückwünschen und kehrt anschliessend wieder in sein Tor zurück. \nEntscheid?",
+    "answer": "Keine Strafe",
+    "topic": "Torhüter",
+    "uncertain": true
+  },
+  {
+    "id": "c39f7662",
+    "question": "Spieler A13 verliert seinen Helm, setzt diesen wieder korrekt auf und spielt weiter. \nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "2921f6f9",
+    "question": "Bei 59:15 schiesst A12 den Puck aus seiner Verteidigungszone direkt aus dem Spielfeld. \nEntscheid?",
+    "answer": "KLS A12",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "b9ae5990",
+    "question": "Bei 58:25 wechselt Torhüter B bei laufendem Spiel und als er sich 5 m vor der Spielerbank befand, springt Spieler B12 schon aufs Eis. Der Puck befindet sich in der Neutralen Zone und hatte die Rote Mittelline noch nicht überschritten. \nEntscheid?",
+    "answer": "Spiel unterbrechen, Anspiel Neutrale Zone Seite Team B",
+    "topic": "Torhüter",
+    "uncertain": true
+  },
+  {
+    "id": "5c1abb90",
+    "question": "A6 ist mit beiden Schlittschuhen komplett in der Angriffszone. Ein Schuss oder Pass von A8 in der neutralen Zone trifft gegen B4 und wird von seinem Körper oder Stock über die Blaue Linie in die Angriffszone abgelenkt. \nEntscheid?",
+    "answer": "Angezeigtes Offside",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "1dfebfea",
+    "question": "Mannschaft A nimmt ein Timeout. Der Torhüter A1 begibt sich ebenfalls zur Spielerbank. \nEntscheid?",
+    "answer": "Erlaubt",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "8f14fb1b",
+    "question": "Der Spieler B21 wirft seinen Stock vom Eisfeld in die eng gedrängten Zuschauerreihen und hätte leicht einen Zuschauer verletzen können. \nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d5dfa152",
+    "question": "Spieler A15 sitzt auf der Strafbank. Als der SR eine weitere Strafe gegen A beim Punktrichter meldet, kommt A15 durch die offene Tür aufs Eis um den SR zu beschimpfen. \nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "95e70546",
+    "question": "Gegen A22 wird eine Strafe angezeigt. Team B hat seinen Torhüter durch einen Feldspieler ersetzt. B12 wirft seinen Stock nach dem freien Puck, der in seiner Verteidigungszone in Richtung des leeren Tores gleitet. \nEntscheid?",
+    "answer": "Zugesprochenes Tor und kleine Strafe A22",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "53f282df",
+    "question": "Das Spiel ist beendet, alle Spieler kommen auf das Eis um sich zu verabschieden. Nun fährt A17 zu den Schiedsrichtern und bedient sich einer ausfallenden Sprache. \nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d97c365a",
+    "question": "Nach dem ersten unkorrekten Anspiel von B55 spielt der Spieler B55 den Puck beim zweiten Anspiel mit der Hand zu A23. \nEntscheid?",
+    "answer": "Kleine Strafe B55",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "176ef1dc",
+    "question": "Es kommt zu einem Anspiel in der Verteidigungszone von Team B nachdem der Schiedsrichter eine Strafe gegen Team B ausgesprochen hat. Auf welcher Seite findet das folgende Anspiel am EAP von Team B statt und wer entscheidet dies?",
+    "answer": "Die Mannschaft, welche in Überzahl spielt, entscheidet auf welcher Seite das Anspiel stattfindet.",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "71d507c3",
+    "question": "Spieler A5 fährt nach einer Auseinandersetzung zur Spielerbank. Im Vorbeifahren begeht er an Spieler B7 einen Stockstich. Dieser wird dabei verletzt. \nEntscheid?",
+    "answer": "5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "0db57f3b",
+    "question": "Spieler B7 erhält gleichzeitig eine Kleine und eine Grosse Strafe. Er begibt sich in die Garderobe. Welche dieser beiden Strafen muss sein Ersatzspieler auf der Strafbank zuerst verbüssen?",
+    "answer": "Grosse Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "a7fd41af",
+    "question": "Die hintere LP (Linesperson) zeigt ein Icing gegen Team A an. In diesem Moment wechselt A2 gegen A4 fliegend aus. Kurz nach diesem Spielerwechsel winkt die vordere LP das Icing ab. Wird ein solcher Wechsel als zulässig angesehen?",
+    "answer": "Ja",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "072e5af6",
+    "question": "Spieler A12 steht vor dem Tor B und hält seinen Stock über seine eigenen Schulter. Sein Mitspieler A6 schiesst in Richtung Tor und der Puck wird vom Stockende von A12, das sich unterhalb der Torquerlatte befindet ins Tor abgeleitet. \nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "99a33fb3",
+    "question": "Spieler B8 schlägt den Stock mit voller Wucht mitten ins Gesicht von Spieler A7 und verletzt ihn dabei. \nEntscheid?",
+    "answer": "5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "9d47979c",
+    "question": "Beim Spielunterbruch in der Verteidigungszone von Team B erhält der Spieler B47 eine Strafe wegen übertriebener Härte und wird auf die Strafbank geschickt. Der SR meldet die Strafe. Bevor das Spiel wieder aufgenommen wird erhält der Spieler A19 eine Strafe für Stockschlag. Wo findet das Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Anspielort",
+    "uncertain": true
+  },
+  {
+    "id": "41f69691",
+    "question": "Spieler A6 hat eine Auseinandersetzung mit Spieler B7, der einen Helm mit Gitter trägt. A6 greift nun in das Gitter von B7, reisst ihn daran zu Boden und schüttelt ihn heftig durch. Einige Male schlägt B7 auch mit dem Helm aufs Eis, ohne sich jedoch sichtbar zu verletzen. \nEntscheid?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "0a0dede3",
+    "question": "In einem Nachwuchsspiel: Nach einem Offsideentscheid auf der Defensivseite von Team A bemerkt der SR, dass Spieler B19, der auf dem Eis steht, trotz vorheriger Verwarnung an beide Teams, das Visier immer noch zu hoch trägt. Er spricht eine DIS aus. Wo findet das nächste Anspiel statt?",
+    "answer": "NZ, Nähe blaue Linie A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "24d85acd",
+    "question": "Spielunterbruch 58:45. Team A spielt in doppelter Unterzahl und verlangt die Vermessung des Stockes von B7. Der Stock ist korrekt. \nEntscheid?",
+    "answer": "Kleine Bankstrafe (Aufgeschoben)",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "21352ab0",
+    "question": "Der Verteidiger von Team B erhält in der Angriffszone einen Rückpass und setzt zum Schuss an. B7 verursacht einen absichtlichen Kontakt mit dem Torhüter der im Torraum steht und der Puck landet im Tor. \nEntscheid?",
+    "answer": "Tor ungültig. Kleine Strafe B7 wegen Torhüterbehinderung",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "704b1703",
+    "question": "A87 hat Puckkontrolle und fährt aufs gegnerische Tor. Verteidiger B64 führt einen korrekten Check aus, welcher A87 das Gleichgewicht nimmt und ihn in den im Torraum stehenden Torhüter B30 befördert. Der Puck kullert unter A87 und dem Torhüter ins Tor",
+    "answer": "Tor gültig, keine Strafe",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "bb9d9a64",
+    "question": "Team A nimmt bei 58:53 sein Time-Out. Nachdem alle Spieler und Spieloffiziellen zum Weiterspielen bereit sind, möchte auch Team B sein Time-Out nehmen. Wird das Time-Out für Team B zugelassen",
+    "answer": "Nein, pro Spielunterbruch kann nur ein Team ein Time-Out beziehen.",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "942318c8",
+    "question": "Der Torhüter B hat Schneeanhäufungen nahe seinem Tor angebracht, die nach Ansicht des Schiedsrichters zum Ziel hat, ein Tor zu verhindern.",
+    "answer": "Kleine Strafe",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "1ddde016",
+    "question": "Ab wo wird die Breite der Stockschaufel eines Spielerstockes gemessen?",
+    "answer": "1,5 cm von der Spitze der Schaufel bis zur Ferse des Stockes",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "24831b27",
+    "question": "Spieler A6 fährt in der neutralen Zone, den Puck unter Kontrolle, in Richtung gegnerisches Tor. Er hat zwischen sich und dem Torhüter keinen gegnerischen Spieler. Spieler B7 wirft ihm nun seinen Stock nach und trifft ihn an den Schlittschuhen. \nEntscheid?",
+    "answer": "Penaltyschuss",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "80f737d7",
+    "question": "A17, in der Angriffszone, spielt den Puck mit dem Stock über der Höhe seiner Schulter. Sein Mitspieler A8 gelangt in der Neutralen Zone, noch vor der roten Mittellinie, in Puckbesitz.",
+    "answer": "Spielfeldmitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "3c464388",
+    "question": "Alle Spieler stehen zum Anspiel bereit. Spieler A8 verlangt nun beim Schiedsrichter ein Time-Out, was dieser ablehnt. Welche Strafe erhält Spieler A8?",
+    "answer": "Keine",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "9e0e4bc5",
+    "question": "Beide Torhüter von A sind verletzt und Spieler A16 zieht die Ausrüstung eines der beiden Torhüters an und begibt sich ins Tor. Nach der nächsten Pause steht der nun verarztete Torhüter Nr 1 wieder zwischen den Pfosten. Ist das korrekt?",
+    "answer": "Ja",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "aba77658",
+    "question": "Spieler A12 erhält beim Anspiel eine erste Verwarnung. Beim 2. Anspiel, bevor der Puck eingeworfen wird, schlägt er nun auf den Stock des Gegners. \nEntscheid?",
+    "answer": "Kleine Bankstrafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "61f83fd7",
+    "question": "Der Schiedsrichter führt den Spielerwechsel nach einem Spielunterbruch durch.",
+    "answer": "Gastmannschaft 5'', Heimmannschaft 8''",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "a13cbd7f",
+    "question": "Welche Möglichkeiten hat der Schiedsrichter einen Spieler für einen Bandencheck zu bestrafen? \nEntscheid?",
+    "answer": "KLS, 5, 5+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "f13225a4",
+    "question": "Der SR unterbricht das Spiel, weil der Pass des Spielers A15, der sich in seiner Verteidigungszone befindet, einen Mitspieler trifft, der in der Neutralen Zone über die Bande der Spielerbank lehnt. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "293d0517",
+    "question": "Spieler A6 schiesst den Puck aus seiner Verteidigungszone. Zwischen der roten Linie und dem Anspielpunkt nahe seiner Angriffszone berührt A9 den Puck. Von A9 prallt der Puck ab und fliegt auf die Tribüne.",
+    "answer": "Spielfeldmitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "1d65fd25",
+    "question": "Während einem Anspiel bestraft der SR Spieler A12 mit einer DIS (10'). Nun will der Coach von A seine Linie auswechseln. Darf er das?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "ef135abc",
+    "question": "Wenn ein angreifender Spieler sich durch den Torraum bewegt und den Torhüter in keiner Art behindert und der Puck vom Spieler oder seinem Stock abprallt und ins Tor gelangt, darf das Tor nicht gegeben werden da der Spieler sich vor dem Puck im Torraum befand. Richtig oder falsch?",
+    "answer": "Falsch",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "175f28c8",
+    "question": "Bei 35:30 schiesst der Spieler A6 auf das Tor von Team B. Torhüter B kann den Puck nicht halten und dieser rollt Richtung Torlinie. Kurz bevor der Puck diese überschreitet, versucht Spieler B4, das Tor zu verschieben. Es gelingt ihm jedoch nur, das Tor leicht nach vorne zu kippen, ohne dass die Pfosten aus der Verankerung verschoben werden. Der Puck rollt in diesem Augenblick über die Torlinie ins Tor. \nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "711ee11f",
+    "question": "Spieler A6 schiesst auf das Tor von Team B. Der Puck bleibt im Torraum liegen. Der Spieler B7 sieht dies. Er hechtet in den Torraum und begräbt die Scheibe unter seinem Körper bis der Schiedsrichter das Spiel unterbricht. \nEntscheid?",
+    "answer": "Penaltyschuss",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "8c81bb0d",
+    "question": "Torhüter A trägt in einem 1. Liga-Spiel sehr grosse Ellbogenschoner. Aus diesem Grund bleibt ihm nichts anderes übrig, als sie über dem Tenue zu tragen. \nEntscheid?",
+    "answer": "Torhüter auf Spielerbank schicken, Ersatztorhüter auf's Eis, Team verwarnen",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "dbf4c0f5",
+    "question": "Spieler A4 spielt einen Pass zu Spieler A9. Verteidiger B5 setzt zu einem Check gegen A4 an und macht diesen Check fertig, obschon der Puck bereits mehr als eine Sekunde von A4 weg ist. Der Schiedsrichter lässt das Spiel weiterlaufen.",
+    "answer": "Nein",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "c33e2bf0",
+    "question": "Spieler B7 will sich „fliegend“ auswechseln lassen. Spieler B6 sieht das und springt sofort über die Bande auf das Eis. Bevor B7 das Eis verlassen hat, checkt B6 den Spieler A4, der im Besitze des Pucks ist, hart aber fair gegen die Bande. \nEntscheid?",
+    "answer": "Kleine Bankstrafe Team B",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "9d1086ec",
+    "question": "Spieler A6 steht beim Anspiel und hat eine kleine verbale Auseinandersetzung mit Spieler B7. B7 wird wütend und stösst mit seinem Kopf gegen A6, ohne diesen jedoch zu verletzen. \nEntscheid?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "f05a5fda",
+    "question": "Der Torhüter wurde vom Eis genommen. Ein gegnerischer Spieler gelangt in Puckbesitz, hat ihn unter Kontrolle und kann einen Break machen. Er befindet sich in der neutralen Zone. Ein verteidigender Spieler macht einen Stockwurf und trifft die Scheibe, welche weggleitet. Der angreifende Spieler kann sie jedoch problemlos wieder übernehmen.",
+    "answer": "Zugesprochenes Tor",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "85f05afb",
+    "question": "Spieler B11 behindert A 91 in dem er ihn während einer Situation im Kampf um den Puck festhält. Im Moment wo der SR den Arm hebt, kann sich A 91 aus der Situation lösen und mit dem Puck aufs Tor ziehen.",
+    "answer": "Weiterspielen, angezeigte Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1e0769e3",
+    "question": "Spieler A16 wird mit einer kleinen Strafe wegen \"Beleidigung von Offiziellen\" (Abuse of Officials) bestraft. Der Spieler macht jedoch keine Anstalten mit der Aktion aufzuhören und zweifelt die Entscheidung des Schiedsrichters weiterhin an. Welche zusätzliche Strafe ist gegen Spieler A16 auszusprechen?",
+    "answer": "Zusätzlich eine DIS (10')",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d3e39b74",
+    "question": "Der Stock des Torhüters ist gebrochen. Während das Spiel sich auf die andere Seite des Spielfeldes fortbewegt, sieht der SR, dass sich der Torhüter zu seiner Spielerbank begibt und sich mit einem neuen Stock versorgt. Der SR sieht darin keinen Regelverstoß Richtig oder falsch?",
+    "answer": "Falsch",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "b1e5e373",
+    "question": "Der Coach A betritt ohne Erlaubnis des Schiedsrichters während dem Spielverlauf die Eisfläche. \nEntscheid?",
+    "answer": "kleine Bankstrafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "0d091f28",
+    "question": "Team A hat ein Tor erhalten. Der Trainer ist sehr erbost, da er glaubt ein Abseits gesehen zu haben und weigert sich weiter zu spielen. \nEntscheid?",
+    "answer": "Team verwarnen und 15 Sekunden Zeit geben, danach kleine Bankstrafe für Spielverzögerung aussprechen",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "0401e593",
+    "question": "Spieler B7 schiesst den Puck ins eigene Tor während dem Spieler A 3 im Torraum von Team B steht ohne den Torhüter zu behindern Wo findet das Anspiel statt?",
+    "answer": "Mitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "b24daa11",
+    "question": "Im Nachwuchs (ab U21 tiefer) kann ich Keine 5' ohne Spieldauer geben. Korrekt?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "b42e20ca",
+    "question": "Team A schiesst den Puck aus ihrer Verteidigungszone um ein Icing zu erreichen. Torhüter B, der sich ausserhalb seines Torraumes befindet fährt Richtung Puck. \nEntscheid?",
+    "answer": "Kein Icing",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "ec8b75be",
+    "question": "Der bestrafte Spieler B7 wird wegen einer Verletzung auf der Strafbank durch B5 ersetzt. Der bestrafte Spieler erscheint vor Ablauf der Strafe wieder, geht zur Strafbank und ersetzt in einem Unterbruch den dort sitzenden Spieler B5. Korrekt?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "c88c079b",
+    "question": "Der SR unterbricht das Spiel weil der Schuss eines Spielers einen Gegenspieler trifft, der über die Bande der Spielerbank lehnt. Wo findet das nächste Anspiel statt?",
+    "answer": "Am Anspielpunkt in der neutralen Zone welcher der gegnerischen Spielerbank am nächsten liegt",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "7668ca1f",
+    "question": "Wird in der Verlängerung, bei 3 gegen 3, je ein Spieler mit einer kleinen Strafe bestraft, kommen diese Strafen nicht auf die Uhr und wir spielen 3 gegen 3 weiter. Richtig oder falsch?",
+    "answer": "Richtig",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "2d6762eb",
+    "question": "Bei 59.50 kommt der Spieler A6 in den Besitz des Pucks und schiesst ihn in Richtung Tor B. Spieler B7 befürchtet, dass dadurch ein Tor gegen sein Team erzielt werde könnte, und wirft von der Spielerbank aus seinen Stock gegen den Puck und trifft diesen, als er sich in der Verteidigungszone von B befindet. \nEntscheid?",
+    "answer": "Penaltyschuss",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "6e2eda63",
+    "question": "Spieler B7 kommt auf das Eis. Er glaubt kurz vorher ein nicht geahndetes Abseits gesehen zu haben und interveniert deswegen lautstark beim Schiedsrichter.\n\nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "ebbeb806",
+    "question": "Team A erzielt ein Tor. Beim Anspiel in der Mitte wird der Center von Team B weggeschickt, weil er Kontakt mit dem Kopf des Gegenspielers gemacht hat. Der Flügel von B, der ans Anspiel kommt, bewegt sich dann beim zweiten Anspiel zu früh. Die SR sprechen eine kleine Bankstrafe aus.\nWo wird nun angespielt?",
+    "answer": "Spielfeldmitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "bb0554b5",
+    "question": "Beim Spiel 4 gegen 4 Feldspieler hatte der SR eine Kleine Strafe gegen A10 wegen Hakens verhängt. In demselben Spielunterbruch verhängte er gegen A20 noch eine Kleine Strafe wegen Stockschlags. Er ordnet an, dass die Kleine Strafe A10 zuerst zu verbüßen ist und mit 3 gegen 4 Feldspielern weitergespielt wird.\nRichtig oder falsch?",
+    "answer": "Falsch",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "f3382d8b",
+    "question": "Beide Torhüter sind verletzt und ein Feldspieler muss sich umziehen. Nach 8 Minuten kommt er aufs Eis und will sich noch aufwärmen. Ist das gestattet?",
+    "answer": "Ja, er hat eine angemessene Zeit zur Verfügung und kann sich 2 Minuten aufwärmen, ausgenommen bei einem darauffolgenden Penaltyschuss.",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "a3287b00",
+    "question": "Die Kinnband des Spielers wird während eines Kontakts gelöst aber er verliert den Helm nicht. Kann er weiter spielen? \nEntscheid?",
+    "answer": "Ja",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "32d30c01",
+    "question": "Der Spieler A6 trifft den Puck mit dem über Kopfhöhe gehaltenen Stock. Der SR unterbricht das Spiel. Welche Höhe ist entscheidend beim Spielen des Pucks mit hohem Stock?",
+    "answer": "Höhe der Schulter des Spielers",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "f6d78846",
+    "question": "Der Stockstich des Spielers B5 blieb zwar ohne Verletzungsfolge. Die SR sind sich jedoch darüber einig, dass dieser Stockstich in rücksichtsloser Weise ausgeführt wurde, und deshalb eine hohe Verletzungsgefahr für den Gegenspieler darstellte. \nEntscheid?",
+    "answer": "5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "5e828694",
+    "question": "Die Linesperson fährt bei der Spielerbank von Team B vorbei und dabei wird er vom Teamarzt festgehalten und am Vorwärtskommen gehindert. \nEntscheid?",
+    "answer": "Kleine Bankstrafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d267f09f",
+    "question": "In einem Nachwuchsspiel: Nach einem Offsideentscheid auf der Defensivseite von Team A bemerkt der SR, dass Spieler B19, der auf dem Eis steht, trotz vorheriger Verwarnung seines Teams, das Visier immer noch zu hoch trägt. Er spricht eine Kleine Strafe aus.\nWo findet das nächste Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "278bc7db",
+    "question": "Nach welchen Spielunterbrüchen kann das nicht fehlbare Team den Anspielpunkt in der gegnerischen Endzone bestimmen. \nEntscheid?",
+    "answer": "Nach Strafen, Icing, Torverschieben der verteidigenden Mannschaft, Torhüter blockiert den Puck nach einem Schuss von hinter der Roten Mittellinie",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "e1905937",
+    "question": "Spieler A6 fährt mit der Scheibe der Bande entlang. Spieler B5 greift ihn an. Bevor er ganz bei ihm ist, dreht sich A6 ab und klemmt die Scheibe an die Banden. Erst danach wird Spieler A6 von Spieler B5 gegen die Bande gedrückt. \nEntscheid?",
+    "answer": "Kleine Strafe A6",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "5cb28759",
+    "question": "In einem Nachwuchsspiel trägt Spieler B7 seinen Helm ohne das vorgeschriebene Kinnband. Der Schiedsrichter verwarnt beide Team dafür. Einige Minuten später kommt plötzlich auch der Spieler B 9 ohne Kinnband auf das Eis.\n\nEntscheid?",
+    "answer": "DIS B9",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "aa896781",
+    "question": "In einem Nachwuchsspiel trägt Spieler B7 seinen Helm ohne das vorgeschriebene Kinnband. Der Schiedsrichter verwarnt das Team dafür. Einige Minuten später kommt plötzlich auch der Spieler B9 ohne Kinnband auf das Eis.",
+    "answer": "Kleine Strafe B9",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "580c0604",
+    "question": "Spieler A6 lässt seinen Stock fallen. Er will diesen wieder an sich bringen. In diesem Moment schiebt B7 diesen Stock ausser Reichweite von A6. Der Schiedsrichter unterbricht das Spiel und spricht gegen B7 eine kleine Strafe aus.\nDiese Strafe erfolgte wegen?",
+    "answer": "Behinderung",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "b6fb784c",
+    "question": "Spieler A6 schiesst die Scheibe aus seiner Verteidigungszone in Richtung gegnerisches Tor. Spieler B7 hätte klar die Möglichkeit den Puck zu spielen, unterlässt dies aber und der Puck überquert die gegnerische Torlinie. Der Schiedsrichter unterbricht das Spiel. Wo erfolgt das folgende Anspiel?",
+    "answer": "Mitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "be3c3eae",
+    "question": "Spieler B7 befindet sich bei seiner Spielerbank und wird von Zuschauern provoziert. Er steigt auf die Bank und schlägt gegen einen Zuschauer. Er trifft diesen leicht an der Schulter.\n\nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "55adf840",
+    "question": "Spieler A6 schiesst ein Tor und freut sich darüber. Der Kapitän von Team B verlangt jedoch vor dem nächsten Anspiel die Vermessung des Stockes von A6. Der Stock ist nicht korrekt und der Schiedsrichter spricht die vorgesehene Strafe gegen A6 aus. Korrekt?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "136b4a00",
+    "question": "Die LP (Linesperson) entscheidet auf Icing Team A. In diesem Spielunterbruch verhängt der SR eine DIS gegen A5. Einen Spielerwechsel Team A lässt er in diesem Unterbruch nicht zu. Richtig oder falsch?",
+    "answer": "Richtig",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "90bd3fc5",
+    "question": "Spieler A6 fährt mit dem Puck Richtung gegnerisches Tor. Auf der Höhe der blauen Linie wartet B7 den richtigen Moment ab, um A6 zu stoppen. Er verpasst die Gelegenheit und kann lediglich noch das „Knie ausfahren“. A6 stürzt über dieses, bleibt liegen und es dauert einige Zeit, bis A6 aufsteht und offensichtlich verletzt zur Spielerbank humpelt. \nEntscheid?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1eb1629b",
+    "question": "Für welche Fouls kann nur eine 5+SPD verhängt werden?",
+    "answer": "Check von hinten, Treten/Kicken und Slew Footing",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "30dc3754",
+    "question": "Team A wechselt seine Spieler „fliegend“ aus. Spieler A6 betritt das Eis bevor alle seine Kollegen bei der Spielerbank sind. In diesem Moment trifft ihn der Puck rein zufällig am Schlittschuh.",
+    "answer": "Keine Strafe",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "fd3ef2e8",
+    "question": "Nach 36.15 Min verhindern Gegenstandswürfe ein sofortiges Weiterspielen. Der Schiedsrichter zieht die Pause vor. Das Drittel wird danach fertig gespielt.",
+    "answer": "Am nächsten Anspielpunkt des Ortes des Unterbuchs",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "e090175d",
+    "question": "Torhüter A verschiebt bei einer Abwehraktion sein Tor. Mannschaft B will vor dem nächsten Anspiel die Seite wählen. Der Schiedsrichter lässt dies nicht zu.",
+    "answer": "Nein",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "bf7c188d",
+    "question": "Spieler B3 und B4 fahren nebeneinander Richtung Verteidigungszone von Team A. Als der Puck die blaue Linie überquert, steht B4 bereits mit einem Schlittschuh in der Angriffszone, der andere Schlittschuh horizontal über der der blauen Linie. Nun passt Spieler B3 den Puck zu Spieler B4 und dieser erzielt ein Tor. Ist dieses Tor gültig?",
+    "answer": "Ja",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "874343a8",
+    "question": "Welche Spieler müssen ein Helmvisier tragen?",
+    "answer": "alle nach dem 31.12.1974 geborenen",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "ebc4f153",
+    "question": "Der Torhüter von B hat den Stock verloren. Spieler B7 hebt ihn auf und bringt ihn dem Torhüter zurück. Dabei schlägt er mit seinem Spielerstock den Puck aus der Gefahrenzone. \nEntscheid?",
+    "answer": "Kleine Strafe B7",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "0f30a74f",
+    "question": "Beim Start in ein Powerplay nach einer Strafe gegen A will der Center B die Seite wählen. Darf er das?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "76ecdece",
+    "question": "Die Regel „Übertriebene Härte“ bestimmt als Strafobergrenze die Grosse Strafe + SPD. Richtig oder falsch?",
+    "answer": "Richtig",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "976c919d",
+    "question": "Auf dem Eis findet ein Faustkampf statt. Spieler B7 will auch mitmischen. Um besser schlagen zu können zieht er vorerst die Handschuhe aus und deponiert sie neben dem Tor. Leider kommt er nicht mehr dazu mitzumischen. \nEntscheid?",
+    "answer": "DIS",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "465ef1cb",
+    "question": "Spieler A6 hat den Puck unter Kontrolle. B7 greift ihn an, nimmt den Stock nach oben und trifft A6 ungewollt direkt im Gesicht. A6 blutet und lässt sich auswechseln. \nEntscheid?",
+    "answer": "Doppelte Kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "e6568664",
+    "question": "Der Coach von Team A fühlt sich vom Schiedsrichter benachteiligt. Er befestigt ein weisses Handtuch an einem Spielerstock, steigt auf die Bank und schwingt diese „Fahne“, um seinen Unmut auch öffentlich kundzutun. \nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "25d5a510",
+    "question": "Beim Penaltyschiessen muss ein Penalty wiederholt werden. Für die Wiederholung des Penaltyschusses will der Coach nun den Torhüter wechseln. Der Torhüter ist nicht verletzt. \nEntscheid?",
+    "answer": "Torhüter und Spieler müssen die gleichen sein",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "9cec73be",
+    "question": "Der Torhüter darf den Puck auch ausserhalb des Trapez hinter der Grundlinie spielen, wenn er Kontakt zum Torraum hat. Korrekt?",
+    "answer": "Ja",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "26b357dd",
+    "question": "Spieler A6 versucht, den Puck hoch aus seiner Verteidigungszone zu schiessen. Der Puck bleibt zufälligerweise auf der Oberseite der Bande liegen. \nEntscheid?",
+    "answer": "Weiterspielen",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "0003e46a",
+    "question": "Durch den Abpraller von einem Spieler von Team B fliegt der Puck auf Kopfhöhe vor das Tor. Spieler A8 schlägt mit seinem Stock voll gegen den Puck. Irrtümlicherweise trifft er diesen nicht, dafür aber das Gesicht eines Gegners, der dadurch rücksichtslos gefährdet wurde. \nEntscheid?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "6a63a063",
+    "question": "Ein Torhüter U18 (oder jünger) spielt mit einer Cat-Eye Maske. Ist dies gestattet?",
+    "answer": "Ja, aber kein Puck und kein Stockblatt darf durchdringen",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "05e6a2fa",
+    "question": "Spieler A8 versucht, seinen Gegenspieler B4 mit „allen Mitteln“ zu einer strafbaren Handlung zu provozieren. Der Schiedsrichter verwarnt dafür Spieler A8. Das macht diesem keinen Eindruck und er fährt mit der Provokation fort. \nEntscheid?",
+    "answer": "DIS",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "b70fc92b",
+    "question": "Die Teams spielen mit 4 gegen 4 Feldspielern. Die LP (Linesperson) entscheiden auf Icing Team A. Im Spielunterbruch verhängt der SR je eine Kleine Strafe gegen A5 und B20. Einen Spielerwechsel des Icing-Team A lässt der SR in diesem Unterbruch nicht zu. \nEntscheid?",
+    "answer": "Richtig",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "748806b3",
+    "question": "Der Spieler A6 erhält von einem Mitspieler einen Pass. Bei der Passannahme steht er mit einem Schlittschuh in seiner Angriffszone, der andere berührt gerade noch die blaue Linie. Er fährt nun rückwärts vollends in die Angriffszone, den Puck am Stock unter Kontrolle. \nEntscheid?",
+    "answer": "Kein Offside",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "e32e1bd6",
+    "question": "A17 befindet sich in der Angriffszone. A 8 befindet sich 3m vor der Mittellinie und passt den Puck zu A7 welcher beide Schlittschuhe in der Neutralen Zone hat und den Puck mit seinem Stock in der Angriffszone übernimmt. Wo findet das nächste Anspiel statt?\n???",
+    "answer": "Neutrale Zone, Seite Team A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "6fb3c11d",
+    "question": "Spieler B7 fährt während eines Unterbruchs zum Schiedsrichter um ein Timeout zu verlangen. Da B7 weder Kapitän noch Assistent ist, geht der Schiedsrichter nicht darauf ein und lehnt das Timeout ab. Korrekt?",
+    "answer": "Nein",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "b438a42e",
+    "question": "Team B hat den Torhüter vom Eis genommen. Spieler A6 läuft Richtung gegnerisches Tor, hat den Puck unter Kontrolle und keinen Spieler mehr vor sich. Etwa einen Meter vor der roten Mittellinie wird er von B7 von hinten mittels Haken zu Fall gebracht. \nEntscheid?",
+    "answer": "Zugesprochenes Tor",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "b8dd22b5",
+    "question": "Spieler A3 checkt seinen Gegner von hinten in die Bande. Welche Strafmöglichkeiten gibt es?",
+    "answer": "5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "02d5e706",
+    "question": "A33 schlägt den Puck mit der Hand. Der Puck trifft gegen den gegnerischen Torhüter, prallt zurück und wird dann von A23 herrlich im Tor versenkt. Entscheid & Anspielort?",
+    "answer": "Tor ungültig. Handpass. Anspiel NZ Nähe B.",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "75567a49",
+    "question": "Die Linesperson zeigt ein verzögertes Offside gegen Team A an. Spieler B7 schiesst den Puck von seiner Verteidigungszone direkt über die Banden der Neutralen Zone aus dem Spielfeld. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "1c50261b",
+    "question": "Spieler A6 schiesst den Puck aus seiner Verteidigungszone. Vier Meter vor Beginn seiner Angriffszone berührt A9 den Puck. Von A9 prallt der Puck ab und fliegt auf die Tribüne. Wo findet das nächste Anspiel statt?",
+    "answer": "Spielfeldmitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "8331492b",
+    "question": "Kurz vor Schluss führt Team A mit einem Tor Vorsprung. Torhüter B legt seinen Stock in seinen Torraum und will sich fliegend auswechseln lassen. Spieler A6 kommt in den Besitz der Scheibe und schiesst sofort. Er trifft nur den im Torraum liegenden Torhüterstock. Der Torhüter ist zu diesem Zeitpunkt etwa sieben Meter von seiner Spielerbank entfernt.\n\nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "a470bd20",
+    "question": "Spieler A17 schiesst auf das gegnerische Tor. Die Scheibe prallt vom Schlittschuh seines Mitspielers A6, den dieser nicht bewegt, direkt ins Tor.\n\nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "a749de95",
+    "question": "Ein Spieler liegt anscheinend verletzt auf dem Eis. Der Arzt betritt beim Spielunterbruch ohne Erlaubnis des Schiedsrichters die Eisfläche.\n\nEntscheid?",
+    "answer": "Korrekt",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "3712ad41",
+    "question": "Der Schiedsrichter zeigt eine Strafe gegen Spieler A6 (Penaltyschuss) an. Bevor das Spiel unterbrochen werden kann versetzt A6 seinem Gegner einen Stockschlag (kleine Strafe). Das Spiel wird unterbrochen, der Penaltyschuss zuerkannt und die kleine Strafe ausgesprochen. Nun erzielt Team B mit dem Penaltyschuss ein Tor. Ist die kleine Strafe von A6 damit aufgehoben?",
+    "answer": "Nein",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "e19b8de9",
+    "question": "Ich kann eine doppelte kleine Strafe (2'+2') für übertriebene Härte aussprechen, um in einer kleinen Rangelei zu differenzieren. Korrekt?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "558a84ff",
+    "question": "Das 2. Drittel hat noch nicht begonnen aber beide Mannschaften sind für das Anspiel in der Mitte bereit. Noch bevor der SR den Puck einwirft, wird gegen Mannschaft A eine Strafe ausgesprochen.\nWo findet das nächste Anspiel statt?",
+    "answer": "Mitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "cbc04e77",
+    "question": "Ein Spieler verbüsst seine 2' Strafe auf der Strafbank. Während die Strafe noch läuft erhält dieser Spieler eine DIS. Was ist zu tun?",
+    "answer": "Ersatzspieler für die kleine Strafe auf die Strafbank schicken",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "0e8ed906",
+    "question": "Bei Ende der regulären Spielzeit stehen noch zwei Strafen gegen das Gastteam auf der Uhr. Die Verlängerung (Qualifikationsrunde 3:3) beginnt mit:",
+    "answer": "5 : 3",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1e02c8cc",
+    "question": "Weil ein herumliegender Stock inmitten der VZ A hinderlich ist, schiebt Spieler A15 diesen einsamen Stock von dort weg in Richtung Seitenbande. Dabei wird niemand behindert.\n\nEntscheid?",
+    "answer": "Weiterspielen lassen",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "fa3e3180",
+    "question": "Die LP (Linesperson) entscheiden auf Icing Team A. In diesem Spielunterbruch verhängt der Head eine Kleine Strafe gegen A5 (Haken). Einen Spielerwechsel Team A lässt er in diesem Unterbruch nicht zu. Er verweist darauf, dass das \"Icing-Team\" die Spieler nicht wechseln darf. Die LP widersprechen dieser Auffassung. Wer hat recht?",
+    "answer": "LP",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "ce017257",
+    "question": "Nach dem Spiel fährt A17 vor dem SR vorbei und macht eine obszöne Geste. \nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "ea6dc8e4",
+    "question": "Der Spieler C7 blutet aus der Nase. Er putzt sich mit seiner Hand das Blut ab und spritzt es einem gegnerischen Spieler an. \nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1ab60651",
+    "question": "Der Spieler A17 spielt mit einem blutverschmutzten Leibchen. Der SR schickt ihn auf die Spielerbank um das Leibchen zu reinigen. Kurze Zeit später kommt A17 aufs Eis zurück obwohl er sein Leibchen nicht gereinigt hat. \nEntscheid?",
+    "answer": "Kleine Strafe, Leibchen wechseln",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1863d3b2",
+    "question": "Keine Strafen sind auf der Uhr und keine angezeigt, das Spiel läuft. Team A hat den Puck hinter dem eigenen Tor in Besitz, spielt aber die Scheibe nicht. Auch Team B macht keine Anstalten, die Scheibe spielen zu wollen. Der SR ruft den Teams zu aber nichts passiert \nEntscheid?",
+    "answer": "Spiel unterbrechen, Anspiel EAP A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "57347584",
+    "question": "Spieler A6 wird von einem Gegner ständig provoziert. A6 rächt sich, indem er seinem Gegner einen Stockendstoss versetzt. Welche Strafe erhält A6?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "8ff52a4d",
+    "question": "Spieler A12 schiesst den Puck in Richtung Tor von Team B. Der Puck trifft den Helm seines Mitspielers A9 und wird unabsichtlich ins Tor von B abgeleitet.",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "942fe730",
+    "question": "Ein Strafe wird gegen Spieler A8 angezeigt. Team B möchte den Torhüter zugunsten eines zusätzlichen Feldspielers auswechseln. Der Torhüterwechsel erfolgt zu früh, das Spiel wird unterbrochen und der fehlbare Spieler A8 auf die Strafbank geschickt. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "2611922c",
+    "question": "Spieler A97 fällt ohne Fremdeinwirkung um. Dabei trifft dieser den im Torraum stehenden Torhüter B30, welcher dadurch auch zu Boden geht. A51 schiesst derweil aufs Tor B und der Puck gelangt ins Tor. \nEntscheid?",
+    "answer": "Tor ungültig, keine Strafe",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "409c3f93",
+    "question": "Bei einem Spielunterbruch wird von der Spielerbank B eine Wasserflasche aufs Eis geworfen. Wer verbüsst diese Strafe?",
+    "answer": "Irgendein Spieler",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "183af91f",
+    "question": "Die Linesperson zeigt ein verzögertes Offside gegen Team A an. Spieler B12 macht einen Pass zu seinem Mitspieler B15 und dieser lenkt den Puck ins eigene Tor ab. \nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "d0921b3b",
+    "question": "Der Schiedsrichter unterbricht das Spiel und die Linesperson fährt in Richtung Puck. Spieler B7 schiesst diesen quer über die Eisbahn auf die andere Seite. \nEntscheid?",
+    "answer": "DIS",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "38572c70",
+    "question": "Im Nachwuchs (ab U 20 tiefer) kann ich Keine 5' ohne Spieldauer geben. Korrekt?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "2218466d",
+    "question": "Welche Strafmasse sind gemäss Regelbuch möglich für \"Check von hinten\"?",
+    "answer": "5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "e1a7a76f",
+    "question": "Spieler A6 steht kurz im Torraum und sieht, dass sein Mitspieler A8 zu einem Schuss ansetzt. Er will den Torraum sofort verlassen. Spieler B7 hält ihn jedoch im Torraum fest. A8 schiesst ein Tor. Ist das Tor gültig?",
+    "answer": "Ja",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "9ab0cbc9",
+    "question": "Die Linesperson zeigt ein verzögertes Offside gegen Team A an. Spieler B7 macht ein Icing. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "8d20816b",
+    "question": "Der Head zeigt die erste Strafe im Spiel gegen Team A an. Torhüter B will sich gegen einen zusätzlichen Feldspieler fliegend auswechseln lassen. Er hatte sich von seinem Tor gerade einmal 3m entfernt, als der Head das Spiel unterbricht. Trotz des Abpfiffs fährt der Torhüter bis zu seiner Spielerbank. Der Head verlangt von Team B, den Torhüter auszuwechseln.\n\nEntscheid?",
+    "answer": "Richtig, oder kleine Bankstrafe",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "035859c1",
+    "question": "Der Schiedsrichter unterbricht das Spiel nachdem Torhüter B den Puck blockiert hat. Spieler A6 liegt vor dem Tor am Boden. B7 benutzt diese Gelegenheit um A6 einen Fusstritt gegen den Helm zu geben. \nEntscheid?",
+    "answer": "5'+SPD",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "4bf09ad9",
+    "question": "In welcher Zone sind Handpässe erlaubt?",
+    "answer": "Verteidigungszone",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "129dc762",
+    "question": "Spieler A5 hat einen Schlittschuh in und der andere Schlittschuh ausserhalb der Angriffszone. Er nimmt einen Pass mit seinem Stock an, dann bringt er seinen Schlittschuh aus der Neutralen Zone über die Blaue Linie, während der Puck am Stockblatt in der Neutralen Zone ist. Nun zieht er den Puck über die Blaue Linie.\n\nEntscheid?",
+    "answer": "Kein Offside",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "3285dbf5",
+    "question": "A7 befindet sich in einer ausgezeichneten Breakposition. Er hat die gegnerische Blaue Linie erreicht und braucht außer dem Torhüter keinen gegnerischen Spieler mehr zu umspielen. In diesem Moment zieht Torhüter B seine Maske aus.\n\nEntscheid?",
+    "answer": "Zugesprochenes Tor",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "8fcc407a",
+    "question": "Spieler A9 und Spieler B4 liefern sich einen Faustkampf (5+SPD). Spieler A8 will nicht tatenlos zusehen und er mischt sich als einziger (dritter Beteiligter = Third man in) in den Faustkampf ein (2' übertriebene Härte).\nErhält er noch eine weitere Strafe; wenn ja welche?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "61c0fde8",
+    "question": "Unter dem Aspekt der Regel über Hybrid-Icing hat die Linesperson / der Schiedsrichter zwei Entscheidungen zu treffen. Welche sind diese?",
+    "answer": "1. Wird der Puck die Torlinie überqueren (nicht zwischen den Torpfosten)? 2. Ist es ein verteidigender oder ein angreifender Feldspieler der den Puck zuerst berühren wird.",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "b0bcf40c",
+    "question": "Gegen Team A wird eine Strafe angezeigt. Team B ist in Puckbesitz und startet einen Gegenangriff. B17 steht Abseits und das Spiel wird unterbrochen. Die Strafe gegen A (KLS) wird ausgesprochen. Das Anspiel findet am EAP A statt.\nRichtig oder falsch?",
+    "answer": "Richtig",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "1923c636",
+    "question": "A7 befindet sich in einer ausgezeichneten Breakposition. Er hat die gegnerische Blaue Linie erreicht und braucht außer dem Torhüter keinen gegnerischen Spieler mehr zu umspielen. In diesem Moment verschiebt Torhüter B sein Tor aus seiner normalen Position. \nEntscheid?",
+    "answer": "Zugesprochenes Tor",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "c54a1319",
+    "question": "Team A verlangt eine Stockvermessung des Spielers B3, welcher einen Penaltyschuss ausführen will. Der Stock ist nicht korrekt. \nEntscheid?",
+    "answer": "Kleine Strafe, anderer Feldspieler muss schiessen",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "e33b41b7",
+    "question": "Spieler A18 wird mit einer Disziplinarstrafe (10' für Reklamieren) bestraft. Dieser zweifelt beharrlich die Entscheidung des Schiedsrichters weiterhin an und bestreitet diese. Welche zusätzliche Strafe ist gegen Spieler A18 auszusprechen?",
+    "answer": "Zusätzlich eine SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "a9b315fb",
+    "question": "Die Teams spielen mit 5 gegen 6 Feldspieler da Team B den Torhüter durch einen zusätzlichen Feldspieler ersetzt hat. Ein Pass des Spielers B7 misslingt und verursacht ein Icing. Der Coach Team B will seinen Torhüter wieder einwechseln. Darf er das?",
+    "answer": "Ja",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "2ef73edf",
+    "question": "Der SR zeigt eine Strafe gegen B7 in seiner Angriffszone an. Während dieser Zeit macht Spieler A6 ein Icing. Wo findet das folgende Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "1b0bc60e",
+    "question": "Das Spiel dauert noch eine Minute. Team A ist drückend überlegen. Um den Vorsprung über die Zeit zu retten, schickt der Coach von Team B absichtlich einen zusätzlichen Spieler auf das Eis. \nEntscheid?",
+    "answer": "Penaltyschuss",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "fe2bd683",
+    "question": "Team B verlangt ein Time Out. Der Schiedsrichter lehnt dieses Ersuchen ab. Was ist entscheidend dafür, dass er das Time Out ablehnen kann?",
+    "answer": "Spielerwechsel ist vollzogen oder es ging Icing von Team B, ein unabsichtliches Verschieben des Tores durch die defensive Mannschaft B oder ein Schuss hinter der Mittellinie, welcher vom Torhüter B blockiert wurde, voraus.",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "201ef529",
+    "question": "Spieler A5 schlägt mit dem über Schulterhöhe gehaltenen Stock den Puck zu Verteidiger B5, der den Puck zufällig ins eigene Tor ablenkt. Wo findet das darauffolgende Anspiel statt?",
+    "answer": "Neutrale Zone, Nähe B",
+    "topic": "Anspielort",
+    "uncertain": true
+  },
+  {
+    "id": "4606b288",
+    "question": "Torhüter B99 verlässt seinen Torraum während einem Faustkampf (je 5+SPD) und greift als erster mit seinem über Schulterhöhe gehaltenen Stock in diese ein. Er erhält eine kleine Strafe für hohen Stock. Wie wird er zusätzlich bestraft?",
+    "answer": "2' + SPD",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "9b755e5f",
+    "question": "Bei 15:00 erhält A6 eine Kleine Strafe. 50\" später begeht A7 eine Behinderung, welche von SR angezeigt wird. Spieler B5 nutzt während der angezeigten Strafe eine Chance aus und erzielt ein Tor bevor die Kleine Strafe abgelaufen ist. Die Strafe von A6 ist somit sofort beendet. Stimmt das?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "18225cb3",
+    "question": "Team A spielt, infolge von zwei kleinen Strafen, mit drei gegen fünf Feldspielern gegen Team B. Gegen Team A wird eine weitere Strafe angezeigt. Bevor der Schiedsrichter das Spiel unterbricht, schiesst Team B ein Tor. Welche Strafe wird aufgehoben?",
+    "answer": "Die erste kleine",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "3c7138d8",
+    "question": "Spieler A8 fährt rücksichtslos mit Anlauf von hinten gegen den Spieler B5 und checkt diesen mit seinem Stock voll gegen die Banden. \nEntscheid?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "5c092f48",
+    "question": "Herreneishockey: Spieler B8 wird vom Schiedsrichter im ersten Drittel verwarnt, da seine Ellenbogenschoner nicht korrekt unter dem Trikot getragen werden. Im 3. Drittel wiederholt sich dieser Vorfall. \nEntscheid?",
+    "answer": "KLS B8",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "5c51973d",
+    "question": "Spieler B 2 befindet sich in der neutralen Zone, den Puck unter Kontrolle am Stock. Zwischen ihm und dem gegnerische Tor befindet sich kein Gegenspieler. Spieler A4 versucht, ihn mit einem harten Stockschlag von hinten zu stoppen. Das gelingt ihm auch. Spieler B 2 bleibt nach dieser Aktion mit einer klaffenden Wunde auf dem Eis liegen. \nEntscheid?",
+    "answer": "Penaltyschuss zusätzlich Grosse Strafe + SPD",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "f781ed9c",
+    "question": "Welche Strafmasse sind gemäss Regelbuch möglich für \"Check mit dem Knie (Kneeing)\"?",
+    "answer": "2', 5+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "6831e6dc",
+    "question": "Spieler A15 erzielt ein Tor welches vom Schiedsrichter anerkennt wird, obwohl A8 im Torraum stand aber den Torhüter in keiner Weise behinderte.",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "e88d4c0c",
+    "question": "Spieler A6 fährt vor der Spielerbank von Team B vorbei. Der Masseur von B, der auch als „Türliöffner“ tätig ist, spuckt dem Spieler A6 voll ins Gesicht.",
+    "answer": "SPD Masseur B",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "eac9cfbd",
+    "question": "Team A nimmt ein Time-Out und der Torhüter A1 begibt sich zur Spielerbank um die Anweisungen des Coaches anzuhören..",
+    "answer": "Korrekt",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "61744e43",
+    "question": "Spieler A11 und A25 fahren nebeneinander Richtung Verteidigungszone von Team B. Als der Puck die blaue Linie überquert, steht A25 bereits mit einem Schlittschuh in der Angriffszone, der andere Schlittschuh horizontal über der der blauen Linie. Die Linesperson entscheidet, das Spiel nicht zu unterbrechen.",
+    "answer": "Ja Korrekt",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "93345a4c",
+    "question": "Team A spielt, infolge von zwei kleinen Strafen, mit drei gegen fünf Feldspielern gegen Team B. Gegen Team A wird eine weitere Strafe angezeigt. Bevor der Schiedsrichter das Spiel unterbricht, schiesst Team B ein Tor.",
+    "answer": "Die erste kleine",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "0a0e45cb",
+    "question": "Welche Möglichkeiten hat der SR um einen Teamoffiziellen für Unsportlichkeiten zu bestrafen?",
+    "answer": "Kleine Bankstrafe, SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "704b1975",
+    "question": "Der Puck befindet sich freiliegend im Torraum der Mannschaft B. Spieler B6 erkennt die Gefahr und begräbt den Puck unter seiner Hand.",
+    "answer": "Penaltyschuss für Team A",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "a6988718",
+    "question": "Team A verliert das Spiel. Es scheint soweit alles ruhig zu sein und die Schiedsrichter gehen in ihre Kabine. Plötzlich betritt der Coach von A die Kabine und beginnt die Schiedsrichter auf das Übelste zu beschimpfen.",
+    "answer": "Rapport",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d9ba5052",
+    "question": "Da Spieler A6 das Anspiel nach einem Icing verzögert, erhält er eine erste Verwarnung. Er macht erneut keine Anstalten sich korrekt hinzustellen und das Anspiel wird wieder verzögert.",
+    "answer": "Kleine Bankstrafe",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "1684745c",
+    "question": "Der Spieler A4 erhält bei 55.24 (Verlängerung max. 5') eine DIS (10').",
+    "answer": "Garderobe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "872c31b4",
+    "question": "Spieler A18 wird mit einer kleinen Strafe und einer Disziplinarstrafe für Reklamieren bestraft. Der Spieler zweifelt beharrlich die Entscheidung des Schiedsrichters weiterhin an und bestreitet diese.",
+    "answer": "SPD für Beschimpfung eines Offiziellen",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "f55d1a9f",
+    "question": "Team A nimmt ein Time-Out. Nach 30 Sekunden stellen sich die Teams zum Anspiel bereit. Nun nimmt auch Team B ein Time Out.",
+    "answer": "Nein",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "0bab4100",
+    "question": "Team A hat den Torhüter herausgenommen und spielt mit sechs Feldspielern. Bei einem Gegenangriff kann B7 mit dem Puck unter Kontrolle allein gegen das Tor von A laufen. Ein Teamoffizieller von A wirft den Stock gegen den sich in der neutralen Zone befindlichen Spieler B7 und trifft ihn an der Hose. B7 bleibt im Puckbesitz.",
+    "answer": "Zugesprochenes Tor + SPD Teamoffizieller",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "1ae43097",
+    "question": "Beide Teams sind auf dem Eis. Team A weigert sich, infolge eines umstrittenen Tores von B, das Spiel aufzunehmen. Wieviel Zeit gibt der SR dem Team um das Spiel wieder aufzunehmen.",
+    "answer": "Nicht mehr als 15\"",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "5736a3ee",
+    "question": "Das Spiel wird unterbrochen. Da der Torhüter von Team A Durst hat, begibt er sich zu seiner Spielerbank, um sich auswechseln zu lassen. Der Ersatztorhüter begibt sich zwischen die Pfosten. Das Spiel wird wieder aufgenommen. Da der Torhüter von Team A seinen Durst gelöscht hat, wechselt er sich „fliegend“ gegen seinen Ersatztorhüter ein.",
+    "answer": "Korrekt",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "22d16ec1",
+    "question": "Was kommt bei 58:05 auf die Uhr, wenn gleichzeitig gegen Team A eine 5' und gegen Team B eine 2' ausgesprochen wird?",
+    "answer": "NL/SL/U20-Elit: 3' Team A NAFS: 5' Team A / 2' Team B",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "c3f63b7a",
+    "question": "Spieler B7 fährt hinter Spieler A6 her. Um ihm den Puck abzunehmen, nimmt er den Stock in beide Hände und schlägt diesen mit voller Wucht auf den linken Arm von A6, allerdings ohne diesen zu verletzen. \nEntscheid?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "bad9766c",
+    "question": "Team A spielt in Unterzahl. Gegen Spieler A8 wird eine Strafe (Penaltyschuss) angezeigt. Während das Spiel weiter läuft schießt Team B ein Tor. Tor gültig, A8 muss auf die Strafbank (2’) und die erste kleine laufende Strafe ist beendet. Richtig oder falsch?",
+    "answer": "Richtig",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "5b7813e6",
+    "question": "Der angreifende Spieler A5 ist in der Angriffszone und kann den Puck mit seinem Stock nicht erreichen. Er kickt diesen in Richtung des gegnerischen Tores. Seinem Mitspieler A10 gelingt es, den gekickten Puck gezielt mit dem Stock ins gegnerische Tor zu schiessen. \nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "d12aa8c4",
+    "question": "Gegen Team A wird eine Strafe angezeigt. B8 ist in Puckbesitz und startet einen Angriff. Allerdings läuft B12 ins Abseits und das Spiel wird unterbrochen. Die Strafe gegen Team A (KLS) wird ausgesprochen. Wo erfolgt das Anspiel?",
+    "answer": "EAP A",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "35d1d3ee",
+    "question": "Spieler A9 betritt den Anspielkreis erneut zu früh (bei demselben Anspiel) und der SR bestraft ihn mit einer kleinen Strafe. Ist das korrekt?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "3537ce75",
+    "question": "Spieler A 13 wird von Spieler B18 von hinten gefoult. Der SR entscheidet auf Penalty. Wer muss diesen nun ausführen?",
+    "answer": "Irgend ein Feldspieler (Nicht vom Eis)",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "4c4f8162",
+    "question": "Der Kapitän von Team A verlangt das Vermessen des Stockes von B7. Es stellt sich jedoch heraus, dass der Stock von B7 absolut korrekt ist. \nEntscheid?",
+    "answer": "Kleine Bankstrafe Team A",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "0b58549d",
+    "question": "Ein Spieler der angreifenden Mannschaft schiesst den Puck der Bande entlang Richtung der Angriffszone. Der Torhüter der verteidigenden Mannschaft begibt sich hinter sein Tor und spielt den Puck zu seinem Mitspieler innerhalb des eingeschränkten Torhüter-Bereiches (Trapezförmiger Bereich hinter dem Tor). \nEntscheid?",
+    "answer": "Keine Strafe, weiterspielen",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "18a280eb",
+    "question": "Wann darf ein SR bei einem Tor (Ausnahme Penalty) keinen Assist geben?",
+    "answer": "Eigentor",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "e5eef25a",
+    "question": "Team B hat den Torhüter vom Eis genommen. Der Spieler A5 befindet sich in der Neutralen Zone, hat den Puck unter Kontrolle und fährt Richtung leeres Tor von B. Als er an Spieler B6 vorbeifahren will begeht dieser ein Beinstellen (beide Spieler auf gleicher Höhe) und A5 fällt um. Zwischen ihm und dem leeren Tor befindet sich kein weiterer gegnerischer Spieler mehr. \nEntscheid?",
+    "answer": "Kleine Strafe B6",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "f23eceb3",
+    "question": "Halten ist nur mit den Händen oder dem Stock möglich. Ist diese Aussage richtig?",
+    "answer": "Nein",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "7d2c6ff3",
+    "question": "Klar ersichtlich schlägt Spieler A12 leicht auf den Stock des puckführenden Spielers B13. Dieser verliert den Puck und hält sich \"schmerzverzehrend\" seinen Arm. \nEntscheid?",
+    "answer": "Kleine Strafe B 13",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "c74dcb0f",
+    "question": "Der SR verhängt gegen A2 eine Kleine Strafe sowie zusätzlich eine DIS. Der Spieler A2 lässt über seinen Kapitän mitteilen, dass er die Strafe nicht antreten könne, weil er sich an der Schulter verletzt habe. \nEntscheid?",
+    "answer": "2 Ersatzspieler auf die Strafbank",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "94ca2992",
+    "question": "Ab wann gilt ein erzieltes Tor offiziell und kann nicht mehr geändert werden? \nEntscheid?",
+    "answer": "Nach Anspiel in der Mitte",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "650c4184",
+    "question": "Der SR hatte nach einem Tor von A10 das entsprechende Anspiel in der Mitte des Spielfeldes durchgeführt. Beim nächsten Unterbruch teilt ihm der Punktrichter mit dass der Spieler A10 gar nicht auf dem Spielbericht aufgeführt ist. Er annulliert das Tor. Kann das Tor zu diesem Zeitpunkt noch annulliert werden?",
+    "answer": "Nein",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "76dde29f",
+    "question": "Das Spiel wird in der Verteidigungszone von Team B unterbrochen. Der Spieler A22 erhält eine 10' DIS. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "26d8a996",
+    "question": "Der Torhüter fängt den hart geschossenen Puck. Dabei gelangt seine Fanghand, die den Puck umschließt, über die Torlinie in das Tor. Der Schiedsrichter unterbricht das Spiel. \nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "187c090c",
+    "question": "Spieler C33 versucht gegen seinen Gegenspieler einen Kopfstoss auszuüben und trifft diesen dabei nicht. \nEntscheid?",
+    "answer": "Doppelte KLS gegen Spieler C33",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "b177c418",
+    "question": "Spieler A6 schiesst den Puck aus seiner Verteidigungszone in Richtung Tor B. Der Puck prallt an die Querlatte und von dort fliegt er über das Plexi in die Zuschauer.\nIcing? Nein\nTeam B erzielt bei 09:45 ein Tor in Überzahl. In diesem Unterbruch wird festgestellt, dass die Kleine Strafe gegen A2 wegen eines Fehlers des Strafbankbetreuers zu lang andauerte und A2 bereits bei 10:00 hätte auf Eis zurückkehren müssen. \nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "c0fe506e",
+    "question": "Beide Torhüter sind verletzt und ein Feldspieler muss sich umziehen. Nach 8 Minuten kommt er aufs Eis und will sich noch aufwärmen.",
+    "answer": "Ja, er hat eine angemessene Zeit zur Verfügung und kann sich 2 Minuten aufwärmen, ausgenommen bei einem darauffolgenden Penaltyschuss.",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "3c3a1b1e",
+    "question": "Die erste Serie (je fünf Schützen sind angetreten) der \"Game Winning Shots\" hat keine Entscheidung gebracht. Nun beginnt das Tie-Break. Worauf muss man besonders achten?",
+    "answer": "Das andere Team muss beginnen",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "3663ae7a",
+    "question": "Der Spieler A23 befindet sich in einer verwundbaren Situation als er durch den Spieler B12 heftig und gefährlich von Hinten in die Bande gecheckt wird.",
+    "answer": "5'+SPD Check von Hinten",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "33a71613",
+    "question": "Spielzeit 58:30. Der Torhüter A hat fliegend gegen einen zusätzlichen Feldspieler ausgewechselt. Als er erkennt, dass sein Team den Puck an den Gegner verliert, kehrt er wieder zurück aufs Eis und macht sich für die Abwehr eines möglichen Schusses bereit.",
+    "answer": "Penalty",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "1f060953",
+    "question": "Der Torhüter A1 erhält eine kleine Strafe für Beinstellen plus eine DIS für das Wegschiessen des Pucks im Unterbruch.",
+    "answer": "2 Spieler die sich beim Unterbruch auf dem Eis befanden",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "16e2f313",
+    "question": "Wie gross ist die imaginäre Wechselzone vor der Spielerbank?",
+    "answer": "1.50 m",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "be54225f",
+    "question": "Wie weit muss das Helmvisier reichen damit es als korrekte Ausrüstung gilt?",
+    "answer": "die Augen und die Nase müssen vollständig abgedeckt sein",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "12e11efe",
+    "question": "Spieler A 6 fährt mit dem Puck Richtung Tor B und hat nur noch den Torhüter vor sich. Er wird von B7 verfolgt und leicht attackiert. A6 lässt sich theatralisch fallen, ohne jedoch von seinem Gegner berührt worden zu sein.\n\nEntscheid?",
+    "answer": "Kleine Strafe A6",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "307728ee",
+    "question": "Der Torhüter A31 fährt in Richtung Spielerbank um sich auswechseln zu lassen. Team B kommt in seiner Verteidigungszone in Puckbesitz und schiesst diesen Richtung Tor A. Der Torhüter sieht dass der Puck auf ihn zukommt und fährt zurück in seinen Torraum ohne den Puck zu berühren. Dieser geht über die Torlinie und es ist klar ersichtlich dass ein Verteidiger von A diesen als Erster berühren würde. \nEntscheid?",
+    "answer": "Icing",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "05af3ecb",
+    "question": "Spieler A12 erhält beim Anspiel eine erste Verwarnung. Nun verlangt der Kapitän von Team A ein Time-Out. \nEntscheid?",
+    "answer": "Kein Time-out, anspielen",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "f1cc1311",
+    "question": "Die Linesperson versuchen Spieler A12 und Spieler B2 während einer Auseinandersetzung zu trennen. Dabei hält die Linesperson Spieler B2 fest. Spieler B2 will sich das nicht gefallen lassen und setzt körperliche Gewalt ein um sich von der Linesperson zu befreien.\nEntscheid?",
+    "answer": "Spieler B2 erhält zusätzlich eine SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "28e4d73b",
+    "question": "Beide Mannschaften sind auf dem Eis. Mannschaft A verweigert weiterzuspielen, da der Schiedsrichter der Mannschaft B ein umstrittenes Tor anerkannt hat. Wie lange muss der Schiedsrichter der Mannschaft A Zeit geben um das Spiel wiederaufzunehmen bevor er eine kleine Bankstrafe aussprechen kann?",
+    "answer": "Nicht mehr als 15 Sekunden",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "ed8a9eb1",
+    "question": "Der Spieler A12 will einen Slap-Shot machen. Er holt mit dem Stock nach hinten aus und trifft einen Gegenspieler im Gesicht. Dieser blutetet aus einer kleinen Wunde. \nEntscheid?",
+    "answer": "Keine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "2f30fee6",
+    "question": "Das Spiel ist in der VZ Team A. A2 macht einen Befreiungsschuss und der Puck prallt von der gegnerischen Endbande zurück. Nur der Feldspieler B5 bewegt sich zum Puck, der mittlerweile neben dem Tor liegt. Wann pfeift die LP (Linesperson) Icing?",
+    "answer": "Wenn B5 die blaue Linie (VZ) überquert",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "e75a34d7",
+    "question": "Der Spieler A6 berührt den Puck mit Stock über der Höhe seiner Schulter in der neutralen Zone (kurz nach der roten Linie), einer seiner Mitspieler bringt den Puck in seiner Angriffszone unter Kontrolle. Wo findet das folgende Anspiel statt?",
+    "answer": "Mitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "be75ee0c",
+    "question": "Der Spieler A5 befindet sich in einer Break-Situation und wird vom Spieler B 9 mit dem Stock von hinten gecheckt (Check von hinten). Der SR zeigt die Strafe an und da kein Tor erzielt wurde pfeift er ab und gibt einen Penaltyschuss. Muss er noch eine Zusatzstrafe aussprechen, wenn ja welche?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "d76600b2",
+    "question": "Wer verbüsst eine kleine Bankstrafe?",
+    "answer": "Irgendein Spieler",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "643fb35d",
+    "question": "Spieler A8 schiesst aufs Tor von B, A13 lenkt den Puck vor dem Tor ab und fliegt ins Fangnetz hinter dem Tor.\nNächster Anspielort?",
+    "answer": "EAP B",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "947fd861",
+    "question": "Team B wird nach dem zweiten Regelverstoss beim selben Anspiel bestraft. Was für eine Strafe wird ausgesprochen?",
+    "answer": "Kleine Bankstrafe Team B",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "79d13b56",
+    "question": "Spieler A12 startet einen Gegenangriff. Als er in seine Angriffszone fährt wirft Spieler B8 von der Spielerbank seinen Stock gegen den Puck und verhindert so das Schlimmste.\n\nEntscheid?",
+    "answer": "Penaltyschuss",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "26f69206",
+    "question": "Mannschaft A verursacht ein Icing. Nun will der Coach A ein Time-Out nehmen, damit sich seine Spieler vor dem nächsten Anspiel etwas erholen können.",
+    "answer": "Nein",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "7400e41b",
+    "question": "Team A erhält eine Kleine Bankstrafe wegen zu vielen Spielern auf dem Eis. Im selben Spielunterbruch verliert der Coach von Team A wiederholt die Fassung und beschimpft den Schiedsrichter und Team A erhält eine weitere Kleine Bankstrafe.\nWie viele Spieler von Team A werden auf die Strafbank geschickt?",
+    "answer": "2 Spieler",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "cb689ee4",
+    "question": "Der SR spricht für einen Stockwurf von A8 einen Penaltyschuss aus. B7, der zum Zeitpunkt des Vergehens nicht auf dem Eis war, führt ihn aus und erzielt ein Tor. Nun kommt der Captain von A und will einen Spielfeldprotest anmelden. \nEntscheid?",
+    "answer": "Spielfeldprotest Vermerken, Tor als gültig erklären, weiterspielen",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "247a2795",
+    "question": "Darf der Torhüter mit einem zerbrochenen Stock bis zum nächsten Unterbruch weiterspielen?",
+    "answer": "Ja",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "d7b08bbf",
+    "question": "Die Spieler stehen nach einem Spielunterbruch in der Verteidigungszone B zum Anspiel bereit und nun erhält der Spieler A12 eine kleine Strafe für Stockschlag.\nWo findet das nächste Anspiel statt?",
+    "answer": "EAP A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "bb52168b",
+    "question": "Spieler A8 hat die Aufgabe, den Spieler B7 zu neutralisieren. Sobald dieser jeweils antritt hängt er sich jeweils mit seinem Stock an wie an einem Skilift und lässt sich mitziehen.\n\nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "e679236f",
+    "question": "Welche Strafmasse sind gemäss Regelbuch möglich für \"Check gegen das Knie (Clipping)\"?",
+    "answer": "2', 5+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "2753930e",
+    "question": "Kann ein lizenzierter Spieler, der nicht auf dem Spielbericht aufgeführt ist am Aufwärmen vor dem Spiel teilnehmen. \nEntscheid?",
+    "answer": "Ja",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "e7825711",
+    "question": "Nach 60' steht das Spiel unentschieden. Nun kommt es zu einer Verlängerung von 5 Minuten. Welche Seiten nehmen die Teams nun ein?",
+    "answer": "Die gleichen wie im 3. Drittel",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "5e0acff9",
+    "question": "Der Puck wird vom angreifenden Team B aus ihrer eigenen Spielfeldseite in die Endzone von Team A geschossen und der Torhüter von Team A hält den Puck fest, was eine Spielunterbrechung zur Folge hat. Wo findet das nächste Anspiel statt?",
+    "answer": "Anspiel EAP Team A (Team B kann Seite wählen)",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "4a687a9c",
+    "question": "Welche Strafmasse sind gemäss Regelbuch möglich für \"Bandencheck\"?",
+    "answer": "2', 5' (ohne Nachwuchs), 5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1d3df901",
+    "question": "Welche Strafmasse sind gemäss Regelbuch möglich für \"Check gegen den Kopf\"?",
+    "answer": "2', 5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "38050f3c",
+    "question": "Team A versucht im ersten Drittel, nach der ihr zur Verfügung stehenden Zeit einen Spielerwechsel vorzunehmen. Der Schiedsrichter schickt die Spieler zu ihrer Spielerbank zurück und verwarnt das Team. Im letzten Drittel wiederholt sich dieser Vorgang. \nEntscheid?",
+    "answer": "Kleine Bankstrafe Team A",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "739b9908",
+    "question": "Spieler A8 führt einen Penaltyschuss aus. Der Puck trifft das Schutzglas hinter dem Torhüter, springt zurück und prallt vom Rücken des Torhüters in das Tor. \nEntscheid?",
+    "answer": "Tor ungültig",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "206a6d14",
+    "question": "A6 schiesst den Puck in die Angriffszone und die hintere LP (Linesperson) zeigt ein verzögertes Offside an. Der Puck prallt von der Bande ab und geht ins Tor. Im Moment wo der Puck über die Torlinie ging hatten die im Offside stehenden Spieler die Angriffszone verlassen. \nEntscheid?",
+    "answer": "Kein Tor",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "e2e17896",
+    "question": "Spieler A6 steht mit dem Puck hinter dem Tor, macht jedoch keine Anstalten, den Puck nach vorne zu spielen, obschon ihn kein Gegner angreift. Nachdem etwa 10 Sekunden verstrichen sind, unterbricht der Schiedsrichter das Spiel. \nEntscheid?",
+    "answer": "Anspiel EAP A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "f67ffc89",
+    "question": "Spieler A86 befindet sich im gegnerischen Torraum und behindert die Sicht des Torhüters, ohne ihn zu berühren. In diesem Moment schiesst Verteidiger A22 und erzielt ein Tor. \nEntscheid?",
+    "answer": "Tor nicht gültig",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "ca5c8f3e",
+    "question": "A6 spielt den Puck mit der Hand in der Neutralen Zone zu seinem Mitspieler A8. Durch das Zuspiel gewinnt Team A keinen räumlichen Vorteil. Der SR unterbricht das Spiel. Wo findet das nächste Anspiel statt?",
+    "answer": "Am nächstgelegenem Anspielpunkt wo A8 den Puck annimmt",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "5f179761",
+    "question": "Um noch den möglichen Ausgleich zu erzielen, ersetzt Team B 1:35 vor Ende der regulären Spielzeit bei laufendem Spiel den Torhüter. 5m vor dem Erreichen der Spielbank springt Spieler B12 schon aufs Eis. Der Puck befindet sich in der neutralen Zone, nähe blaue Linie Verteidigungszone. \nEntscheid?",
+    "answer": "Spiel unterbrechen, Anspiel an der blauen Linie Verteidigungszone",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "eafbdcdc",
+    "question": "Um ein Anspiel in seiner VZ zu vermeiden, spielt der Torhüter B mit seinem Stock den Puck in Richtung \"Rundung\". Sein Schuss geht aber direkt in das Schutznetz, welches über dem Schutzglas angebracht wurde. \nEntscheid?",
+    "answer": "Kleine Strafe Torhüter B",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "748d9167",
+    "question": "Es gab eine Auseinandersetzung zwischen A7 und B11. Der SR bestraft beide Spieler mit je 5'+SPD (Faustkampf). Zudem bestraft er B9 mit einer kleinen Strafe für sein Vergehen und zusätzlich einer SPD, da er als erster in den Faustkampf eingriff. Korrekt?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "b7c00461",
+    "question": "Nach der Drittelspause schickt Team A nur 5 Feldspieler und der Torhüter um das Spiel rechtzeitig zu beginnen. Die übrigen Spieler kommen erst nach 17' auf die Spielerbank zurück. \nEntscheid?",
+    "answer": "Korrekt",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "e518d71c",
+    "question": "Der Torhüter von Mannschaft A zerbricht in einer Abwehrbewegung seinen Stock. Da er den Puck nicht festhalten kann, geht die Aktion weiter und der Torhüter spielt mit dem gebrochenen Stock bis zum nächsten Unterbruch weiter. \nEntscheid?",
+    "answer": "Korrekt",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "e77c9920",
+    "question": "Spieler A6 wird von einem Gegner ständig provoziert. Spieler B7 schlägt ihm mit seinem Stock voll auf den Oberarm. A6 rächt sich, indem er seinen Gegner mit einem Stockstich ins Gesicht rücksichtslos gefährdet. Welche Strafe erhält A6?",
+    "answer": "5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "f377f1a5",
+    "question": "Ein einwechselnder Spieler nimmt am Spielgeschehen teil, bevor der auswechselnde Spieler das Spielfeld verlassen hat. Der Schiedsrichter spricht eine Strafe wegen zu vielen Spielern auf dem Eis aus. Ab wann wird ein Spieler als nicht mehr auf dem Eis befindlich angesehen?",
+    "answer": "Sobald sich mindestens 1 Schlittschuh weg vom Eis auf der Spielerbank befindet",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "e9c854bd",
+    "question": "Ein Spieler vom Team A schiesst den Puck aus seiner Verteidigungszone und der Puck wird 1 m vor der blauen Linie von Team B abgelenkt und bringt dadurch einen angreifenden Spieler von Team A in eine Abseitsposition. Das Abseits wird abgepfiffen. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP A",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "7052ba44",
+    "question": "Der Torhüter A fängt den Puck mit seiner Hand und wirft ihn einem Mitspieler bei der blauen Linie zu. \nEntscheid?",
+    "answer": "Kleine Strafe Torhüter",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "942a5661",
+    "question": "Torhüter A verliert seine Gesichtsmaske während des laufenden Spiels und der Puck überquert die Torlinie bevor der Pfiff des Schiedsrichters das Spiel unterbricht. Tor gültig?",
+    "answer": "Ja.",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "f3e19dc0",
+    "question": "Bei der Ausführung eines Penaltyschusses schiesst der Spieler den Puck an den Pfosten. Vom Torpfosten geht die Scheibe an die Rückseite des Torhüters und dann ins Tor. \nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "1c60b0df",
+    "question": "Der Masseur von Team A wirft eine Wasserflasche auf das Eis. \nEntscheid?",
+    "answer": "Kleine Bankstrafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "5e3707cf",
+    "question": "Spieler A97 fällt ohne Fremdeinwirkung um. Dabei trifft dieser den im Torraum stehenden Torhüter B30, welcher dadurch auch zu Boden geht. A51 schiesst derweil aufs Tor B und der Puck gelangt ins Tor. Entscheid?\nTor ungültig, keine Strafe\nWo findet das Anspiel statt, wenn gegen einen Spieler eine DIS oder SPD verhängt wurde? \nEntscheid?",
+    "answer": "Ort des Unterbruchs",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "d7a4c8fb",
+    "question": "Spieler B setzt zu einem Bodycheck gegen den puckführenden Spieler A6 an. Zu diesem Zweck geht er ganz tief runter und trifft A6 voll aufs Knie. A6 fliegt durch die Luft und bleibt auf dem Eis liegen. \nEntscheid?",
+    "answer": "Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1d4bd2d7",
+    "question": "Spieler A4 versucht offensichtlich, einen Stockendstoss gegen Spieler B7 zu begehen. Er trifft B7 jedoch nicht und der Stoss geht ins Leere. \nEntscheid?",
+    "answer": "Doppelte Kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "5439805e",
+    "question": "Welche Bedingungen müssen erfüllt sein, um bei einer Breaksituation einen Penaltyschuss zuzusprechen?",
+    "answer": "Ausserhalb VZ, Puck im Besitz und/oder unter Kontrolle oder in aussichtsreicher Position Puck zu erreichen und Torchance beraubt, Foul von hinten (ausgenommen Foul von TH), kein Gegenspieler zu umspielen",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "45192a34",
+    "question": "Spieler A6 fährt mit dem Puck in seine Angriffszone. Er umspielt B7 und fährt nahe an der Bank von B vorbei. Der Masseur von B will seinem Team helfen und wirft einen Ersatzstock gegen den Puck. A6 bleibt im Puck besitz, kann noch schiessen und der Torhüter hält den Schuss. \nEntscheid?",
+    "answer": "Penaltyschuss",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "3be1ae4c",
+    "question": "Der Torhüter von Mannschaft A befindet sich mit seinem Körper komplett ausserhalb des Torraums und blockiert die Scheibe hinter der Torlinie. Durch dies kann Stürmer A6 die Scheibe nicht spielen. Entscheid?\nKleine Strafe Torhüter A.\nDer Torhüter von Mannschaft A befindet sich mit seinem Körper komplett ausserhalb des Torraums und blockiert die Scheibe hinter der Torlinie. Durch dies kann Stürmer B6 die Scheibe nicht spielen.\nKleine Strafe Torhüter A.\nWährend einem Spielunterbruch findet ein heftiger Faustkampf statt. Spieler A6, der sich auf der Strafbank befindet, will seinen Mitspielern helfen und springt als einziger auf das Eis. Er kann aber von einem Mitspieler daran gehindert werden einzugreifen. \nEntscheid?",
+    "answer": "2+SPD",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "8cfe4693",
+    "question": "Der Torpfosten wird versehentlich vom verteidigenden Spieler C14 verschoben, was zu einer Spielunterbrechung führt. Darf Mannschaft C nun seine Spieler wechseln?",
+    "answer": "Nein",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "bf538fef",
+    "question": "Spieler A4 steht mit dem Puck in der neutralen Zone. Alle seine Mitspieler befinden sich in ihrer Angriffszone. A4 wird von zwei Spielern von Team B angegriffen, somit bleibt ihm keine andere Wahl, als den Puck zu einem Mitspieler in die Angriffszone zu passen und verursacht somit ein Offside. Wo findet das folgende Anspiel statt?",
+    "answer": "Am nächsten Anspielpunkt von der Passabgabe",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "8f552708",
+    "question": "Der Schiedsrichter unterbricht das Spiel. Kurz darauf schiesst Spieler B7 grundlos oder vielleicht verärgert den Puck auf die andere Seite der Eisbahn. \nEntscheid?",
+    "answer": "DIS",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d0e38adf",
+    "question": "Es gab eine kleine Auseinandersetzung zwischen A7 und B11. Der SR bestraft beide Spieler mit je 2‘ (Übertriebene Härte). Zudem bestraft er B9 mit einer kleinen Strafe für sein Vergehen (Übertriebene Härte) und zusätzlich einer SPD da er als erster in die Auseinandersetzung eingriff. Korrekt?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "6cc13319",
+    "question": "Team A spielt in Überzahl und es gibt einen Unterbruch. Während dem Anspiel bestraft der SR Spieler A12 und B 9 je mit einer kleinen Strafe. Nun will der Coach von Team A seine Linie auswechseln. Darf er das?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "c13a2d57",
+    "question": "Da Spieler A6 das Anspiel verzögert, erhält er eine erste Verwarnung. Er macht erneut keine Anstalten sich korrekt hinzustellen und das Anspiel wird wieder verzögert. \nEntscheid?",
+    "answer": "Kleine Bankstrafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "04f1509e",
+    "question": "Das Anspiel findet auf dem Anspielpunkt in der Mitte des Spielfeldes statt. Wer muss seinen Stock zuerst auf dem Eis platzieren?",
+    "answer": "Gastteam",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "bfc00739",
+    "question": "Spieler B21 erhält eine kleine Strafe und ist nicht zufrieden und wirft auf dem Weg zur Strafbank aus Protest seinen Handschuh ins Publikum. \nEntscheid?",
+    "answer": "kleine Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "f0b41ed9",
+    "question": "Wie wird der Trapezförmige Bereich hinter dem Tor genannt? Welcher Ausdruck ist der richtige?",
+    "answer": "Eingeschränkter Torhüterbereich",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "66384340",
+    "question": "Wie viele Teamoffizielle dürfen sich auf der Spielerbank aufhalten?",
+    "answer": "8 Offizielle",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "6a6f6539",
+    "question": "Was war das Ziel der IIHF bei der Aktualisierung des Regelbuches?",
+    "answer": "Eine Struktur zu finden, welche einen unabhängigen Standard für Turniere sowie auch auf Ligaebene zulässt unabhängig vom Ligastandard.",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "95d665f8",
+    "question": "Spieler B21 beisst seinen Gegenspieler A12. Welche Strafe erhält er dafür?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "cff9a557",
+    "question": "Spieler A16 wird mit einer kleinen Strafe wegen \"Beleidigung von Offiziellen\" (Abuse of Officials) bestraft. Der Spieler macht jedoch keine Anstalten mit der Aktion aufzuhören und zweifelt die Entscheidung des Schiedsrichters weiterhin an. Welche zusätzliche Strafe ist gegen Spieler A16 auszusprechen?\nWelche Strafmöglichkeiten gibt es für \"Beleidigung von Offiziellen\"? \nEntscheid?",
+    "answer": "KLS, KBS, 10' DIS oder SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "fd60dd3c",
+    "question": "Der Verteidiger B12 will aus seiner Verteidigungszone einen Pass zu seinem Mitspieler bei der roten Mittelline machen. Er schiesst zu hoch und der Puck fliegt über die Bande in der neutralen Zone auf die Spielerbank. \nEntscheid?",
+    "answer": "Korrekt, keine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d46754ef",
+    "question": "Spieler A6 ist verärgert über einen Entscheid des Schiedsrichters. Im Moment, als dieser den Puck an sich nehmen will, schiesst er ihn über die Bande ins Publikum. \nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "0da264a7",
+    "question": "Die Scheibe befindet sich hinter dem Tor von A. Torhüter A will sie weiterspielen. Da er aber vom Spieler B8 angegriffen wird, klemmt er die Scheibe an die Bande. B8 drückt danach den Torhüter gegen die Banden. Dieser spielt die Scheibe aus Angst vor einem Tor nicht und der Schiedsrichter SR unterbricht nach einem Zuruf das Spiel. \nEntscheid?",
+    "answer": "Kleine Strafe Torhüter A",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "4bee9825",
+    "question": "Team A erhält eine Kleine Bankstrafe wegen zu vielen Spielern auf dem Eis. Im selben Spielunterbruch verlangt Team A die Vermessung des Stockes von B8. Der Stock ist korrekt und Team A erhält eine weitere Kleine Bankstrafe. Wie viele Spieler von Team A werden auf die Strafbank geschickt?",
+    "answer": "2 Spieler",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "ff1b0fb8",
+    "question": "Spieler A 3 fängt den Puck in der Luft mit seiner Hand und schliesst ihn ein. Er fährt einige Meter, wirft den Puck aufs Eis und spielt weiter. \nEntscheid?",
+    "answer": "Kleine Strafe A3",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "c4e484d8",
+    "question": "Spieler B77 checkt absichtlich von hinten den Schiedsrichter mit voller Wucht gegen die Bande, um an den Puck zu gelangen. Der Schiedsrichter hatte keine Möglichkeit sich gegen diesen Check zu schützen oder auszuweichen und hat sich bei dieser Aktion verletzt.\nWelche Strafe ist gegen den Spieler B77 auszusprechen?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "f1404b5c",
+    "question": "Torhüter A hat seinen intakten Stock verloren. A 15 sieht dies und schiebt ihn in Richtung Torhüter. Dieser hebt ihn jedoch nicht auf. \nEntscheid?",
+    "answer": "Keine Strafe",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "a51a7958",
+    "question": "Der SR bestraft einen Spieler mit einer 5+SPD für eine physische Tätlichkeit gegen einen Offiziellen. Ist das möglich?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "ad57d5b2",
+    "question": "Spieler B7 erhält eine SPD. Wie viele Minuten werden dafür im Spielbericht eingetragen?",
+    "answer": "20'",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "84d65e0a",
+    "question": "Spieler A6 (Jahrgang 1978) trägt einen Helm ohne Visier. Auf Intervention des gegnerischen Kapitäns wird A6 vom Spielfeld gewiesen und Team A erhält eine Kleine Bankstrafe.\nKorrekt?",
+    "answer": "Nein",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "803a9a3a",
+    "question": "Ein Spieler wird gecheckt und das Kinnband seines Helmes öffnet sich.\nDarf er weiter am Spiel teilnehmen?",
+    "answer": "Ja",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "19d03976",
+    "question": "Der Torhüter B deckt den Puck mit seinem Fanghandschuh auf dem Eis zu und passt (schiebt) ihn sofort zu einem Mitspieler vor der blauen Linie.\n\nEntscheid?",
+    "answer": "Weiterspielen",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "349434f5",
+    "question": "Spieler B7 ist im Besitz des Pucks in der neutralen Zone entlang der Bande um einen Angriff zu starten. Spieler A90 checkt B7 mit dem in beiden Händen quer gehaltenen Stock. Dieser fällt dabei um und verliert den Puck.\n\nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "8ac267d9",
+    "question": "Der Puck wird durch einen Spieler der Mannschaft B hinter das eigene Tor gespielt. Der Torhüter B spielt den Puck ausserhalb des eingeschränkten Torhüter-Bereiches (Trapezförmiger Bereich hinter dem Tor). Dabei hatte der Torhüter mit seinem Schlittschuh noch Kontakt mit dem Torraum. ntscheid?",
+    "answer": "Keine Strafe, weiterspielen",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "4c6ba349",
+    "question": "Der Coach Team A weigert sich, einen Spieler zu benennen, der die Kleine Bankstrafe für Team A absitzt. Was macht der Schiedsrichter?",
+    "answer": "SR bezeichnet einen Spieler",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "4714a465",
+    "question": "Spieler A5 erhält eine kleine Strafe. Er begibt sich jedoch nicht sofort zur Strafbank, sondern geht zuerst zu seiner Spielerbank, um den Stock zu wechseln. Nachdem er noch einen Schluck getrunken hat, fährt er gemütlich zu Strafbank. \nEntscheid?",
+    "answer": "DIS A5",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "6ea99700",
+    "question": "Während einer Aktion zerbricht der Stock des Torhüters von Mannschaft A und die Aktion läuft ohne Spielunterbruch weiter. Sein Mannschaftskollege, welcher sich auf dem Eis befindet, sieht dies und bringt ihm einen neuen Stock, ohne dass er am Spiel teilnimmt. \nEntscheid?",
+    "answer": "Korrekt",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "b77b559a",
+    "question": "Der Puck, welcher vom Team A aus der eigenen VZ geschossen wurde, prallt von der Bande hinter dem gegnerischen Tor zurück in die Nähe des Torraumes. Der Torhüter behält seine Position im Torraum und spielt den Puck mit seinem Stock. Das „Rennen“ war bis dahin noch offen.?",
+    "answer": "Kein Icing",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "3696f127",
+    "question": "Spieler B4 schiesst auf das Tor von A. In dem Moment in dem der Torhüter eingreifen will, schlägt B7 gegen den Torhüterstock, was den Torhüter natürlich stört. \nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "38efe9c6",
+    "question": "Spieler A15 befindet sich auf der Spielerbank. Er sieht das sein Mitspieler A3 zum wechseln kommt. Als A3 auf der Spielerbank ist will A15 aufs Eis. Der Puck befindet sich vor der Spielerbank und A15 nützt die Chance und spielt diesen obwohl er mit beiden Schlittschuhen noch auf der Spielerbank steht. Ist das korrekt?",
+    "answer": "Nein",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "6c538aab",
+    "question": "Der Torhüter B deckt den Puck mit seinem Fanghandschuh auf dem Eis zu und passt (schiebt) ihn sofort zu einem Mitspieler vor der blauen Linie. Entscheid?\nA87 hat Puckkontrolle und fährt aufs gegnerische Tor. Verteidiger B64 führt einen korrekten Check aus, welcher A87 das Gleichgewicht nimmt und ihn in den im Torraum stehenden Torhüter B30 befördert. Der Puck kullert unter A87 und dem Torhüter ins Tor. \nEntscheid?",
+    "answer": "Tor gültig, keine Strafe",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "e8b01197",
+    "question": "Team A erzielt ein Tor. Beim Anspiel in der Mitte erhält der Center von Team B eine erste Verwarnung für unkorrektes Anspiel. Danach bewegt er sich zu früh. Die SR sprechen eine kleine Bankstrafe aus. Wo wird nun angespielt?",
+    "answer": "Spielfeldmitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "deae2a85",
+    "question": "Team A ist infolge einer kleinen Strafe in Minderheit. Gegen Spieler B 10 wird in seiner Angriffszone eine kleine Strafe angezeigt. Team A spielt absichtlich den Puck in ihrer Endzone nicht, damit die Zeit der eigenen Strafe abläuft. Wie entscheidet der SR und wo findet das nächste Anspiel statt?",
+    "answer": "Spielunterbruch, Strafe B10 aussprechen, Anspiel EAP B",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "3c00d36d",
+    "question": "Spieler B7 befindet sich auf der Strafbank. Irrtümlicherweise wird er vom Strafzeitnehmer eine Minute zu früh auf das Eis geschickt. Zwanzig Sekunden später schiesst B7 ein Tor. \nEntscheid?",
+    "answer": "Tor ungültig, Reststrafe absitzen",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "640a995a",
+    "question": "Ein Spieler wird vom Schiedsrichter mit einer kleinen Strafe bestraft. Der Spieler will diese Strafe nicht anerkennen und kurvt auf dem Eisfeld herum. Welche zusätzliche Strafe wird ausgesprochen?",
+    "answer": "Disziplinarstrafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1d7aa63f",
+    "question": "Spieler A12 wird von B4 leicht provoziert. Er versucht ihm einen Stockstich zu verpassen, trifft ihn aber nicht. Der Schiedsrichter bestraft diese Aktion mit 2'+2'+10'?\nKorrekt?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "8521089b",
+    "question": "Spieler A6 bekommt den Puck in seiner Verteidigungszone und startet einen Gegenangriff, zwischen ihm und dem gegnerischen Tor befindet sich kein Gegner. B7 stellt ihm von hinten das Bein. Zu diesem Zeitpunkt befand sich lediglich der Puck (unter Kontrolle) in der neutralen Zone, die Schlittschuhe von A6 waren noch in seiner Verteidigungszone.",
+    "answer": "Penaltyschuss",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "25de14ab",
+    "question": "Die Regel „Halten“ bestimmt als Strafobergrenze die Grosse Strafe + SPD.",
+    "answer": "Falsch",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "594260d2",
+    "question": "Spielzeit 59:15. Team A spielt in der VZ von Team B. Der Torhüter verschiebt nach Ansicht des SR das Tor absichtlich aus seiner Verankerung. Eine aussichtsreiche Möglichkeit ein Tor zu erzielen bestand nicht.",
+    "answer": "Penalty",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "a27e7ad1",
+    "question": "Das Anspiel findet in der Verteidigungshälfte von Team A statt. Wer muss zuerst seinen Stock auf dem Eis platzieren?",
+    "answer": "Center A",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "82183647",
+    "question": "Team A spielt mit 5 gegen 3 Feldspielern. Gegen Team B wird eine Strafe angezeigt. Bevor der Schiedsrichter das Spiel unterbricht, schiesst Team A ein Tor.",
+    "answer": "Die erste kleine",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "b58ba87c",
+    "question": "Der Spieler A6 erhält von einem Mitspieler einen Pass. Bei der Passannahme steht er mit einem Schlittschuh in seiner Angriffszone, der andere berührt gerade noch die blaue Linie. Er fährt nun rückwärts vollends in die Angriffszone, den Puck am Stock unter Kontrolle.",
+    "answer": "Kein Offside",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "688aec8e",
+    "question": "Torhüter B zerbricht seinen Stock. Spieler B7 fährt mit einem Ersatzstock Richtung Tor. Er bekommt einen Pass und leitet diesen mit seinem eigenen Spielerstock sofort weiter.",
+    "answer": "Kleine Strafe B7",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "d7a577bf",
+    "question": "Zwei Spieler, A14 und B86 geraten aneinander und gehen zu Boden. A14 steht schneller wieder auf den Schlittschuhen und möchte weiterfahren. B86 klemmt jedoch den Stock von A14 zwischen seinen Beinen, sodass A14 am Weiterfahren gehindert wird.",
+    "answer": "Halten des Stockes (Halten)",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "55330c66",
+    "question": "Team A ist in der Angriffszone und ist im Besitz des Pucks. Spieler A8 nimmt aus eigenem Entschluss Position im Torraum ein. Nach mehrmaligem Zurufen durch den Schiedsrichter verlässt er den Torraum immer noch nicht.",
+    "answer": "Spiel unterbrechen, Anspiel Neutrale Zone Seite Team B",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "45ef7b1a",
+    "question": "Team A ist wegen einer Kleinen Strafe in Unterzahl. In dieser Situation zeigt der SR eine Große Strafe + SPD gegen A5 an. Bevor er das Spiel unterbricht, erzielt B5 ein Tor.",
+    "answer": "Kleine Strafe beendet, 5+SPD aussprechen",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "3225ff43",
+    "question": "Auf der blauen Linie zu seiner Angriffszone steht Spieler A6. Kurz bevor sein Mitspieler A8 mit dem Puck die blaue Linie überqueren will, wird A6 von B10 in die Angriffszone gestossen. A8 fährt mit dem Puck nun in die Zone ein so dass der Schiedsrichter auf Offside erkennen muss.",
+    "answer": "Kleine Strafe B10",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "68517e87",
+    "question": "Während des Spiels geht A12, der auf der Spielerbank sitzt, in die Kabine, um die Kufe seines Schlittschuhs zu wechseln. Von dort zurück geht er während eines Spielunterbruchs durch die Strafbanktür aufs Eis und ersetzt A19 auf dem Eis.",
+    "answer": "Korrekt",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "89334dfd",
+    "question": "Spieler A12 wird beim ersten Anspiel weggeschickt. Nun verlangt der Kapitän von Team A ein Time-Out.",
+    "answer": "Kein Time-out, anspielen",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "c64c6a42",
+    "question": "Spieler A6 steht bei der Bande, Blick Richtung Zuschauer. Spieler B7 kommt von hinten und checkt A6 rücksichtlos mit seinem Stock von hinten voll in die Bande.\n\nEntscheid?",
+    "answer": "5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "3b16aa3c",
+    "question": "Welche Strafmasse sind gemäss Regelbuch möglich für \"Ellbogencheck\"?",
+    "answer": "2', 5' (ohne Nachwuchs), 5'+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "fa1ad766",
+    "question": "Team A erhält einen Penaltyschuss zugesprochen. Bei der Ausführung verlässt der Torhüter B den Torraum zu früh und der Penaltyschuss wird wiederholt, und auch da verlässt der Torhüter seinen Torraum zu früh. \nEntscheid?",
+    "answer": "Wiederholung + DIS",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "a3701720",
+    "question": "Torhüter A blockiert die Scheibe in seinem Torraum und das Spiel wird unterbrochen. B49 reklamiert beim SR weil er nach seiner Ansicht zu früh abgepfiffen hat. Nun spricht der SR gegen B49 eine Kleine Strafe aus. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "a0215cf8",
+    "question": "Während des Spiels geht A12, der auf der Spielerbank sitzt, in die Kabine, um die Kufe seines Schlittschuhs zu wechseln. Von dort zurück geht er während eines Swfsdfpielunterbruchs durch die Strafbanktür aufs Eis und ersetzt A19 auf dem Eis. \nEntscheid?",
+    "answer": "Korrekt",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "2c46b050",
+    "question": "Beim Start in ein Powerplay nach einer Strafe gegen A will der Coach von Team A ein Time-Out nehmen, um seine Mannschaft, auf das Unterzahlspiel vorzubereiten. Darf er das?",
+    "answer": "Ja",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "50e04ccf",
+    "question": "Team A spielt in Unterzahl und schiesst den Puck in Richtung gegnerische Torlinie. Noch während dem sich der Puck in der Spielfeldhälfte von A befindet, läuft die Strafe von A ab, und die Schiedsrichter entscheiden auf Icing. Korrekt?",
+    "answer": "Nein",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "05d83c8f",
+    "question": "Alle Vermessungen werden im SR-Kreis vorgenommen. Nun wird festgestellt, dass der Stock eines Spielers nicht korrekt ist. Wie geht der SR nun vor?",
+    "answer": "Strafe Aussprechen, Fehlbarer Spieler auf die Strafbank schicken, Teamkollege muss neuen Stock bringen.",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "8d93b7d3",
+    "question": "Torhüter B bekommt einen Stockschlag. Er rastet aus, beginnt einen Faustkampf (mehrere harte Schläge vom Torhüter) mit Spieler A7. \nEntscheid?",
+    "answer": "2'+5'+SPD Torhüter B, 2' A7",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "1575d50b",
+    "question": "Spieler A12 liegt verletzt in seiner Verteidigungszone. Team A hat beim Spielunterbruch Puckbesitz in der Angriffszone. Wo findet das nächste Anspiel statt?",
+    "answer": "Neutrale Zone, Seite Team B",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "f0a062d2",
+    "question": "Spieler A6 erzielt in der 24. Minute ein schönes Tor auf Pass seines Mitspielers A 36. Vor Wiederaufnahme des Spieles wird festgestellt, dass der Spieler A 36 auf dem offiziellen Spielbericht nicht aufgeführt ist. \nEntscheid?",
+    "answer": "Tor ungültig, A 36 in Kabine verweisen, Rapport",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "1d90e2dc",
+    "question": "Team A wechselt die Spieler aus. Vor dem Anspiel begeht Spieler A6 ein Foul an Spieler B5 und wird dafür mit einer kleinen Strafe belegt. Coach A will nun erneut seine Spieler auswechseln. Darf er das?",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "ac7c23da",
+    "question": "Der Torhüter A1 erhält eine DIS. Ein Ersatzspieler wird auf die Strafbank geschickt um die Strafe abzusitzen. Während die Strafe läuft erhält der Torhüter eine weitere DIS.",
+    "answer": "Spieler kehrt zurück",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "43d10281",
+    "question": "Spieler A12 erhält beim Anspiel eine erste Verwarnung. Beim 2. Anspiel, bevor der Puck eingeworfen wird, schlägt er nun auf den Stock des Gegners.",
+    "answer": "Kleine Bankstrafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "1042e592",
+    "question": "Angreifer A2 führt den Puck in der Ecke seiner Angriffszone. In diesem Moment reisst sich der Torhüter B seine Gesichtsmaske vom Kopf. Weil für Team A keine aussichtsreiche Tormöglichkeit bestand, pfeift der SR das Spiel ab und verhängt eine Kleine Strafe gegen den Torhüter. Richtig oder falsch?",
+    "answer": "Richtig",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "d26d8113",
+    "question": "Zwei Spieler, A14 und B86 geraten aneinander und gehen zu Boden. A14 steht schneller wieder auf den Schlittschuhen und möchte weiterfahren. B86 klemmt jedoch den Stock von A14 zwischen seinen Beinen, sodass A14 am Weiterfahren gehindert wird. Für welches Vergehen wird B86 bestraft",
+    "answer": "Halten des Stockes (Halten)",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "d1027141",
+    "question": "Spieler A6 schiesst den Puck aus seiner Verteidigungszone. Vier Meter vor Beginn seiner Angriffszone berührt A9 den Puck. Von A9 prallt der Puck ab und fliegt auf die Tribüne. Welche Strafe spricht der SR aus?",
+    "answer": "Keine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "808771e6",
+    "question": "Team A spielt in Unterzahl. A6 fährt mit dem Puck in seine Angriffszone und passt den Puck hoch vor das Tor. A8 trifft den Puck mit dem über Schulterhöhe gehaltenen Stock und schlägt den Puck in das Tor von B. Wo findet das darauf folgende Anspiel statt?",
+    "answer": "Neutrale Zone B",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "9a59578f",
+    "question": "Team A spielt wegen einer Kleinen Strafe (A 10) in Unterzahl. In dieser Situation zeigt der SR einen Penaltyschuss gegen A2 an. Team B bleibt in Puckbesitz und erzielt ein Tor. \nEntscheid?",
+    "answer": "Strafe A10 beendet, Kleine Strafe A2",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "305a2727",
+    "question": "Spiel in der 1.Liga: Welche Strafe erhält ein Feldspieler der mit einem gespaltenen Visier am Spiel teilnimmt, wenn sein Team schon vorgängig wegen unkorrekter Ausrüstung verwarnt wurde. \nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "40d72dbd",
+    "question": "Ein Spieler der angreifenden Mannschaft schiesst den Puck nach der roten Mittellinie Richtung Angriffszone. Der Torhüter der verteidigenden Mannschaft begibt sich hinter die Torlinie und spielt den Puck welcher sich ausserhalb des eingeschränkten Torhüter-Bereiches (Trapezförmiger Bereich hinter dem Tor) befand zu seinem Mitspieler. \nEntscheid?",
+    "answer": "KLS für Spielverzögerung",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "0d4a3a1b",
+    "question": "Der Schiedsrichter zeigt eine Strafe gegen Spieler A8 an für Stockwurf gegen den puckführenden Spieler in der Verteidigungszone. Bevor das Spiel unterbrochen wird, versetzt A6 seinem Gegner einen Stockschlag (kleine Strafe). \nEntscheid?",
+    "answer": "Penaltyschuss zuerkennen, Kleine Strafe A6",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "1def9766",
+    "question": "Spieler A4 schlägt den von seinem Torhüter abgeprallten Puck mit seiner Hand aus seiner Verteidigungszone zu seinem in der neutralen Zone wartenden Mitspieler A6. Der Schiedsrichter unterbricht das Spiele wegen Handpass. Korrekt?",
+    "answer": "Ja",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "1cb0f498",
+    "question": "Der angreifende Spieler A5 schlägt den Puck mit der Hand in Richtung des gegnerischen Tores. Der Puck prallt gegen den Innenpfosten. Der Torhüter will den Puck mit seiner Fanghand sichern, lenkt diesen aber dabei unglücklich ins eigene Tor. \nEntscheid?",
+    "answer": "Kein Tor",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "27f4ccc5",
+    "question": "Spieler B7 sitzt auf der Strafbank. Das Spiel wird unterbrochen und auf dem Eis beginnt ein Faustkampf. B7 verlässt die Strafbank und begibt sich auf das Eis (er ist nicht der Erster der eine Bank verlässt), ohne jedoch am Faustkampf teilzunehmen.",
+    "answer": "2+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "3c6b8ec4",
+    "question": "Der Feldspieler 12A schiesst von seiner Verteidigungszone auf das Tor von Team B, und der Puck trifft, ohne vorher abgelenkt worden zu sein, gegen den Torrahmen und geht aus dem Spielfeld.",
+    "answer": "Keine Strafe, Anspiel EAP A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "92701940",
+    "question": "Die Teams spielen mit 5 gegen 5 Feldspielern und Team A macht ein Icing. Im Spielunterbruch verhängt der SR je eine Kleine Strafe gegen A5 und B20. Einen Spielerwechsel des Icing-Team A lässt der SR in diesem Unterbruch nicht zu.",
+    "answer": "Richtig",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "c2016be2",
+    "question": "Was für eine Strafe kann ein Team-Offizieller erhalten, der eine Schlägerei mit einem Spieler hat?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "0f4c672d",
+    "question": "Nach einer kurzen Auseinandersetzung ohne Faustschläge bestraft der Schiedsrichter A15 und B37 mit je einer kleinen Strafe. Diese spricht er aus für…?",
+    "answer": "Übertriebene Härte",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "d8b407fb",
+    "question": "Der SR hatte im Spiel bisher nur gegen Team A eine Verwarnung wegen eines regelwidrigen Spielerwechsels ausgesprochen. Gegen Team B noch nicht. Als bei einem Wechsel der Spieler B2 gegen B10 zu spät wechselte, verhängte der SR eine Kleine Bankstrafe gegen Team B. Korrekt?",
+    "answer": "Nein",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "ac4e4cb9",
+    "question": "Team B hatte den Torhüter durch einen zusätzlichen Feldspieler ersetzt. Ein Pass des Spielers B7 misslingt. Er verursacht ein Icing. Der Coach Team B will seinen Torhüter wieder einwechseln. Darf er das?",
+    "answer": "Ja",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "a85ca6e6",
+    "question": "Spieler A5 begeht ein Haken an Spieler B8, der sich so richtig theatralisch fallen lässt. Der Schiedsrichter bestraft A5 für das Haken. Könnte er auch noch Spieler B8 für seine „Schwalbe“ bestrafen?",
+    "answer": "Ja, kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "dc7ee7a4",
+    "question": "Beim Start in ein Powerplay nach einer Strafe gegen A will der Coach von Team A ein Time-Out nehmen, um seine Mannschaft, auf das Unterzahlspiel vorzubereiten.",
+    "answer": "Ja",
+    "topic": "Time-Out",
+    "uncertain": false
+  },
+  {
+    "id": "089b4a1d",
+    "question": "Die Linesperson zeigt ein verzögertes Offside an. Während dieser Zeit begeht B7 in seiner Verteidigungszone eine Behinderung. Der SR unterbricht das Spiel und spricht gegen B7 eine Strafe aus. Wo findet das nächste Anspiel statt?",
+    "answer": "EAP B",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "3b17c704",
+    "question": "Der SR zeigt eine Strafe gegen B7 in seiner Angriffszone an. Während dieser Zeit macht Spieler A6 ein Icing. Das folgende Anspiel findet am EAPB statt.\nRichtig oder falsch?",
+    "answer": "Richtig",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "bd548322",
+    "question": "$\nSpieler A2 wird von einem harten Schuss getroffen. Er bleibt verletzt auf dem Eis liegen. Spieler A3 schießt den Puck aus seiner VZ und die LP entscheidet auf Icing weil A2 verletzt ist, erlaubt der SR in diesem Unterbruch einen kompletten Spielerwechsel für das \"Icingteam\" A.\n\nEntscheid?",
+    "answer": "Nur der verletzte Spieler darf wechseln",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "d20d6ea5",
+    "question": "Spieler B12 und B23 fahren nebeneinander Richtung Verteidigungszone von Team A. Als der Puck die blaue Linie überquert, steht B23 bereits mit einem Schlittschuh in der Angriffszone, der andere horizontal über der der blauen Linie. Nun entscheidet die Linesperson auf Abseits.",
+    "answer": "Nein",
+    "topic": "Offside",
+    "uncertain": false
+  },
+  {
+    "id": "928ba1cb",
+    "question": "Welche Strafmasse sind gemäss Regelbuch möglich für \"Beinstellen\"?",
+    "answer": "2', 5' (ohne Nachwuchs), 5'+SPD, PS, Zugesprochenes Tor",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "a701df3f",
+    "question": "Team A spielt bereits in Unterzahl (A3 auf der Strafbank). Auf dem Eis beginnt eine Schlägerei, welche zur Folge hat, dass A19 eine Kleine Strafe (übertriebene Härte) und A15 eine Grosse Strafe + SPD (Faustkampf) erhalten. Gegen B wird keine Strafe ausgesprochen.\nWelche dieser Strafen kommt zuerst auf die Anzeigetafel?",
+    "answer": "2' A19",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "bff1740b",
+    "question": "Der Kapitän kommt von der Spielerbank und protestiert wegen einer Strafe.",
+    "answer": "Kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "773625df",
+    "question": "Das Gästeteam befindet sich in der Angriffszone und drängt auf einen Ausgleich. Plötzlich fliegt ein zweiter Puck aufs Spielfeld. Der Puck kam klar ersichtlich aus der Fankurve des Heimteams.\n\nEntscheid?",
+    "answer": "Weiterspielen lassen bis der regelwidrige Puck anstelle des offiziellen Pucks gespielt wird",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "d8d4fffc",
+    "question": "Spieler A6 läuft mit dem Puck unter Kontrolle aus seiner Verteidigungszone, vorbei an Spieler B7. B7 (auf gleicher Höhe) schlägt mit seiner Hand derart gegen das Bein von A6, dass dieser stolpert und beinahe hinfällt. A6 verliert durch diese Aktion den Puck an einen Spieler von Team B. \nEntscheid?",
+    "answer": "Kleine Strafe",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "02dfbf11",
+    "question": "Wie gross ist der Radius des Schiedsrichterkreises?",
+    "answer": "3.00 m",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "b4ac8740",
+    "question": "Spieler C25 versetzt seinem Gegenspieler B16 einen Kopfstoss.\n\nEntscheid?",
+    "answer": "5'+SPD gegen Spieler C25",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "9e84ed9a",
+    "question": "Der angreifende Spieler A5 kickt den Puck in Richtung des gegnerischen Tores. Der verteidigende Spieler B2 will den Puck spielen, dabei prallt der Puck unglücklich von dessen Stock ins eigene Tor.\n\nEntscheid?",
+    "answer": "Tor gültig",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "2d50bb64",
+    "question": "Vor dem ersten Anspiel haben A17 und B22 eine Auseinandersetzung. A17 wird mit 2‘ (übertriebener Härte) und B22 mit 2‘+2 (Stockschlag + Übertriebene Härte) bestraft.\nWo findet das Anspiel statt?",
+    "answer": "Spielfeldmitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "e6d4763b",
+    "question": "Nach dem ersten unkorrekten Anspiel von B56 spielt der Spieler B55 (als neuer Center) den Puck beim zweiten Anspiel mit der Hand zu A23.\n\nEntscheid?",
+    "answer": "Kleine Strafe B55",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "42e3eec4",
+    "question": "Spieler A5 erzielt ein Tor. Beim Spielunterbruch kommt die Linesperson und meldet dem SR, dass der Spieler A17 kurz bevor das Tor erzielt wurde, Spieler B 13 mit einem Stockschlag ins Gesicht verletzt habe.\n\nEntscheid?",
+    "answer": "Tor annullieren, A17 Grosse Strafe + SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "34d8c328",
+    "question": "Der SR zeigt gegen A2 eine Große Strafe + SPD an (Crosscheck). Als er das Spiel unterbricht, begeht derselbe Spieler einen Stockschlag mit Verletzung, für den ebenfalls eine Große Strafe + SPD angemessen ist.\nKönnen gegen denselben Spieler in einem Unterbruch zwei Große Strafen + SPD verhängt werden",
+    "answer": "Ja",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "e7b7caec",
+    "question": "Der Torhüter A hält den Puck mit seiner Fanghand und legt ihn auf das Tornetz. Der Schiedsrichter unterbricht das Spiel.",
+    "answer": "Kleine Strafe Torhüter A",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "d39b3868",
+    "question": "Spieler A12 will den Puck schiessen und zerbricht dabei seinen Stock. Er lässt ihn nicht sofort fallen, geht aber zu seiner Spielerbank um ihn auszuwechseln.\n\nEntscheid?",
+    "answer": "Korrekt",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "ded19f73",
+    "question": "Spieler A6 fährt allein gegen das gegnerische Tor und wird von hinten gefoult, was einen Penaltyschuss nach sich zieht. A6 ist jedoch wütend und begeht einen Stockschlag gegen B7 und erhält dafür eine kleine Strafe. Nun will A6 den Penaltyschuss ausführen.\nDarf er das?",
+    "answer": "Nein",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "4f8bf468",
+    "question": "Welche Möglichkeiten hat der Schiedsrichter eine Situation zu bestrafen, die als illegaler Check gegen den Kopf und Nackenbereich gewertet wird.\n\nEntscheid?",
+    "answer": "KLS, 5+SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "c9c1e832",
+    "question": "Der Center von Team A versucht das Anspiel durch Schlagen des Pucks mit der Hand zu gewinnen.\n\nEntscheid?",
+    "answer": "KLS Center Team A",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "64cc3c8c",
+    "question": "Am gegnerischen Tor schiebt der angreifende Spieler A5 den Puck mit der Hand auf dem Eis in Richtung eines Mitspielers. Von der Stockschaufel des verteidigende Spieler B4 wird der Puck aber zum angreifenden Spieler A7 abgelenkt. A7 schießt den Puck ins gegnerische Tor.\n\nEntscheid?",
+    "answer": "Kein Tor",
+    "topic": "Tor",
+    "uncertain": false
+  },
+  {
+    "id": "854926d7",
+    "question": "Gegen Team A wurde eine Strafe ausgesprochen. Spieler A18 regt sich dermassen auf, dass er von der Spielerbank aus eine Wasserflasche auf das Eis in Richtung des Schiedsrichters wirft.\n\nEntscheid?",
+    "answer": "SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "af680306",
+    "question": "Bei einem Anspiel initiiert Spieler B12 einen Helm-zu-Helm Kontakt mit seinen Gegenspieler A6. Der Schiedsrichter konnte nicht differenzieren, von welchem Spieler aus der Kontakt gekommen ist.\n\nEntscheid?",
+    "answer": "Beide Spieler wegschicken",
+    "topic": "Ausrüstung",
+    "uncertain": false
+  },
+  {
+    "id": "b139745e",
+    "question": "Spieler B7 wird beim Anspiel weggeschickt und durch seinen Teamkollegen B8 ersetzt. Als alle Spieler bereitstehen, betritt plötzlich B16 den Anspielkreis.\nEntscheid",
+    "answer": "Kleine Bankstrafe B",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "a984f13f",
+    "question": "Spieler C19 hat seinen Stock zerbrochen und lässt ihn fallen. Da er gerade in der Nähe der Strafbank ist gibt ihm sein Mitspieler C12, der dort sitzt, seinen Stock.\n\nEntscheid?",
+    "answer": "Kleine Strafe C19",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "7d3bf44d",
+    "question": "Der SR vertritt die Auffassung, dass nur dann auf Stockstich erkannt werden könne, wenn der Spieler bei seiner Stichbewegung den Stock in beiden Händen halte.\nRichtig oder falsch?",
+    "answer": "Falsch",
+    "topic": "Allgemein",
+    "uncertain": false
+  },
+  {
+    "id": "311284a6",
+    "question": "Das zweite Drittel ist beendet. Der vierte Block von Team A ist bisher noch nicht zum Einsatz gekommen. Der Coach von A schickt diese 5 Spieler während der Pause auf das Eis, um sich warm zu laufen. Die Schiedsrichter sehen dies. Was müssen die Schiedsrichter machen?",
+    "answer": "Rapport an den Verband (SIHF)",
+    "topic": "Strafen",
+    "uncertain": false
+  },
+  {
+    "id": "e10da8ba",
+    "question": "Der Spieler B6 lenkt den Puck mit dem Stock über der Schulter Richtung Torhüter A ab. Der Puck prallt von der Brust des Torhüters Team A ab. Der Mitspieler B4 kann den Abpraller übernehmen und erzielt das Tor!\nWo findet das nächste Anspiel statt?",
+    "answer": "Neutrale Zone, Nähe blaue Linie A",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "f6c188c0",
+    "question": "Das Spiel läuft in der VZ Team B. Torhüter B wirft seinen Stock in Richtung des puckführenden Spielers A5. \nEntscheid?",
+    "answer": "Penalty",
+    "topic": "Penalty",
+    "uncertain": false
+  },
+  {
+    "id": "73ce3a74",
+    "question": "Spieler A 27 schiesst den Puck von seiner Verteidigungszone und trifft dabei die LP (Linesperson), die an der Blauen Linie der Angriffszone steht. Der Puck setzt seinen Weg fort und geht über die Torlinie. Icing?",
+    "answer": "Ja",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "2df27674",
+    "question": "Spieler A6 schiesst den Puck aus seiner Verteidigungszone. Zwischen der roten Linie und dem Anspielpunkt nahe seiner Angriffszone berührt A9 den Puck. Von A9 prallt der Puck ab und fliegt auf die Tribüne. Wo findet das nächste Anspiel statt?",
+    "answer": "Spielfeldmitte",
+    "topic": "Anspielort",
+    "uncertain": false
+  },
+  {
+    "id": "518a648a",
+    "question": "Spieler A12 erhält nach einem Icing beim Anspiel eine erste Verwarnung. Beim 2. Anspiel, bevor der Puck eingeworfen wird, schlägt er nun auf den Stock des Gegners. \nEntscheid?",
+    "answer": "Kleine Bankstrafe",
+    "topic": "Icing",
+    "uncertain": false
+  },
+  {
+    "id": "56cf5890",
+    "question": "Der Torhüter A1 erhält eine kleine Strafe. Wer verbüsst diese Strafe?\n\nEntscheid?",
+    "answer": "Spieler der sich beim Unterbruch auf dem Eis befanden",
+    "topic": "Torhüter",
+    "uncertain": false
+  },
+  {
+    "id": "a27ae461",
+    "question": "Spieler A35 erhält im ersten Drittel eine 5' Strafe für Ellbogencheck. Im dritten Drittel spricht der Schiedsrichter eine weitere 5' Strafe gegen A35 für Beinstellen aus. Erhält A35 eine Zusatzstrafe?",
+    "answer": "Ja, SPD",
+    "topic": "Strafen",
+    "uncertain": false
+  }
+]

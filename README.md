@@ -66,6 +66,15 @@ npm install
 npm run dev
 ```
 
+<!-- ROUTES -->
+## Routes 🧭
+
+Besides the landing page, the SPA serves a few small standalone pages (see `src/routes.tsx`):
+
+- `/csgo` – CS2 settings to copy
+- `/timer/<hash>` – client-side Schnitzeljagd timers
+- `/Regeltest` – ice hockey referee rule questions as flashcards (Leitner boxes, progress in `localStorage`). Questions are generated from an Obsidian note with `pnpm questions [-- /path/to/_Regeltest.md]`, which writes `src/regeltest/data/`.
+
 <!-- DEPLOYMENT -->
 ## Deployment 🌍
 
