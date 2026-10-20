@@ -22,14 +22,14 @@ export const TIMERS: readonly TimerDefinition[] = [
   {
     hash: 'q2m8x4',
     label: 'Aufgabe 2 - Escape Game',
-    minutes: 15,
+    minutes: 20,
     message:
       'Der nächste Brief befindet sich in dem kleinen Schaltschrank auf dem Router bzw. der Fritzbox.',
   },
   {
     hash: 'a7f3k9',
     label: 'Aufgabe 3 - Infos beschaffen',
-    minutes: 15,
+    minutes: 10,
     message: 'Der nächste Hinweis liegt im Bücherregal.',
   },
   {
