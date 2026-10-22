@@ -4,12 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  postcss@<=8.5.11: '>=8.5.12 <9'
-  js-yaml@>=4.0.0 <4.3.0: '>=4.3.0 <5'
-  brace-expansion@<1.1.16: '>=1.1.16 <2'
-  brace-expansion@>=2.0.0 <2.1.2: '>=2.1.2 <3'
-
 importers:
 
   .:
@@ -44,37 +38,37 @@ importers:
         version: 18.3.7(@types/react@18.3.28)
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.21.0
-        version: 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
+        version: 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3))(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
       '@typescript-eslint/parser':
         specifier: ^6.21.0
-        version: 6.21.0(eslint@8.57.1)(typescript@5.9.3)
+        version: 6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
       '@vitejs/plugin-react-swc':
         specifier: ^3.11.0
         version: 3.11.0(vite@5.4.21(lightningcss@1.33.0))
       eslint:
         specifier: ^8.57.1
-        version: 8.57.1
+        version: 8.57.1(supports-color@7.2.0)
       eslint-config-prettier:
-        specifier: ^9.1.2
-        version: 9.1.2(eslint@8.57.1)
+        specifier: ^10.1.8
+        version: 10.1.8(eslint@8.57.1(supports-color@7.2.0))
       eslint-plugin-prettier:
         specifier: ^5.5.5
-        version: 5.5.5(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.8.1)
+        version: 5.5.5(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@7.2.0)))(eslint@8.57.1(supports-color@7.2.0))(prettier@3.8.1)
       eslint-plugin-react:
         specifier: ^7.37.5
-        version: 7.37.5(eslint@8.57.1)
+        version: 7.37.5(eslint@8.57.1(supports-color@7.2.0))
       eslint-plugin-react-hooks:
         specifier: ^4.6.2
-        version: 4.6.2(eslint@8.57.1)
+        version: 4.6.2(eslint@8.57.1(supports-color@7.2.0))
       eslint-plugin-react-refresh:
         specifier: ^0.4.26
-        version: 0.4.26(eslint@8.57.1)
+        version: 0.4.26(eslint@8.57.1(supports-color@7.2.0))
       husky:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
         specifier: ^15.5.2
-        version: 15.5.2
+        version: 15.5.2(supports-color@7.2.0)
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
@@ -508,135 +502,179 @@ packages:
 
   '@tsparticles/all@3.9.1':
     resolution: {integrity: sha512-Ob4KlfxJ9yAO/MWc6bRiBP+0YNYNhHF05fUvFMRR41C0cA+Vn/OfkvhkPNdsg475WcQ9u0iu5jr+Wo7QscAo/Q==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/basic@3.9.1':
     resolution: {integrity: sha512-ijr2dHMx0IQHqhKW3qA8tfwrR2XYbbWYdaJMQuBo2CkwBVIhZ76U+H20Y492j/NXpd1FUnt2aC0l4CEVGVGdeQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/effect-bubble@3.9.1':
     resolution: {integrity: sha512-AC4SunNrar32tEteo8M4RCdYZ2KrUApC4uPGbNp2zNivcMXrIPT4TxkxtgFmrvvhL+8jtnwC7xZq2r9yHZQ8Lg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/effect-trail@3.9.1':
     resolution: {integrity: sha512-6vo7rsI+xta8Cqs9TMW00uoyqddHjAu8qVBKjMicSkVm18A6BxF5Puv0MVgTkikdWa3MMztXOqJI3YmWjpJb0w==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/engine@3.9.1':
     resolution: {integrity: sha512-DpdgAhWMZ3Eh2gyxik8FXS6BKZ8vyea+Eu5BC4epsahqTGY9V3JGGJcXC6lRJx6cPMAx1A0FaQAojPF3v6rkmQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/fractal-noise@3.9.1':
     resolution: {integrity: sha512-vttBnCU/MFPT69+i5zl6ynDDRnuVBdwSXryTHEdOv9GdONTgvjMsDsdPFASR+VVpc3SFJVEBYPSV6YRj2AJpwA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-attract@3.9.1':
     resolution: {integrity: sha512-5AJGmhzM9o4AVFV24WH5vSqMBzOXEOzIdGLIr+QJf4fRh9ZK62snsusv/ozKgs2KteRYQx+L7c5V3TqcDy2upg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-bounce@3.9.1':
     resolution: {integrity: sha512-bv05+h70UIHOTWeTsTI1AeAmX6R3s8nnY74Ea6p6AbQjERzPYIa0XY19nq/hA7+Nrg+EissP5zgoYYeSphr85A==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-bubble@3.9.1':
     resolution: {integrity: sha512-tbd8ox/1GPl+zr+KyHQVV1bW88GE7OM6i4zql801YIlCDrl9wgTDdDFGIy9X7/cwTvTrCePhrfvdkUamXIribQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-connect@3.9.1':
     resolution: {integrity: sha512-sq8YfUNsIORjXHzzW7/AJQtfi/qDqLnYG2qOSE1WOsog39MD30RzmiOloejOkfNeUdcGUcfsDgpUuL3UhzFUOA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-grab@3.9.1':
     resolution: {integrity: sha512-QwXza+sMMWDaMiFxd8y2tJwUK6c+nNw554+/9+tEZeTTk2fCbB0IJ7p/TH6ZGWDL0vo2muK54Njv2fEey191ow==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-particle@3.9.1':
     resolution: {integrity: sha512-MmPgiF787mSSl8TTMJjIewDJjQJ6ZUWOK4A0dx5D4vbhhStcrRSdh6sexrVhAegH/GnDKudsytnZs6P11U+zFw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-pause@3.9.1':
     resolution: {integrity: sha512-Gzv4/FeNir0U/tVM9zQCqV1k+IAgaFjDU3T30M1AeAsNGh/rCITV2wnT7TOGFkbcla27m4Yxa+Fuab8+8pzm+g==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-pop@3.9.1':
     resolution: {integrity: sha512-mCzsMdrNT1Vl4clMJ8n3zh7zbjDDu1lzy02vl+HTxWWWRCpaApePUepkDcV6/kPa3qmuabzKJCZq68qheyrN7w==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-push@3.9.1':
     resolution: {integrity: sha512-GvnWF9Qy4YkZdx+WJL2iy9IcgLvzOIu3K7aLYJFsQPaxT8d9TF8WlpoMlWKnJID6H5q4JqQuMRKRyWH8aAKyQw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-remove@3.9.1':
     resolution: {integrity: sha512-yPThm4UDWejDOWW5Qc8KnnS2EfSo5VFcJUQDWc1+Wcj17xe7vdSoiwwOORM0PmNBzdDpSKQrte/gUnoqaUMwOA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-repulse@3.9.1':
     resolution: {integrity: sha512-/LBppXkrMdvLHlEKWC7IykFhzrz+9nebT2fwSSFXK4plEBxDlIwnkDxd3FbVOAbnBvx4+L8+fbrEx+RvC8diAw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-slow@3.9.1':
     resolution: {integrity: sha512-1ZYIR/udBwA9MdSCfgADsbDXKSFS0FMWuPWz7bm79g3sUxcYkihn+/hDhc6GXvNNR46V1ocJjrj0u6pAynS1KQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-external-trail@3.9.1':
     resolution: {integrity: sha512-Au0v2oiqfKTemI/4bzjD4dUXzIngB5Q2T4nJcMCYpP24uZfwZh5xTjUMH7gyJyyaRTdMl9IJrp8ySjyYbLfeGg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-light@3.9.1':
     resolution: {integrity: sha512-3WkB28i9Ypa3isrwYbkO9S47if+4t73xZ2luHnmaj7PriRDilO+4x0yU6UsxVzhlaeYTVHpcOYA4pYe2FR7MIg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-particles-attract@3.9.1':
     resolution: {integrity: sha512-CYYYowJuGwRLUixQcSU/48PTKM8fCUYThe0hXwQ+yRMLAn053VHzL7NNZzKqEIeEyt5oJoy9KcvubjKWbzMBLQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-particles-collisions@3.9.1':
     resolution: {integrity: sha512-ggGyjW/3v1yxvYW1IF1EMT15M6w31y5zfNNUPkqd/IXRNPYvm0Z0ayhp+FKmz70M5p0UxxPIQHTvAv9Jqnuj8w==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-particles-links@3.9.1':
     resolution: {integrity: sha512-MsLbMjy1vY5M5/hu/oa5OSRZAUz49H3+9EBMTIOThiX+a+vpl3sxc9AqNd9gMsPbM4WJlub8T6VBZdyvzez1Vg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/interaction-particles-repulse@3.9.1':
     resolution: {integrity: sha512-nM0HnxRiAYTFHvu93P4S85vdK5jGNb5nsOXJ9ZvjuYoq+ty/f3oiVc4CAiuq+LTZKhNqgnqtNkCiwRMNZKQ87g==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/move-base@3.9.1':
     resolution: {integrity: sha512-X4huBS27d8srpxwOxliWPUt+NtCwY+8q/cx1DvQxyqmTA8VFCGpcHNwtqiN+9JicgzOvSuaORVqUgwlsc7h4pQ==}
+    deprecated: this package was deprecated in tsparticles v4, replaced by @tsparticles/plugin-move
 
   '@tsparticles/move-parallax@3.9.1':
     resolution: {integrity: sha512-whlOR0bVeyh6J/hvxf/QM3DqvNnITMiAQ0kro6saqSDItAVqg4pYxBfEsSOKq7EhjxNvfhhqR+pFMhp06zoCVA==}
+    deprecated: this package was deprecated in tsparticles v4, replaced by @tsparticles/interaction-external-parallax
 
   '@tsparticles/path-curl-noise@3.9.1':
     resolution: {integrity: sha512-6QH/M5LpHh0QurY8rVcrBrk5n30hfwNS4yf48MrZ/vwKMXOySESnBRbIfLCp19jL60D67qyaS8mjdfhgsG5/aQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/path-curves@3.9.1':
     resolution: {integrity: sha512-6iO4PWZGEEI/cnL6SXhWbanTEr//gtauwWGP5e0oQk4r8zoGcRQNYT+lMndVkGqCIpfe2mhKzrtG8BRRM8MqPw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/path-fractal-noise@3.9.1':
     resolution: {integrity: sha512-3S21mxGMKGWNBeoZ/r1JxKFU1XTt5FTWisza2F8YXps+nYFWUz3yIabnpWFCmwJNjUZCILB0FsMX4POgjZ77zw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/path-perlin-noise@3.9.1':
     resolution: {integrity: sha512-Essnb64JVpkXeTvKukNXT338Zbc6fdRKIt+IYc0idvJT1wOISnMekigd+Mgf8bIo0L2sJnFjf54keocgTov5FQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/path-polygon@3.9.1':
     resolution: {integrity: sha512-hOCZF9lOBB5gs/wwCJVNDP0dum/ReaO8BOjVIQlWR7xDFm4BIvLVRmFkk73Q29zq0MJTzbfovGjSWitCeKxj7g==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/path-simplex-noise@3.9.1':
     resolution: {integrity: sha512-rfEF4oGxSdNEOokhaZDZKgj4onIxMUxhr9mWJEx1Kz/hxQu5xgWqf4UhxbzP/EteW2gYlneh03mq1bo8cPhXYQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/path-svg@3.9.1':
     resolution: {integrity: sha512-kL9s60tnIh3Wek+MKqjkP4aXG58SKPerk2b2gEfNgnUAMaXmstrGNmbHN36KxYzzoBmaDvIKamHrpOrR1F/8kw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/path-zig-zag@3.9.1':
     resolution: {integrity: sha512-KNFRuXnKrrbLBECAMzByH1DwUXupHWTd2nAXJV/5l3d4vv4EhkwVVWswNq6ujc1xqk/QqDDg1fvJzHOvgZmKMw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/perlin-noise@3.9.1':
     resolution: {integrity: sha512-JFX32N14UZMucfsGg4jpsaMoTqNOhr+ZF8rtxX+L9Rq5eNnEyz0PDgc00lqABF4C1Ah/XTCKWo+yeyDjhntGqQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/pjs@3.9.1':
     resolution: {integrity: sha512-TkQVTptm95hZiH0ZziwvXtF0nX8dFaJx34Jya7y/jFrwWa6BabwwEBPdmzL0zMHxu9Ihx+yUFXbOlvx27O4k6w==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-absorbers@3.9.1':
     resolution: {integrity: sha512-q9SQllpbPPgw1+euxHPYCFawOVUazQkkwnleiIgpYSiimlCyjIdwGnFPSNe1Sypzqmr2h6oOyX2vkK5ZVNEu8A==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-canvas-mask@3.9.1':
     resolution: {integrity: sha512-HQ2P3nn41PVl2PfbG1twajRWF7MUoZVhvE7INcL7h1IhsZLduIG/jcM+KzZrUd5mSze6G5NDkPr6awbYkOXmAg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-easing-back@3.9.1':
     resolution: {integrity: sha512-gZfoZ4xB7OEZ5AG/FbSLLjGfSHpcJFs4Zj8/b9vmugcBs43PV5MDb4/K6aMUu0mcj0FXbibwxREUQ+yGRdOu4w==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-easing-circ@3.9.1':
     resolution: {integrity: sha512-//+MjibZzKqobVgyLAScHwimMF0Onyai2CWl28UusG8kaN8lXyMdYLyDsktLX/+KZezrXmg64L7JVTcpyfOAIg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-easing-cubic@3.9.1':
     resolution: {integrity: sha512-wzT925kMyKnnUizTMhnGRaPxbZ+WbmnM1y8c3iny4vE1EcOjyDS5Bn5Lfz2P40MQlpCKwSnoxlIEKwAq2tFrEw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-easing-expo@3.9.1':
     resolution: {integrity: sha512-kgkgwfdVJO54vVQ18wO++yDgKNYo5iJ428/6s9e8dZ8CLmqjbU/EDewcAyncPu/5VmpUbKJ4qbrK86Wwtjqd4A==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-easing-linear@3.9.1':
     resolution: {integrity: sha512-bHcYdVwmS60o6Y7f+KuhLjsBRkjN0yn5AIfY79i2b3RMyhDC8pyzjnJkZwfZDrahqxvdCmHyA/6Spf8vvL21CQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-easing-quad@3.9.1':
     resolution: {integrity: sha512-C2UJOca5MTDXKUTBXj30Kiqr5UyID+xrY/LxicVWWZPczQW2bBxbIbfq9ULvzGDwBTxE2rdvIB8YFKmDYO45qw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-easing-quart@3.9.1':
     resolution: {integrity: sha512-b4JpecyxJzfMBauQm66G7nx39Igv7Xj3AaLEcWGgWcPKwvfmD5RjFSno+m6LeMHBlB7Lh12LbmepqcjbjO40oA==}
@@ -679,36 +717,47 @@ packages:
 
   '@tsparticles/plugin-hsl-color@3.9.1':
     resolution: {integrity: sha512-jJd1iGgRwX6eeNjc1zUXiJivaqC5UE+SC2A3/NtHwwoQrkfxGWmRHOsVyLnOBRcCPgBp/FpdDe6DIDjCMO715w==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-hsv-color@3.9.1':
     resolution: {integrity: sha512-Ty2rVcb0toDepB749iN89rpNDBuHnj+LQdrZHfNRv1ITdFIUkUrHRKhqHCRywcEBd2l7F8BoDfX0JI1koDo1CA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-infection@3.9.1':
     resolution: {integrity: sha512-Jc0kRwi5Yd+7ST/UBv2go5SUgc0tPiNhPfqHh+7zk8HKFSaK3JQ+zwaS8hv5Y6VuKdOg/bHUzlXBvPgcDp6KbQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-motion@3.9.1':
     resolution: {integrity: sha512-I/356NHCiMUgFzWjAHYKO7YvBqKtHSktIPgTRruqlruyrAcwzjkT55ZQ1K5EcJLWETkF1bfG2VpJBRu8ksf9mw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-named-color@3.9.1':
     resolution: {integrity: sha512-e6u9pV8PPLY72dqRksq6z7W2gT/JFIV0tTNYRFXK9PQ97Llt2rLsfDUnoCTwBJnG8x74bTK/8EBRKKmO0sCHJw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-oklch-color@3.9.1':
     resolution: {integrity: sha512-o4xYxnBF2k8CDNr3HHoXBy0JTnfuNYyjQjvYJZYm437Eq3TGfAZJZu9kE+tCKVyMQ5Gw16gSnLZ2PXyy47jAkA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-poisson-disc@3.9.1':
     resolution: {integrity: sha512-qr4KC+AoakKfc0LlX2Ziv5jbK8xtO+c40aQNc0J6rpqYmOVn61VaM1qUbFJCHZhEK2kRaO14Se1ymf7ykw1njA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-polygon-mask@3.9.1':
     resolution: {integrity: sha512-0GBYvAhDV8QwUhM3OleROf5og84LMpC5aPW7VBFq57RtjPLyn+OnF3UX8dE0618udEPih+043qmsXmJnFko/Ww==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-rgb-color@3.9.1':
     resolution: {integrity: sha512-SBxk7f1KBfXeTnnklbE2Hx4jBgh6I6HOtxb+Os1gTp0oaghZOkWcCD2dP4QbUu7fVNCMOcApPoMNC8RTFcy9wQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/plugin-sounds@3.9.1':
     resolution: {integrity: sha512-Hw2hmKmkkuFnNhOBwkvREXLULbAUwXXMeenyIy0jUGGuvjjI7rivJeFU6djCaaI0q4SbIlBFuu9mLZw2FEfwEA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/react@3.0.0':
     resolution: {integrity: sha512-hjGEtTT1cwv6BcjL+GcVgH++KYs52bIuQGW3PWv7z3tMa8g0bd6RI/vWSLj7p//NZ3uTjEIeilYIUPBh7Jfq/Q==}
+    deprecated: Please update to version 4.1.1
     peerDependencies:
       '@tsparticles/engine': ^3.0.2
       react: '>=16.8.0'
@@ -716,105 +765,139 @@ packages:
 
   '@tsparticles/shape-arrow@3.9.1':
     resolution: {integrity: sha512-phUQgFI/2J3eisJshfWDVfQ4DaqQGuwwomrgw7P8VycCVaKAfMW5lBpKDlmU7zYg2RdCoXkLO8PrJxvhHvVWbg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-cards@3.9.1':
     resolution: {integrity: sha512-/tQtGh6xC3UmKU2WO7VM5RoAnsvFvPkXcCJJHAQ6AIyWUKVWBrVuewF0ZbJQlNhWCEW/aqE199LuDAewqYAQ5A==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-circle@3.9.1':
     resolution: {integrity: sha512-DqZFLjbuhVn99WJ+A9ajz9YON72RtCcvubzq6qfjFmtwAK7frvQeb6iDTp6Ze9FUipluxVZWVRG4vWTxi2B+/g==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-cog@3.9.1':
     resolution: {integrity: sha512-INpSBgcR6o4/EsuTc1UpIWoOaR01kQlBFODAsrEAUiGCwfek1hsMgHIK7acto/KvTVSEhgZHQuFtEfUstSOJAg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-emoji@3.9.1':
     resolution: {integrity: sha512-ifvY63usuT+hipgVHb8gelBHSeF6ryPnMxAAEC1RGHhhXfpSRWMtE6ybr+pSsYU52M3G9+TF84v91pSwNrb9ZQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-heart@3.9.1':
     resolution: {integrity: sha512-h1aYiBVCUAJ14zyK792EuX0332Hus6OgYy/4dk6PhfgdFTQaHk+FzGJjw+jEB8vpxOYtWeysT9uoofPZeDrqBQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-image@3.9.1':
     resolution: {integrity: sha512-fCA5eme8VF3oX8yNVUA0l2SLDKuiZObkijb0z3Ky0qj1HUEVlAuEMhhNDNB9E2iELTrWEix9z7BFMePp2CC7AA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-infinity@3.9.1':
     resolution: {integrity: sha512-YEM+sBYxpu3Kr8/UrHQ5EX2w2+Hx5VlD+AIanp4z+ezVansaOTX6mPwegM2vGyID9Tm2n7OY/v7znFDBhd/QMQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-line@3.9.1':
     resolution: {integrity: sha512-wT8NSp0N9HURyV05f371cHKcNTNqr0/cwUu6WhBzbshkYGy1KZUP9CpRIh5FCrBpTev34mEQfOXDycgfG0KiLQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-path@3.9.1':
     resolution: {integrity: sha512-4iBQIbWOcUjY5CT4D5bhH25jNSNY4qka5OLOYv+pBtw+/SCDQmc2azSfw23bPnmUa/gyY5zZFmJsrxS92wBBKg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-polygon@3.9.1':
     resolution: {integrity: sha512-dA77PgZdoLwxnliH6XQM/zF0r4jhT01pw5y7XTeTqws++hg4rTLV9255k6R6eUqKq0FPSW1/WBsBIl7q/MmrqQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-rounded-polygon@3.9.1':
     resolution: {integrity: sha512-ZufdW9mcPthEf/vXUTZtbyuqjTlKftDlHeHmZ6wogrypoQSMEuRkdXDPm0hWEGsi6PkbaLcXilQkUUdst+dKlw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-rounded-rect@3.9.1':
     resolution: {integrity: sha512-ex8EZ5dHajLb/11HM/s9q86/3qDAsVwGmZQFEONjkAwQhGWCjhgVbnYbevEg8DBkH3GN4Mu2xiv3hjRA0lw7Ow==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-spiral@3.9.1':
     resolution: {integrity: sha512-c6q1SV0+r5kFHTRRO3q6CXmkTG9/XsS49HOBIIt/qaA4TwiCTqMUr9kSrg+doxRW5Yxj8kQOBD4Bie4eeEZysA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-square@3.9.1':
     resolution: {integrity: sha512-DKGkDnRyZrAm7T2ipqNezJahSWs6xd9O5LQLe5vjrYm1qGwrFxJiQaAdlb00UNrexz1/SA7bEoIg4XKaFa7qhQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-star@3.9.1':
     resolution: {integrity: sha512-kdMJpi8cdeb6vGrZVSxTG0JIjCwIenggqk0EYeKAwtOGZFBgL7eHhF2F6uu1oq8cJAbXPujEoabnLsz6mW8XaA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/shape-text@3.9.1':
     resolution: {integrity: sha512-oNsLHI0lGkIXoUw3W598iwd7dtoHCDrwpwJRGnQzgfk6T5a9dCpSD5vDeQN89lr3BUbVui4lhxq+/TyC64oAqA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/simplex-noise@3.9.1':
     resolution: {integrity: sha512-N16JOTULMauggUIzstbS/66QZb+xXCLlyYtK1zFpwyNzNa3kaD4ZfJ+uSCwSaFXHhAE4+ZN539ATDlzx+45tTQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/slim@3.9.1':
     resolution: {integrity: sha512-CL5cDmADU7sDjRli0So+hY61VMbdroqbArmR9Av+c1Fisa5ytr6QD7Jv62iwU2S6rvgicEe9OyRmSy5GIefwZw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/smooth-value-noise@3.9.1':
     resolution: {integrity: sha512-o+/3ZBCtZLE6EK6rLFSrnUjYNOuPh7nD2ZA1/Pqo4T/1t/IlIjDRESk0V7CIdhiZKaoJQAKRUciA3ZmKZrn5mg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-color@3.9.1':
     resolution: {integrity: sha512-XGWdscrgEMA8L5E7exsE0f8/2zHKIqnTrZymcyuFBw2DCB6BIV+5z6qaNStpxrhq3DbIxxhqqcybqeOo7+Alpg==}
+    deprecated: this package was deprecated in tsparticles v4, replaced by @tsparticles/updater-paint
 
   '@tsparticles/updater-destroy@3.9.1':
     resolution: {integrity: sha512-MjMzEhZwCQIbxO6ZRM0eXsHVwmlXuUqwC43WCPZCpjhK3AJrMu3KR4xsJieFTWIbVNguAvbgoTB10FfJOUU5VA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-gradient@3.9.1':
     resolution: {integrity: sha512-e3B0waey/VXHF4gYuCiXU4ro7l9FiGvwZetaexyivRBl9ZbAJTLUfBLWep+IND2DQ+b4It8K8RRkOEsbYjZT4A==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-life@3.9.1':
     resolution: {integrity: sha512-Oi8aF2RIwMMsjssUkCB6t3PRpENHjdZf6cX92WNfAuqXtQphr3OMAkYFJFWkvyPFK22AVy3p/cFt6KE5zXxwAA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-opacity@3.9.1':
     resolution: {integrity: sha512-w778LQuRZJ+IoWzeRdrGykPYSSaTeWfBvLZ2XwYEkh/Ss961InOxZKIpcS6i5Kp/Zfw0fS1ZAuqeHwuj///Osw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-orbit@3.9.1':
     resolution: {integrity: sha512-zxwB9l8MUM8fzxxTOpXxkb6tzhCw67DnmpriyZeXTTCuM7/mXw74kSId/HhVRK2Uy+Zn8+YxTcGdxlr40A9QgA==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-out-modes@3.9.1':
     resolution: {integrity: sha512-cKQEkAwbru+hhKF+GTsfbOvuBbx2DSB25CxOdhtW2wRvDBoCnngNdLw91rs+0Cex4tgEeibkebrIKFDDE6kELg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-roll@3.9.1':
     resolution: {integrity: sha512-zl4JeM3gUBJ0uttmIsond3lrZ3f3AkItFeS0Lhj/7jiCKfUoRyyOMrcBk8R1AhW7lI+7ko1iBs3jhO0jnxz9vg==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-rotate@3.9.1':
     resolution: {integrity: sha512-9BfKaGfp28JN82MF2qs6Ae/lJr9EColMfMTHqSKljblwbpVDHte4umuwKl3VjbRt87WD9MGtla66NTUYl+WxuQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-size@3.9.1':
     resolution: {integrity: sha512-3NSVs0O2ApNKZXfd+y/zNhTXSFeG1Pw4peI8e6z/q5+XLbmue9oiEwoPy/tQLaark3oNj3JU7Q903ZijPyXSzw==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-stroke-color@3.9.1':
     resolution: {integrity: sha512-3x14+C2is9pZYTg9T2TiA/aM1YMq4wLdYaZDcHm3qO30DZu5oeQq0rm/6w+QOGKYY1Z3Htg9rlSUZkhTHn7eDA==}
+    deprecated: this package was deprecated in tsparticles v4, replaced by @tsparticles/updater-paint
 
   '@tsparticles/updater-tilt@3.9.1':
     resolution: {integrity: sha512-PB2yaoyXRmSk4iIVgjtRrzOxXMK9mjeAQHIJGtT4faq46Z8cbIIEFgjTwqrUV8qOrNg/h4sm5NE/s0qsTYjp1Q==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-twinkle@3.9.1':
     resolution: {integrity: sha512-xgTcYr6LmP44IPIBeQmEExN2Y5Nfl3ikmC08eOh5nZy/ta6ORP+JTsprrnfuv/O2DwTyoqFLkZ16hZfkdc1yOQ==}
+    deprecated: Please update to version 4.1.1
 
   '@tsparticles/updater-wobble@3.9.1':
     resolution: {integrity: sha512-c99Ogy9q4QWO+zsDXol0UnpUwZiY2UucFb8ltuDv9AlbGUeprygoub8jhgT5pEDv+GdzWOJGSgq7rfgv9cHBrg==}
+    deprecated: Please update to version 4.1.1
 
   '@types/estree@1.0.9':
     resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
@@ -896,6 +979,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@vitejs/plugin-react-swc@3.11.0':
     resolution: {integrity: sha512-YTJCGFdNMHCMfjODYtxRNVAYmTWQ1Lb8PulP/2/f/oEEtglw8oKxKIZmmRkyXrVrHfsKOaVkAc3NT9/dMutO5w==}
@@ -1147,8 +1231,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@9.1.2:
-    resolution: {integrity: sha512-iI1f+D2ViGn+uvv5HuHVUamg8ll4tN+JRHGc6IJi4TP9Kl976C57fzPXgseXNs8v0iA8aSJpHsTWjDb9QJamGQ==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2045,6 +2129,7 @@ packages:
 
   tsparticles@3.9.1:
     resolution: {integrity: sha512-Y780IGSL4qjkZj7+fI92PV/cziHqLR/s6nnYri4K6vH3NQRmDK5D6pfskDO8T4Y96ChCWHY3uxPtOb/hKQ83Qg==}
+    deprecated: Please update to version 4.1.1
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -2225,17 +2310,17 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@eslint-community/eslint-utils@4.9.1(eslint@8.57.1)':
+  '@eslint-community/eslint-utils@4.9.1(eslint@8.57.1(supports-color@7.2.0))':
     dependencies:
-      eslint: 8.57.1
+      eslint: 8.57.1(supports-color@7.2.0)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.2': {}
 
-  '@eslint/eslintrc@2.1.4':
+  '@eslint/eslintrc@2.1.4(supports-color@7.2.0)':
     dependencies:
       ajv: 6.14.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       espree: 9.6.1
       globals: 13.24.0
       ignore: 5.3.2
@@ -2248,10 +2333,10 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@humanwhocodes/config-array@0.13.0':
+  '@humanwhocodes/config-array@0.13.0(supports-color@7.2.0)':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       minimatch: 3.1.5
     transitivePeerDependencies:
       - supports-color
@@ -2923,16 +3008,16 @@ snapshots:
 
   '@types/semver@7.7.1': {}
 
-  '@typescript-eslint/eslint-plugin@6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)':
+  '@typescript-eslint/eslint-plugin@6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3))(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 6.21.0(eslint@8.57.1)(typescript@5.9.3)
+      '@typescript-eslint/parser': 6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
       '@typescript-eslint/scope-manager': 6.21.0
-      '@typescript-eslint/type-utils': 6.21.0(eslint@8.57.1)(typescript@5.9.3)
-      '@typescript-eslint/utils': 6.21.0(eslint@8.57.1)(typescript@5.9.3)
+      '@typescript-eslint/type-utils': 6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
+      '@typescript-eslint/utils': 6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
       '@typescript-eslint/visitor-keys': 6.21.0
-      debug: 4.4.3
-      eslint: 8.57.1
+      debug: 4.4.3(supports-color@7.2.0)
+      eslint: 8.57.1(supports-color@7.2.0)
       graphemer: 1.4.0
       ignore: 5.3.2
       natural-compare: 1.4.0
@@ -2943,14 +3028,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@typescript-eslint/parser@6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/scope-manager': 6.21.0
       '@typescript-eslint/types': 6.21.0
-      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.9.3)
+      '@typescript-eslint/typescript-estree': 6.21.0(supports-color@7.2.0)(typescript@5.9.3)
       '@typescript-eslint/visitor-keys': 6.21.0
-      debug: 4.4.3
-      eslint: 8.57.1
+      debug: 4.4.3(supports-color@7.2.0)
+      eslint: 8.57.1(supports-color@7.2.0)
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -2961,12 +3046,12 @@ snapshots:
       '@typescript-eslint/types': 6.21.0
       '@typescript-eslint/visitor-keys': 6.21.0
 
-  '@typescript-eslint/type-utils@6.21.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@typescript-eslint/type-utils@6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.9.3)
-      '@typescript-eslint/utils': 6.21.0(eslint@8.57.1)(typescript@5.9.3)
-      debug: 4.4.3
-      eslint: 8.57.1
+      '@typescript-eslint/typescript-estree': 6.21.0(supports-color@7.2.0)(typescript@5.9.3)
+      '@typescript-eslint/utils': 6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
+      debug: 4.4.3(supports-color@7.2.0)
+      eslint: 8.57.1(supports-color@7.2.0)
       ts-api-utils: 1.4.3(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
@@ -2975,11 +3060,11 @@ snapshots:
 
   '@typescript-eslint/types@6.21.0': {}
 
-  '@typescript-eslint/typescript-estree@6.21.0(typescript@5.9.3)':
+  '@typescript-eslint/typescript-estree@6.21.0(supports-color@7.2.0)(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/types': 6.21.0
       '@typescript-eslint/visitor-keys': 6.21.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
@@ -2990,15 +3075,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@6.21.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@typescript-eslint/utils@6.21.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@8.57.1)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@8.57.1(supports-color@7.2.0))
       '@types/json-schema': 7.0.15
       '@types/semver': 7.7.1
       '@typescript-eslint/scope-manager': 6.21.0
       '@typescript-eslint/types': 6.21.0
-      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.9.3)
-      eslint: 8.57.1
+      '@typescript-eslint/typescript-estree': 6.21.0(supports-color@7.2.0)(typescript@5.9.3)
+      eslint: 8.57.1(supports-color@7.2.0)
       semver: 7.7.4
     transitivePeerDependencies:
       - supports-color
@@ -3201,9 +3286,11 @@ snapshots:
       es-errors: 1.3.0
       is-data-view: 1.0.2
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   deep-is@0.1.4: {}
 
@@ -3374,28 +3461,28 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@9.1.2(eslint@8.57.1):
+  eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@7.2.0)):
     dependencies:
-      eslint: 8.57.1
+      eslint: 8.57.1(supports-color@7.2.0)
 
-  eslint-plugin-prettier@5.5.5(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.8.1):
+  eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@7.2.0)))(eslint@8.57.1(supports-color@7.2.0))(prettier@3.8.1):
     dependencies:
-      eslint: 8.57.1
+      eslint: 8.57.1(supports-color@7.2.0)
       prettier: 3.8.1
       prettier-linter-helpers: 1.0.1
       synckit: 0.11.12
     optionalDependencies:
-      eslint-config-prettier: 9.1.2(eslint@8.57.1)
+      eslint-config-prettier: 10.1.8(eslint@8.57.1(supports-color@7.2.0))
 
-  eslint-plugin-react-hooks@4.6.2(eslint@8.57.1):
+  eslint-plugin-react-hooks@4.6.2(eslint@8.57.1(supports-color@7.2.0)):
     dependencies:
-      eslint: 8.57.1
+      eslint: 8.57.1(supports-color@7.2.0)
 
-  eslint-plugin-react-refresh@0.4.26(eslint@8.57.1):
+  eslint-plugin-react-refresh@0.4.26(eslint@8.57.1(supports-color@7.2.0)):
     dependencies:
-      eslint: 8.57.1
+      eslint: 8.57.1(supports-color@7.2.0)
 
-  eslint-plugin-react@7.37.5(eslint@8.57.1):
+  eslint-plugin-react@7.37.5(eslint@8.57.1(supports-color@7.2.0)):
     dependencies:
       array-includes: 3.1.9
       array.prototype.findlast: 1.2.5
@@ -3403,7 +3490,7 @@ snapshots:
       array.prototype.tosorted: 1.1.4
       doctrine: 2.1.0
       es-iterator-helpers: 1.3.1
-      eslint: 8.57.1
+      eslint: 8.57.1(supports-color@7.2.0)
       estraverse: 5.3.0
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
@@ -3424,20 +3511,20 @@ snapshots:
 
   eslint-visitor-keys@3.4.3: {}
 
-  eslint@8.57.1:
+  eslint@8.57.1(supports-color@7.2.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@8.57.1)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@8.57.1(supports-color@7.2.0))
       '@eslint-community/regexpp': 4.12.2
-      '@eslint/eslintrc': 2.1.4
+      '@eslint/eslintrc': 2.1.4(supports-color@7.2.0)
       '@eslint/js': 8.57.1
-      '@humanwhocodes/config-array': 0.13.0
+      '@humanwhocodes/config-array': 0.13.0(supports-color@7.2.0)
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
       '@ungap/structured-clone': 1.3.0
       ajv: 6.14.0
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.2.2
@@ -3890,11 +3977,11 @@ snapshots:
 
   lilconfig@3.1.3: {}
 
-  lint-staged@15.5.2:
+  lint-staged@15.5.2(supports-color@7.2.0):
     dependencies:
       chalk: 5.6.2
       commander: 13.1.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       execa: 8.0.1
       lilconfig: 3.1.3
       listr2: 8.3.3
