@@ -21,20 +21,20 @@ export const TIMERS: readonly TimerDefinition[] = [
   },
   {
     hash: 'q2m8x4',
-    label: 'Aufgabe 2 - Escape Game',
+    label: 'Aufgabe 2',
     minutes: 10,
     message:
       'Der nächste Brief befindet sich in dem kleinen Schaltschrank auf dem Router bzw. der Fritzbox.',
   },
   {
     hash: 'a7f3k9',
-    label: 'Aufgabe 3 - Infos beschaffen',
+    label: 'Aufgabe 3',
     minutes: 20,
     message: 'Der nächste Hinweis liegt im Bücherregal.',
   },
   {
     hash: 'z5t1r7',
-    label: 'Aufgabe 4 - Höhepunkt',
+    label: 'Aufgabe 4',
     minutes: 5,
     message:
       'Der nächste Hinweis liegt im linken Fach des vorderen Fahrersitzes.',
