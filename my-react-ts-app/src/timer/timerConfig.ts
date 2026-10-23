@@ -16,7 +16,7 @@ export const TIMERS: readonly TimerDefinition[] = [
   {
     hash: 'n4w8p2',
     label: 'Aufgabe 1',
-    minutes: 3,
+    minutes: 5,
     message: 'Im schwarzen Necessaire ist der nächste Brief.',
   },
   {
