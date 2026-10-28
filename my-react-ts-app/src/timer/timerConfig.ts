@@ -15,33 +15,33 @@ export const TEST_PATH_SEGMENT = 'test';
 export const TIMERS: readonly TimerDefinition[] = [
   {
     hash: 'n4w8p2',
-    label: '1',
-    minutes: 3,
+    label: 'Aufgabe 1',
+    minutes: 5,
     message: 'Im schwarzen Necessaire ist der nächste Brief.',
   },
   {
     hash: 'q2m8x4',
-    label: '2',
-    minutes: 20,
+    label: 'Aufgabe 2',
+    minutes: 10,
     message:
       'Der nächste Brief befindet sich in dem kleinen Schaltschrank auf dem Router bzw. der Fritzbox.',
   },
   {
     hash: 'a7f3k9',
-    label: '3',
-    minutes: 10,
+    label: 'Aufgabe 3',
+    minutes: 20,
     message: 'Der nächste Hinweis liegt im Bücherregal.',
   },
   {
     hash: 'z5t1r7',
-    label: '4',
+    label: 'Aufgabe 4',
     minutes: 5,
     message:
       'Der nächste Hinweis liegt im linken Fach des vorderen Fahrersitzes.',
   },
   {
     hash: 'h6c9v3',
-    label: '5',
+    label: 'Aufgabe 5',
     minutes: 5,
     message: 'Der nächste Hinweis folgt.',
   },
