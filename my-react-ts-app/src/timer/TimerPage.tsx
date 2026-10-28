@@ -193,6 +193,10 @@ function TimerPage({ timer, initialStartedAt }: TimerPageProps) {
           sobald die Zeit um ist. Der Stand bleibt auch nach einem Neuladen
           erhalten.
         </p>
+        <p className="timer-hint">
+          Tipp: Richte diese Seite am Handy als Desktop-Webseite ein, damit der
+          Alarm zuverlässig durchkommt.
+        </p>
         <NotificationStatus
           state={notify}
           onRequest={() => void requestNotifications().then(setNotify)}
