@@ -39,7 +39,7 @@ export const TIMERS: readonly TimerDefinition[] = [
     label: 'Aufgabe 4',
     minutes: 5,
     message:
-      'Der nächste Hinweis liegt im linken Fach des vorderen Fahrersitzes.',
+      'Der letzte Hinweis befindet sich irgendwo auf der Rückbank meines Teslas. Du wirst meinen Schlüssel brauchen. Benutz einfach die Schlüsselkarte und halte sie mit der Gummihülle kontaktlos an die B-Säule der Beifahrertür. Die Teslakarte ist etwas versteckt an dem kleinen Regal hier im Wohnzimmer neben der Balkontür.',
   },
   {
     hash: 'h6c9v3',
