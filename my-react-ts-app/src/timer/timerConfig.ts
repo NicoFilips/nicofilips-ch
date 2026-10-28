@@ -17,20 +17,22 @@ export const TIMERS: readonly TimerDefinition[] = [
     hash: 'n4w8p2',
     label: 'Aufgabe 1',
     minutes: 5,
-    message: 'Im schwarzen Necessaire ist der nächste Brief.',
+    message:
+      'Der nächste Hinweis befindet sich im Bad. Dort räume ich oft Dinge rein und raus.',
   },
   {
     hash: 'q2m8x4',
     label: 'Aufgabe 2',
     minutes: 10,
     message:
-      'Der nächste Brief befindet sich in dem kleinen Schaltschrank auf dem Router bzw. der Fritzbox.',
+      'Der nächste Hinweis liegt im Keller. Dort wirst du etwas suchen müssen. Tipp: Es hat etwas mit der Hochzeit zu tun, auf der wir waren. 👠',
   },
   {
     hash: 'a7f3k9',
     label: 'Aufgabe 3',
     minutes: 20,
-    message: 'Der nächste Hinweis liegt im Bücherregal.',
+    message:
+      'Der nächste Hinweis befindet sich irgendwo in dem kleinen Kleider- und Schuhschrank neben der Küche.',
   },
   {
     hash: 'z5t1r7',
