@@ -18,7 +18,7 @@
     "strafen": "python3 scripts/import-strafen.py"
   },
   "dependencies": {
-    "@tsparticles/all": "^3.9.1",
+    "@tsparticles/all": "^4.5.0",
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "react": "^18.3.1",
